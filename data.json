@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-08-20T15:00:00Z",
+  "me": {
+    "handle": "ariel_betta45",
+    "label": "Ariel Betta (vos)",
+    "followers": 787,
+    "hearts": 30400,
+    "top_video_views": 341900,
+    "top_video_label": "Viaje a Uruguay · Parte 1",
+    "ok": true
+  },
+  "competitors": [
+    {
+      "handle": "deportealanoticia",
+      "label": "DeporteAlaNoticia",
+      "followers": 133200,
+      "hearts": 638500,
+      "ok": true
+    },
+    {
+      "handle": "curiosidades_de_futbol1",
+      "label": "informes de futbol",
+      "followers": 3403,
+      "hearts": 121300,
+      "ok": true
+    },
+    {
+      "handle": "factosfutboleros_",
+      "label": "factosfutboleros_",
+      "followers": 3927,
+      "hearts": 153500,
+      "ok": true
+    },
+    {
+      "handle": "charlie_carrillo_",
+      "label": "Charlie Carrillo",
+      "followers": 962300,
+      "hearts": 544800000,
+      "ok": true
+    }
+  ],
+  "history": [
+    { "date": "2026-08-20", "followers": 787 }
+  ]
+}
