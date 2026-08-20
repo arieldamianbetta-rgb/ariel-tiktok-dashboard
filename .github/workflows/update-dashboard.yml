@@ -22,7 +22,7 @@ jobs:
           node-version: "20"
 
       - name: Refrescar estadísticas de TikTok
-        run: node scripts/fetch-stats.mjs
+        run: node fetch-stats.mjs
 
       - name: Commit y push si hay cambios
         run: |
