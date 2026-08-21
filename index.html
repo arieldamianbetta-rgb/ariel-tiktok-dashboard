@@ -141,6 +141,31 @@
   .note-item .note-actions { margin-top:8px; }
   .note-item .note-actions button { font-size:12px; }
   .empty-note { font-size:13px; color:var(--muted); text-align:center; padding: 10px 0; }
+
+  /* resumen semanal */
+  .summary-grid { display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
+  .summary-item .label { font-size:13px; color:var(--muted); margin-bottom:6px; }
+  .summary-item .value { font-size:26px; font-weight:800; }
+  .summary-item .value.good { color: var(--good); }
+  .summary-item .period { font-size:11px; color:var(--muted); margin-top:4px; }
+
+  /* meta / goal */
+  .goal-row { display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+  .goal-row input[type=number] {
+    width:110px; background: rgba(255,255,255,0.04); border:1px solid var(--border);
+    border-radius:10px; padding:9px 12px; color:#fff; font-size:14px; font-family:inherit;
+  }
+  .goal-row input[type=number]:focus { outline:2px solid var(--series-1); outline-offset:1px; }
+  .goal-track { height:16px; background:rgba(255,255,255,0.06); border-radius:8px; overflow:hidden; margin-bottom:10px; }
+  .goal-fill { height:100%; border-radius:8px; background: var(--series-1); transition: width .3s ease; }
+  .goal-caption { font-size:13px; color:var(--text-secondary); line-height:1.5; }
+  .goal-caption b { color:#fff; }
+
+  /* share button */
+  .share-btn-wrap { display:flex; justify-content:center; margin-top: 4px; }
+  .btn.share { display:flex; align-items:center; gap:8px; }
+
+  #capture-frame { background: var(--page); padding: 4px 4px 20px; }
 </style>
 </head>
 <body>
@@ -157,42 +182,75 @@
 
   <!-- INICIO -->
   <div class="view active" id="view-inicio">
-    <div class="card">
-      <div class="kpi-grid">
-        <div class="kpi">
-          <div class="label">Seguidores</div>
-          <div class="value" id="kpi-followers">—</div>
-          <div class="delta" id="kpi-followers-delta"></div>
+    <div id="capture-frame">
+      <div class="card">
+        <div class="kpi-grid">
+          <div class="kpi">
+            <div class="label">Seguidores</div>
+            <div class="value" id="kpi-followers">—</div>
+            <div class="delta" id="kpi-followers-delta"></div>
+          </div>
+          <div class="kpi">
+            <div class="label">Me gusta totales</div>
+            <div class="value" id="kpi-hearts">—</div>
+          </div>
+          <div class="kpi">
+            <div class="label">Video top</div>
+            <div class="value" id="kpi-topvideo" style="font-size:26px;">—</div>
+            <div class="delta flat" id="kpi-topvideo-label"></div>
+          </div>
+          <div class="kpi">
+            <div class="label">Formato ganador</div>
+            <div class="value" style="font-size:22px;">Vlog en cancha</div>
+            <div class="delta flat">vs. reacciones a cámara</div>
+          </div>
         </div>
-        <div class="kpi">
-          <div class="label">Me gusta totales</div>
-          <div class="value" id="kpi-hearts">—</div>
+      </div>
+
+      <div class="card">
+        <div class="section-title">Resumen</div>
+        <div class="section-sub">Crecimiento calculado con los datos guardados hasta ahora</div>
+        <div class="summary-grid">
+          <div class="summary-item">
+            <div class="label">Últimos 7 días</div>
+            <div class="value" id="summary-week">—</div>
+            <div class="period" id="summary-week-period"></div>
+          </div>
+          <div class="summary-item">
+            <div class="label">Últimos 30 días</div>
+            <div class="value" id="summary-month">—</div>
+            <div class="period" id="summary-month-period"></div>
+          </div>
         </div>
-        <div class="kpi">
-          <div class="label">Video top</div>
-          <div class="value" id="kpi-topvideo" style="font-size:26px;">—</div>
-          <div class="delta flat" id="kpi-topvideo-label"></div>
-        </div>
-        <div class="kpi">
-          <div class="label">Formato ganador</div>
-          <div class="value" style="font-size:22px;">Vlog en cancha</div>
-          <div class="delta flat">vs. reacciones a cámara</div>
-        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title">Crecimiento de seguidores</div>
+        <div class="section-sub" id="chart-sub">Últimos días</div>
+        <svg id="chart" viewBox="0 0 520 220" width="100%" height="220">
+          <defs>
+            <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#3987e5" stop-opacity="0.35"/>
+              <stop offset="100%" stop-color="#3987e5" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <g id="chart-content"></g>
+        </svg>
       </div>
     </div>
 
-    <div class="card">
-      <div class="section-title">Crecimiento de seguidores</div>
-      <div class="section-sub" id="chart-sub">Últimos días</div>
-      <svg id="chart" viewBox="0 0 520 220" width="100%" height="220">
-        <defs>
-          <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#3987e5" stop-opacity="0.35"/>
-            <stop offset="100%" stop-color="#3987e5" stop-opacity="0"/>
-          </linearGradient>
-        </defs>
-        <g id="chart-content"></g>
-      </svg>
+    <div class="share-btn-wrap">
+      <button class="btn share" id="share-btn">📤 Compartir</button>
+    </div>
+
+    <div class="card" style="margin-top:24px;">
+      <div class="section-title">Meta de seguidores</div>
+      <div class="goal-row">
+        <input type="number" id="goal-input" min="1" step="1" placeholder="ej. 1000">
+        <button class="btn secondary" id="goal-save-btn">Guardar</button>
+      </div>
+      <div class="goal-track"><div class="goal-fill" id="goal-fill" style="width:0%;"></div></div>
+      <div class="goal-caption" id="goal-caption">Definí una meta para ver tu progreso.</div>
     </div>
 
     <div class="footer-note">Se actualiza solo una vez por día · datos públicos de TikTok</div>
@@ -313,6 +371,146 @@ document.getElementById("save-note-btn").addEventListener("click", () => {
 });
 renderNotes();
 
+/* ---------- resumen semanal / mensual ---------- */
+function closestEntryAtLeastDaysAgo(hist, days) {
+  // hist viene ordenado por fecha ascendente. Buscamos la entrada más vieja
+  // dentro de la ventana (o la primera disponible si hay menos historial).
+  if (!hist.length) return null;
+  const lastDate = new Date(hist[hist.length - 1].date + "T00:00:00");
+  let candidate = hist[0];
+  for (const h of hist) {
+    const d = new Date(h.date + "T00:00:00");
+    const diffDays = (lastDate - d) / 86400000;
+    if (diffDays <= days) { candidate = h; break; }
+  }
+  return candidate;
+}
+function renderSummaryPeriod(hist, days, valueElId, periodElId) {
+  const valueEl = document.getElementById(valueElId);
+  const periodEl = document.getElementById(periodElId);
+  if (hist.length < 2) {
+    valueEl.textContent = "—";
+    periodEl.textContent = "todavía no hay suficientes días guardados";
+    return;
+  }
+  const base = closestEntryAtLeastDaysAgo(hist, days);
+  const last = hist[hist.length - 1];
+  const delta = last.followers - base.followers;
+  const usedDays = Math.max(1, Math.round((new Date(last.date) - new Date(base.date)) / 86400000));
+  valueEl.textContent = (delta > 0 ? "+" : "") + delta;
+  valueEl.classList.toggle("good", delta > 0);
+  if (usedDays < days) {
+    periodEl.textContent = `en los ${usedDays} día(s) que llevamos midiendo`;
+  } else {
+    periodEl.textContent = `del ${base.date} al ${last.date}`;
+  }
+}
+function renderSummary(hist) {
+  renderSummaryPeriod(hist, 7, "summary-week", "summary-week-period");
+  renderSummaryPeriod(hist, 30, "summary-month", "summary-month-period");
+}
+
+/* ---------- meta de seguidores ---------- */
+const GOAL_KEY = "ab_dashboard_goal";
+function renderGoal(hist) {
+  const input = document.getElementById("goal-input");
+  const fill = document.getElementById("goal-fill");
+  const caption = document.getElementById("goal-caption");
+  const current = hist.length ? hist[hist.length - 1].followers : null;
+
+  let goal = null;
+  try { goal = JSON.parse(localStorage.getItem(GOAL_KEY) || "null"); } catch (e) {}
+  if (goal && !input.value) input.value = goal;
+
+  if (!goal || !current) {
+    fill.style.width = "0%";
+    caption.textContent = "Definí una meta para ver tu progreso.";
+    return;
+  }
+
+  const pct = Math.max(0, Math.min(100, (current / goal) * 100));
+  fill.style.width = pct.toFixed(1) + "%";
+
+  if (current >= goal) {
+    caption.innerHTML = `🎉 ¡Ya superaste tu meta de <b>${fmtFull(goal)}</b>! Es un buen momento para poner una nueva.`;
+    return;
+  }
+
+  const faltan = goal - current;
+  // tasa de crecimiento diaria promedio usando toda la historia disponible
+  if (hist.length >= 2) {
+    const first = hist[0], last = hist[hist.length - 1];
+    const days = (new Date(last.date) - new Date(first.date)) / 86400000;
+    const rate = days > 0 ? (last.followers - first.followers) / days : 0;
+    if (rate > 0) {
+      const daysLeft = Math.ceil(faltan / rate);
+      const eta = new Date(last.date + "T00:00:00");
+      eta.setDate(eta.getDate() + daysLeft);
+      caption.innerHTML = `Te faltan <b>${fmtFull(faltan)}</b> seguidores. A tu ritmo actual (~${rate.toFixed(1)}/día), llegarías el <b>${eta.toLocaleDateString("es-AR", {day:"2-digit", month:"2-digit", year:"numeric"})}</b>.`;
+    } else {
+      caption.innerHTML = `Te faltan <b>${fmtFull(faltan)}</b> seguidores. Con el ritmo de los últimos días todavía no se puede proyectar una fecha — necesitás que vuelva a crecer.`;
+    }
+  } else {
+    caption.innerHTML = `Te faltan <b>${fmtFull(faltan)}</b> seguidores. Necesitamos más días de historial para poder proyectar una fecha.`;
+  }
+}
+document.getElementById("goal-save-btn").addEventListener("click", () => {
+  const val = parseInt(document.getElementById("goal-input").value, 10);
+  if (!val || val <= 0) return;
+  try { localStorage.setItem(GOAL_KEY, JSON.stringify(val)); } catch (e) {}
+  renderGoal(window.__lastHist || []);
+});
+
+/* ---------- compartir como imagen ---------- */
+let html2canvasPromise = null;
+function loadHtml2Canvas() {
+  if (html2canvasPromise) return html2canvasPromise;
+  html2canvasPromise = new Promise((resolve, reject) => {
+    if (window.html2canvas) return resolve(window.html2canvas);
+    const s = document.createElement("script");
+    s.src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
+    s.onload = () => resolve(window.html2canvas);
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+  return html2canvasPromise;
+}
+document.getElementById("share-btn").addEventListener("click", async () => {
+  const btn = document.getElementById("share-btn");
+  const original = btn.textContent;
+  btn.textContent = "Generando…";
+  btn.disabled = true;
+  try {
+    const html2canvas = await loadHtml2Canvas();
+    const node = document.getElementById("capture-frame");
+    const canvas = await html2canvas(node, { backgroundColor: "#0d0d0d", scale: 2 });
+    canvas.toBlob(async (blob) => {
+      if (!blob) { btn.textContent = original; btn.disabled = false; return; }
+      const file = new File([blob], "ariel-betta-dashboard.png", { type: "image/png" });
+      if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+        try {
+          await navigator.share({ files: [file], title: "Mi dashboard de TikTok" });
+        } catch (e) { /* usuario canceló, no hacemos nada */ }
+      } else {
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "ariel-betta-dashboard.png";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 5000);
+      }
+      btn.textContent = original;
+      btn.disabled = false;
+    }, "image/png");
+  } catch (e) {
+    btn.textContent = original;
+    btn.disabled = false;
+    alert("No se pudo generar la imagen. Probá de nuevo.");
+  }
+});
+
 /* ---------- data load ---------- */
 async function load() {
   let data;
@@ -348,6 +546,9 @@ async function load() {
   }
 
   renderChart(hist);
+  window.__lastHist = hist;
+  renderSummary(hist);
+  renderGoal(hist);
 
   const all = [
     { label: data.me.label, handle: data.me.handle, followers: data.me.followers, ok: data.me.ok !== false, me: true },
