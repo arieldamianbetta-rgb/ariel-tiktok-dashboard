@@ -24,6 +24,9 @@ jobs:
       - name: Refrescar estadísticas de TikTok
         run: node fetch-stats.mjs
 
+      - name: Traer noticias del día
+        run: node fetch-news.mjs
+
       - name: Commit y push si hay cambios
         run: |
           git config user.name "dashboard-bot"
