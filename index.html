@@ -142,6 +142,16 @@
   .note-item .note-actions button { font-size:12px; }
   .empty-note { font-size:13px; color:var(--muted); text-align:center; padding: 10px 0; }
 
+  /* noticias */
+  .news-topic { margin-bottom: 22px; }
+  .news-topic:last-child { margin-bottom: 0; }
+  .news-topic .topic-label { font-size:14px; font-weight:800; margin-bottom:8px; }
+  .news-item { border-top:1px solid var(--border); padding: 10px 0; }
+  .news-item:first-child { border-top:none; padding-top:0; }
+  .news-item .news-title { display:block; color:#fff; font-size:14px; line-height:1.4; text-decoration:none; }
+  .news-item .news-title:active { opacity:0.7; }
+  .news-item .news-meta { font-size:11px; color:var(--muted); margin-top:4px; }
+
   /* resumen semanal */
   .summary-grid { display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
   .summary-item .label { font-size:13px; color:var(--muted); margin-bottom:6px; }
@@ -272,6 +282,15 @@
     </div>
   </div>
 
+  <!-- NOTICIAS -->
+  <div class="view" id="view-noticias">
+    <div class="card">
+      <div class="section-title">Noticias del día</div>
+      <div class="section-sub">Titulares reales, traídos automáticamente por el robot una vez por día. Elegís el que te sirva y me lo traés al chat para armar el guion.</div>
+      <div id="news-content"></div>
+    </div>
+  </div>
+
   <!-- NOTAS -->
   <div class="view" id="view-notas">
     <div class="card">
@@ -296,6 +315,7 @@
   <div class="brand"><img src="icon-192.png" alt=""><b>Ariel Betta</b></div>
   <div class="nav-item active" data-view="inicio"><span class="ico">🏠</span>Inicio</div>
   <div class="nav-item" data-view="competencia"><span class="ico">📊</span>Competencia</div>
+  <div class="nav-item" data-view="noticias"><span class="ico">📰</span>Noticias</div>
   <div class="nav-item" data-view="notas"><span class="ico">📝</span>Notas</div>
 </div>
 
@@ -309,7 +329,7 @@ const fmt = (n) => {
 const fmtFull = (n) => n == null ? "—" : n.toLocaleString("es-AR");
 
 /* ---------- navigation ---------- */
-const titles = { inicio: "Inicio", competencia: "Competencia", notas: "Notas" };
+const titles = { inicio: "Inicio", competencia: "Competencia", noticias: "Noticias", notas: "Notas" };
 function showView(name) {
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
   document.getElementById("view-" + name).classList.add("active");
@@ -511,6 +531,50 @@ document.getElementById("share-btn").addEventListener("click", async () => {
   }
 });
 
+/* ---------- noticias del día ---------- */
+function renderNews(news) {
+  const el = document.getElementById("news-content");
+  el.innerHTML = "";
+  if (!news || !Array.isArray(news.topics) || !news.topics.length) {
+    el.innerHTML = '<div class="empty-note">Todavía no hay noticias cargadas — el robot las trae en la próxima actualización diaria.</div>';
+    return;
+  }
+  news.topics.forEach(topic => {
+    const block = document.createElement("div");
+    block.className = "news-topic";
+    const label = document.createElement("div");
+    label.className = "topic-label";
+    label.textContent = topic.label;
+    block.appendChild(label);
+
+    const items = topic.items || [];
+    if (!items.length) {
+      const empty = document.createElement("div");
+      empty.className = "empty-note";
+      empty.textContent = "Sin novedades hoy.";
+      block.appendChild(empty);
+    } else {
+      items.forEach(it => {
+        const row = document.createElement("div");
+        row.className = "news-item";
+        const a = document.createElement("a");
+        a.className = "news-title";
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.href = it.link || "#";
+        a.textContent = it.title || "(sin título)";
+        const meta = document.createElement("div");
+        meta.className = "news-meta";
+        meta.textContent = it.source || "";
+        row.appendChild(a);
+        row.appendChild(meta);
+        block.appendChild(row);
+      });
+    }
+    el.appendChild(block);
+  });
+}
+
 /* ---------- data load ---------- */
 async function load() {
   let data;
@@ -549,6 +613,7 @@ async function load() {
   window.__lastHist = hist;
   renderSummary(hist);
   renderGoal(hist);
+  renderNews(data.news);
 
   const all = [
     { label: data.me.label, handle: data.me.handle, followers: data.me.followers, ok: data.me.ok !== false, me: true },
