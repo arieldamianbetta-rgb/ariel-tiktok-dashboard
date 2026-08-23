@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-22T15:51:26.778Z",
+  "updated_at": "2026-08-23T15:54:07.357Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
     "followers": 788,
-    "hearts": 30800,
+    "hearts": 31000,
     "top_video_views": 341900,
     "top_video_label": "Viaje a Uruguay · Parte 1",
     "ok": true
@@ -13,29 +13,29 @@
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
-      "followers": 132900,
-      "hearts": 640500,
+      "followers": 132700,
+      "hearts": 640700,
       "ok": true
     },
     {
       "handle": "curiosidades_de_futbol1",
       "label": "informes de futbol",
-      "followers": 3400,
+      "followers": 3398,
       "hearts": 121300,
       "ok": true
     },
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 3973,
-      "hearts": 156400,
+      "followers": 3997,
+      "hearts": 157800,
       "ok": true
     },
     {
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
-      "followers": 962000,
-      "hearts": 545200000,
+      "followers": 962200,
+      "hearts": 544300000,
       "ok": true
     }
   ],
@@ -51,10 +51,14 @@
     {
       "date": "2026-08-22",
       "followers": 788
+    },
+    {
+      "date": "2026-08-23",
+      "followers": 788
     }
   ],
   "news": {
-    "updated_at": "2026-08-22T15:51:30.863Z",
+    "updated_at": "2026-08-23T15:54:11.283Z",
     "topics": [
       {
         "key": "futbol_ar",
@@ -64,19 +68,13 @@
             "title": "Fixture del Clausura 2026: calendario de partidos y todos los resultados",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdk1qSENCX1VFS0Y2MEh6ZGtCUFA1STNnbjJsVUhWT2lsX1U3alBidjNkZVpJdzdMS2dFQjllWEdLVUFKMUZUVGE4RER3Y25FdkJBQ0plLV9sQy1TWU5tMkhhejE3MFJmMHEwYjFlYm9HdlJJdnFlRS13bldWdjk2ajgtdkdFU0RwMmdOSDZyYjA1TVN2bm1HTERURWgyNlhHLUJWWHhwWWY2ODBCSGMtUzRnZTJvVjJLbjBIc282VE9xck1VZW1Z?oc=5",
             "source": "TyC Sports",
-            "pubDate": "Sat, 22 Aug 2026 00:55:02 GMT"
+            "pubDate": "Sun, 23 Aug 2026 01:57:19 GMT"
           },
           {
-            "title": "Independiente vs. Independiente Rivadavia, por el Torneo Clausura: dónde ver en vivo, horario y el minuto a minuto",
-            "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOalFSR2w4OVVWQmd2N3hmNEY1MFJjZlBRUXFZUEVwUHRNS2pjc1pGOVlHNjdVclR6eXlfNzFxdXVJdzV2Sk9ra3Y0c3gyWWV6b0haRFNZVzZ6Q0pWMjJFaGw0MF8tUUpIWHB5QkN4bG0tV1BHWXNiWjI4a2FrdmoyWGNWclplWTNNTkFuN3JsNTdURUxPcXhIR3VEalZRdjBIRnVOUDN3RHpoVnRkc1lURVFVUnJWSFJHX2Z1Q1VVV0ZPWnJsVEF6S3FXTnphQ0RQbmRuNFZjVdIB3AFBVV95cUxNN2QzTXg3bkI0ZVNwZVZHdlVBRERlY3A2UVFCeWptWm1vS3NMRV9SWnNMbnlOWDAyd3k0OGRYbjVKcFN0dGtXREo1dUpWTDV6ZjlMUjNiWF91VHJONzRCVnhBZXlNNGhjU0ZUY2dkN3BTbldPdXcxbmpqb1JvVHVZVEdSQm1wa1RhZnNHeGtCRmc5Q3Bhc3pDNDdHTkNMcnVwMUVTS0NBSmhIN0FsT2RjZ2NEYzA0ZlpNS0dud1kzeWFJSEZLMkh5NDg0c2E4MFVVSnZpSEhGazB0REJn?oc=5",
-            "source": "Somos Jujuy",
-            "pubDate": "Sat, 22 Aug 2026 09:00:00 GMT"
-          },
-          {
-            "title": "Mercado de pases: Invierno 2026",
-            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3FhN1dsVWsyTDRKaEVxTy1nRkcwSUhTMk9HdUFYaVBmLXhpQU1BUkNrZUd4aTVJR1V5RmlTemQ1N0V0cURkRktCTkFrcURlZnhZbGR5T3pqM0tnbVd2V0gxcS1abE5KeVA3NWdKaHNDZmpod2NKeVBSUEptNVR4VEJDY2tmSmV2MDZxYXBBVWlqQUg2aEt3?oc=5",
+            "title": "El salto de Agustín Módica: de casi desconocido a ser la gran revelación del fútbol argentino",
+            "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYUljbDBGbnYtVzNhaDBDUkhMRU95TVF5cXVodXBvQmhUZXd6ZG11TVpfX1ZCQ25iRlpVWG13cEItTHhvaHlhMHJVMEE1RWxuMXJwU3FXcTVrWTlPdHRzNDNZRGpJUmNKR2xBUFlXNHlTTmJQRHRrR3N3MmdxS01JTl9xNUFVVVhLOWJZbFk2Yzc2MjN0aUtUOWxzOExFcmIzMFN3Y3FpNEZ2bE90a3BONFZONEwyNHVlUmZkbTB6SHM1dHJ0LVF3N3B0emZxY0sxNFAxOHIwRjZkbHI5d0wxdV9PZzlvbTBhNHc?oc=5",
             "source": "El Gráfico",
-            "pubDate": "Tue, 18 Aug 2026 07:00:00 GMT"
+            "pubDate": "Sun, 23 Aug 2026 15:02:15 GMT"
           },
           {
             "title": "La fecha 6 del Torneo Clausura 2026 de la Liga Profesional: días, horarios, TV en VIVO y árbitros",
@@ -85,16 +83,22 @@
             "pubDate": "Fri, 21 Aug 2026 13:07:00 GMT"
           },
           {
-            "title": "El sorprendente Instituto viaja a Tucumán a defender la cima en la zona A ante Atlético",
-            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRlBxZm5GcGNKbGJpWmtGU2N1dXM5SGhBUldIVDZKTDhBWUdJSWhOaXVjNHE5bXJ4MGFYd1lvU2c2dlU1T1VZeDhiVWNtZTE2NUVDTGtDMmt2LVMxNXFKT3RPQ216VUxKSXhqaEhWMVBhV28tSXh2YVd2UW5sZ1NwZkdBTk1lZzdYUjJYejc1aGhNNmpSMVlrTFVBZVA0b2hpVEtaR3RDalg5amhZb1ZUYTNmSkR1UWVhR1E5S0VqZkZXNG1EaGVTNEd0LWR2VG1Q0gHWAUFVX3lxTFBrcjFLYl95SXpIcU51R0hlX1lpRmJQS09UbmdwekZfei0tY0o2YnZOS3lMM21lVFl6NFpFSTdJUEc1bnZXRXNJTERvUm9DQXpGWXRnVFZwV3RXQ3dZTVdRSUlLdGplYllUSTRhSGUtUmNVbUl5SWJQR0k2R1ZaNmhWZ1plTDJDVm8tRFRDUUtLZjdNeGZXM3ZnaVBPLUQxbVRJQVpwVHlFM29PVTJYUmJOUDJqR1ZQRGxQTUtoanpNSk9ISWNmcHhseG5LYkRBSl9uVnlSdVE?oc=5",
-            "source": "puntal.com.ar",
-            "pubDate": "Sat, 22 Aug 2026 02:49:47 GMT"
+            "title": "Lanús vs. Argentinos Juniors, por el Torneo Clausura 2026: día, hora y cómo ver online",
+            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZGo3Qk1CSFRrb0ZON3VLR3M0VHp6UU8wR1VqNmhvZm8wQlBrOVpNcnpncDE5azV0NGh3UjFqZTl6aTU5VFBhdFNZc1dsamg2VGRianlZMkdfSlZNSVdSOVdGZjRLbnNLMDhuQnNRbjJsaFdQTjRLNkJVQl9ULWtjNEc1Qm5qMEd1OEZ3SUNJZGRMYUpMX2hXanFNTVJzQVBCckFmXzJjdVFkX19PS3lVVlEyMGdzdW1WeUdkYnIzQ3lPaVpHN0QxYmFuaE1IeVdOYnpSVjVB?oc=5",
+            "source": "La Nación",
+            "pubDate": "Sun, 23 Aug 2026 05:00:00 GMT"
           },
           {
-            "title": "Estudiantes Río Cuarto y San Lorenzo empataron 0-0 por el Torneo Clausura 2026",
-            "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdEFuamQ3NlhrVElrVXVwZzFIR0hmd25oVVNBWDBPenl0R2VqOHNzWi1oRDFidEJkd2xTRmQyWUpBczFFWENTODZSeGFzRThqUmRzeGxlc2xvSG9MbHhUelVFZGZoc0xHZHVEcF94bTNpdFhuSjMtNVRLSmtERkdlTzUydmhlNmFJS3lGbGdObHdXY1lXZU41cG4wM245UmNwVmJXNkN2bHQ3aGRYX1Q5dXhLZGRCLVJvV3N2MGNhTmp6R2YxR2w4ZFFxSWdtU2tnSmkteUFRaw?oc=5",
-            "source": "La Nación",
-            "pubDate": "Sat, 22 Aug 2026 00:54:00 GMT"
+            "title": "Agenda de la fecha 4 a la 7",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZmNReTEyN2pJWGo3UjZxVmNVSUxSRlJTb0lxczA5MjVWUVlxSE9WVjNBbTMyMjRiYmZXbUlHTENRQ1pvcXMwaDFpcldic25qdU4wSGNMSGRrVDhrTDFIQzBUaTlCU214LTA3ZzBLN0ljcDZqNC1jQk5tZTZTcDhqcGhZU1VpdG5yVG9UQw?oc=5",
+            "source": "Liga Profesional de Fútbol",
+            "pubDate": "Fri, 07 Aug 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Mercado de Pases Argentina 2026: altas y bajas de la Liga Profesional",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmxINHdkUlNkUE55Zm5tZlBRU1lhRU9oVXgtY3FuWDRZeWp2dFNtcDlfVjB0Tm5JYjlBTVVsbnYzZDJ6ZVM2YzFjZnFHRlhIcXo1aFdIT0g5aGl0VHZteVo0bURUOGFfMmM2NFZjY1o4bmtGamh6LVhwVDBPUzY5WVg3am5rQ1lnRjBfbHJBeE1YVW02aWtVMXFvYjNYYTA5LVVlSmlYU2dwcTlxM0t3WA?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Fri, 21 Aug 2026 14:30:22 GMT"
           }
         ]
       },
