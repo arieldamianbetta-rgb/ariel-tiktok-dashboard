@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T17:06:46.557Z",
+  "updated_at": "2026-08-25T17:07:10.649Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
@@ -13,29 +13,29 @@
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
-      "followers": 132600,
-      "hearts": 640800,
+      "followers": 132500,
+      "hearts": 641900,
       "ok": true
     },
     {
       "handle": "curiosidades_de_futbol1",
       "label": "informes de futbol",
-      "followers": 3399,
+      "followers": 3398,
       "hearts": 121300,
       "ok": true
     },
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 4028,
-      "hearts": 158900,
+      "followers": 4044,
+      "hearts": 159700,
       "ok": true
     },
     {
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
-      "followers": 962200,
-      "hearts": 546000000,
+      "followers": 962300,
+      "hearts": 546300000,
       "ok": true
     }
   ],
@@ -59,10 +59,14 @@
     {
       "date": "2026-08-24",
       "followers": 788
+    },
+    {
+      "date": "2026-08-25",
+      "followers": 788
     }
   ],
   "news": {
-    "updated_at": "2026-08-24T17:06:50.777Z",
+    "updated_at": "2026-08-25T17:07:15.120Z",
     "topics": [
       {
         "key": "futbol_ar",
@@ -72,31 +76,31 @@
             "title": "Mercado de Pases Argentina 2026: altas y bajas de la Liga Profesional",
             "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmxINHdkUlNkUE55Zm5tZlBRU1lhRU9oVXgtY3FuWDRZeWp2dFNtcDlfVjB0Tm5JYjlBTVVsbnYzZDJ6ZVM2YzFjZnFHRlhIcXo1aFdIT0g5aGl0VHZteVo0bURUOGFfMmM2NFZjY1o4bmtGamh6LVhwVDBPUzY5WVg3am5rQ1lnRjBfbHJBeE1YVW02aWtVMXFvYjNYYTA5LVVlSmlYU2dwcTlxM0t3WA?oc=5",
             "source": "TyC Sports",
-            "pubDate": "Mon, 24 Aug 2026 10:23:10 GMT"
+            "pubDate": "Tue, 25 Aug 2026 15:28:37 GMT"
           },
           {
-            "title": "Tabla Anual 2026: así están las clasificaciones a la Libertadores y Sudamericana",
-            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPV25UY2R6SjZBS3ZXaXY3QmY1RzhrcjRob2pMbUhCZTN0UWFCbGw3Um5RMldNczN5cC1HcDk5Ni1jNXlmX0RKQ3l1aE82RlZNb1N6b2hLRl9CbUk3a3lPNnVPa1h5bTAyMmoxUEpmOHo5dk9jbDdDYTVxckxvLUJOOUYwcV9QZHBNWkpZRm4tRHNlYnZUdzNNVkswSlpLWS1uVWNIZC10aEFpN2JhM3RLZW1sc011ZkU3ZWFJV002UlFfTnVpN2diS3M1a2p6b2VIb0E?oc=5",
+            "title": "La tabla de posiciones del Torneo Clausura 2026",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaG5lUTNyWkdLLW5NRXdoUXg3a2dXSktrbWZLY0NFSEpPcGFfZFN1MHRaVmZzV3lXb2pHQWxRQnpxejN2b1FKSS1lcnFZODRlNXFpYW5DR1ZzcTVsOWVVS09DZDcteXhuakZDY2xRVWlKd0hPSUNSYzR3UDN1akh1X243emp3VjhIZ1BZMk1HX2lUU2NmQzJCeUxNTkM3bWNxLVRRZzVNTEptNzZoekE?oc=5",
+            "source": "El Gráfico",
+            "pubDate": "Tue, 25 Aug 2026 06:27:30 GMT"
+          },
+          {
+            "title": "Lanús y Argentinos Juniors empataron 1-1 por el Torneo Clausura 2026",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZE42X0FqM0duc0NMMWotZl9mZWFfcTc1RWlYZXlRUWRuMlAyMzRSbmxDRk51VjhUal9zenVQWlNCLTdjZmNxa1ZLU3pIUmMweERpY3g3SHk3ZG0yRVV5LXNNbUl3THZfMlB0QVFTNFZxbWlHOW90cks5NU9SQzhtTzE0dE9ERC1LWEVKZDFNYjZscnNFbXNia2VQbTY2RjMwakI5QjZUT0xXTzlWNjZDUm9VT2hRX1RIc3c5dnlpVlMzVlhkdFhFM2Rn?oc=5",
             "source": "La Nación",
-            "pubDate": "Mon, 24 Aug 2026 02:38:00 GMT"
+            "pubDate": "Tue, 25 Aug 2026 02:10:00 GMT"
           },
           {
-            "title": "El tremendo récord que un símbolo de Gimnasia batió ante Estudiantes para seguir arriba",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMlVpNGl3Y2N5QzluUXE4RDBLb3VfSHRQemFES0xjdTNiU0dDSVBnVlBUYUIyWWd5Zkk4MlVTVFQzMXdDMzlERDhLdFpXbG9vWDVCSVJSUGVpMVo0QzlZNVdSZGpKMDdXTW51eXJwdFVxbEc4bzBHSUswWHR5WTl3VEtwVHFuUWNnNndHVXhMejJWN3dwM1U2WGhIM0trQTd1aXh3dUpXT0FKRl94d0ZrT1djQWo3aXJ4Uk8yYmxVSQ?oc=5",
-            "source": "Infocielo",
-            "pubDate": "Mon, 24 Aug 2026 12:58:01 GMT"
+            "title": "Las mujeres en Primera: el retraso del referato argentino en Sudamérica",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVEkzQmVwR0V6dlVTb2ExWDA4ajVvM2IzMGU2azhob2c4SGZMcHR5Tkl5X2NjSlBxYV9yb1ZwWE1sNGJud0R2X0tELXFNWFNoLWxTQUdXbWNrbjgzZVd3SVJpNHRiTG5YU09FX1htQUNqWDFEUWxwT0tuLXlpbGQyc1ZfenBDbzhKYk1iU25OWUY3N0RQZ1hYOTdQUHVCdWFONUtMYmJBSVVSaTjSAbABQVVfeXFMT1dtU0g5b0JCT29GR3BkUl91NUg2ZFVXU1FFLVZjWkR6bC1tMXcySUc0RnJQV2RwMzVueHFGYXlRbGZobVRqSHg4WjhYYWVYdktNWE1qdU9ERFB4eWZmeEFnek5GT2thM1VWNFp3MmgwR2cyTEw2ajQyQzZ5dTVZUTYtb0ZiX1hwMUh0QWRGMGFTaEhPcEdHMTJKMjlJbmpOelljcW91YXJPbjFZM0RVS2E?oc=5",
+            "source": "Olé",
+            "pubDate": "Tue, 25 Aug 2026 00:39:22 GMT"
           },
           {
             "title": "La fecha 6 del Torneo Clausura 2026 de la Liga Profesional: días, horarios, TV en VIVO y árbitros",
             "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZkxVQ0dXS3NnSlZfVXRQaWYtbGJNa3QyQmtkQWR3eXBhbVh4ZFRCTDhsbVg3bGZPX0hjUV90dE04SDhmWXpqZ1dsVEdvYVF0OW9rSDdMLTM2MmtlMWRwMzUzcWNuSG16XzA1NjRsVHlURDFzZkN2UnYzVDNqaHppUTF3QTdfUHN2LWdZVFFVNnpxcG5OYWNPdzQyVGM2eDDSAaQBQVVfeXFMUEpENmpXNUlkemtXd2MwUTFmeW55OG94ZVdBWVRiN3czRDVJeExjWks3UElVc2o1eEZYblpsNE1lY29TSWY5cUZKVUpGV01aTTBlejhaUVlJZXk5dDJIT25OVjNCeUVBRC1KRC0tZEkzX0JhbTFLbWowVEY3QXdfRkhQa0pKUXNXc3k3Nk1rVUdnaXl0cGxkTEV2UF80aFZHc3NSY2s?oc=5",
             "source": "El Economista - Últimas noticias económicas y financieras",
             "pubDate": "Fri, 21 Aug 2026 13:07:00 GMT"
-          },
-          {
-            "title": "Brilló en el fútbol argentino, ganó la Libertadores y ahora seguirá su carrera en Andorra",
-            "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaUxIRHBfMWNkMjZZbE1pR0QtdWZVdnhPWlR1TTdZbUNXenJGOUtKem1pODZGc0RnRkM5cXBPNWI2R3ZuaTNyMWhzWjVFMkc0SkRWT0MwcmNyaDg3b29OOXIxUG8tOWgyRFlTNFVycEJFbHlfSEdSajh1bUFFR3pJc01ISGltWWltaXBJWXVhMWF5Y1pLY2lLemtlZWdHV1ZtUW5uT3NXVllxbFdrUGpWb2Q1VEZma1JVVzVxeEhQNWUtMHhERFRzZXpuaUM5cXVFelRpUzVCT0hMdDJG0gHiAUFVX3lxTE8tRm1DbzJhSGd2ckFXQTR1WlBVS3lMY2dKeXo0SnpJa3NKRUtzZ2t0dFFHeVNWcjhtZTduSlZsX3RkWTJxb2ZaRk1vWnR2S05wejA3Um10cnNGYXBqenNQdXhWSmRSS29hQm8xTlR3SEJFMHZ0UTl4dzZ5XzU2ei05VjFwX0VSdDVTd2NOMEk3a2ZQX0JtTVFtdm10VzRKUWFlWGNFd2l6UmpLS18yYkRLUF9TVFZRVW9fMTFpVklET09aRU5ZZ0FLQkJUQWRCUEdKeDJWeFJTLVpnZzRsQ19yaXc?oc=5",
-            "source": "dsports",
-            "pubDate": "Mon, 24 Aug 2026 02:52:48 GMT"
           },
           {
             "title": "Agenda de la fecha 4 a la 7",
@@ -165,12 +169,6 @@
             "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT"
           },
           {
-            "title": "30 datos curiosos del mundial que no conocías y que te sorprenderán",
-            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXh2M1FrNFk5VUJnRTFPbjNYQW5FNi14MExXUTFpYnd5Ul9iVWMxajFTaFVvQ2FZMWtKZzltMGc4bVFpZ2JhNnpVS1hia2gtYXp0ckg4eVpfRnZBMEs2dlhubm1kQzBrNDBzbndFV0RLQXYwNkJyZnZFa0wxcWdKQmhGWGtaR2RhUnM3RmEzM0xsWUts?oc=5",
-            "source": "Architectural Digest México y Latinoamérica",
-            "pubDate": "Mon, 27 Apr 2026 07:00:00 GMT"
-          },
-          {
             "title": "Guía del hincha: requisitos para viajar, datos útiles y curiosidades sobre el Mundial 2026",
             "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRU9xaHNZYi1rNlZfUkdsbE9pNXFHRjljZXlRRlhkYS1ScXFfRHJvY3k1Z1VpaGNOYU9MTjV0UVdSRU1QUExFcjlzaURDTEE0UUEzYnhrZFNoYk5GRmZ3VWNBWjNhTXNRNEEzb0ZOc3JnN3lOZlg4RktlQ1gxOXdqSHkwZnFFM3NMZERUM3QyaWxfOTNLM28xMHFBM2N0WTNmU1dZQWxfZ09YeHFOeWh3MndYR2l2MDJnTXh4QVdKTlVEcTY4QnfSAcsBQVVfeXFMUFEyZE1tZmtlUThVMk44MndPcDAzWVViRmw2QWZqX0p6MktxYnJDV1J5bW1pN1Z4UXloLUZYeXlLaGJkcXRtdUVwSkVuazFxMm01QVRXYm5UNVVLdDJUOWtJY1BrUlA2dXI5UEdadjM5N25GRWZtYy0ybXFmRURaNGhhYmo5ck5mMm5DVE9VbjlyX1pMZDZpQzJ4Wi05TUtDLWxtMm5QeTlfR1B1amZwa3dtYUFLQTNYUFR3NVduTG5hYzkzeEFQZFJqZDQ?oc=5",
             "source": "Sitio Andino",
@@ -181,6 +179,12 @@
             "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQ3ZSWlpkcWo2M3h2TVByYU80Nl9nQXNUcVBVV2ZFa2lfdlZ4UHJmNVVPeGFQM3dKXzJSZC11T3luX2x2YXh3N0pfRGcxemdXVVZnQWhQMWk5ZFlZLVlFZmtQSlh6Y1ZRM0Rlc0Y2ZFFnTWNUUkN4UVNMeEk4N3BHQUlkVmxtSmpHQW5hdnpKWUpxUmVfV0JUUmFJekpRNXoxRENlUjBEc045WTFGYlNLdDltX25FV0Y5M21FRi1PZGZ1VHdnQnNWRElBMDFXMHFvR0dF?oc=5",
             "source": "GQ España",
             "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
+          },
+          {
+            "title": "30 datos curiosos del mundial que no conocías y que te sorprenderán",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXh2M1FrNFk5VUJnRTFPbjNYQW5FNi14MExXUTFpYnd5Ul9iVWMxajFTaFVvQ2FZMWtKZzltMGc4bVFpZ2JhNnpVS1hia2gtYXp0ckg4eVpfRnZBMEs2dlhubm1kQzBrNDBzbndFV0RLQXYwNkJyZnZFa0wxcWdKQmhGWGtaR2RhUnM3RmEzM0xsWUts?oc=5",
+            "source": "Architectural Digest México y Latinoamérica",
+            "pubDate": "Mon, 27 Apr 2026 07:00:00 GMT"
           },
           {
             "title": "⚽ Datos y curiosidades de los mundiales de Fútbol",
@@ -195,6 +199,18 @@
         "label": "Fútbol internacional",
         "items": [
           {
+            "title": "Qué jugadores argentinos ya cambiaron de club y quiénes podrían cambiar",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN2kzTi1uR1pRd1hoRkY3RnFQbFFnSlNvMElRWDZ2NWVjcDRwekdjUDA0WXVRTUFzX1habG54ekZ6MS1VZ2xCbGVFNmdyZVZRWmxoVFg3akZvWGY4RWMyMWQzTXp1cEFURHRRb2RvM1VFWUh1Y0tLU0NMM0ZLaWN6dUxvWEZ1QjhNYjZEM1JUcXhKNGkyRmpTdVlxQ2VDWVgzYVpCTWoxSE9MVEFwa3h4MnFfd3RvUmxHVVZhU3RB?oc=5",
+            "source": "ESPN Argentina",
+            "pubDate": "Thu, 13 Aug 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Para ganar la Champions League: el súper equipazo que podría tener el Arsenal si llega Julián Alvarez",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHp1dENtYVBvYnRSTzkzc3BPN1RycnFwLXJpVnJiOXhNb3M5RTRoaXVQWTJfb2F0Wi1QVmtRamZjSGJsTFZXQUVkSUNTQUhiTXBZZTVWcDB6U00wMmlIMldFaFlGZ0libnZjcnAtenB1SmtXNlR1eFowdWx3czVfNWxFdktuLTFPZHFXZ1lJYXJ6YjRwRG1feEdvQWcxdnNvdDJBdnN6XzdmTzJOSTM0bEdISk9tN0Y1NEpRbld1UQ?oc=5",
+            "source": "Olé",
+            "pubDate": "Fri, 24 Jul 2026 21:52:50 GMT"
+          },
+          {
             "title": "El fichaje de Rodri puede catapultar al Barcelona de vuelta a la cima del fútbol europeo: GOAL valora los mayores movimientos del mercado de fichajes del verano de 2026 | Goal.com Espana",
             "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxNcmZ1WV9WVm5vNmxJY0JMQWJrR0tvTmJ4bC1NSF9HdUlHRFpuOGc4WFZ5ckh5dl9ORkpfTHNqMFMwMmZheDBLdFAwTlE3cnZoMm9mQ2dlQzRBeUFob2sya0JlRkh5ZFdXQllwVVY2S2gxdld1YlJmNEJaTmxyUWJiR2ZRYkFXMFVyMGc4enVEbUo0aG9qMmNVYVpqY0ZjTm1zdDgwTVRNbElGWHdjSTdBR3lma3QtbVkySWN3X1BGT3dROWtfUG13RlZvVDZ1ZnN5MHBHV3JtOEl4dHhxd2NIU0tPM1JRcWV3cWpZRG53S3JnRHlSZVdWRHg3a2ZIYktXUExmSzIwSnJpUW5fWDdLOWlTM0l5MkFtakIyOWJBOWZld3FJSzRVdWY5NGViR0poWmMzaUZ3X1JreEtlSmhtMWJubWdTc01TS3ZreHd1ZGQwWUpoQk1vZmZMUVQ0bk9wNFA1VUdWZVZQVWVsZEtPbzV4cTNxT2lnWXJhOEVSekhzZzVNWEREeEpQQzBRVi1LcC1jeGl6NEh2UDk5?oc=5",
             "source": "Goal.com",
@@ -207,12 +223,6 @@
             "pubDate": "Tue, 04 Aug 2026 07:00:00 GMT"
           },
           {
-            "title": "Para ganar la Champions League: el súper equipazo que podría tener el Arsenal si llega Julián Alvarez",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHp1dENtYVBvYnRSTzkzc3BPN1RycnFwLXJpVnJiOXhNb3M5RTRoaXVQWTJfb2F0Wi1QVmtRamZjSGJsTFZXQUVkSUNTQUhiTXBZZTVWcDB6U00wMmlIMldFaFlGZ0libnZjcnAtenB1SmtXNlR1eFowdWx3czVfNWxFdktuLTFPZHFXZ1lJYXJ6YjRwRG1feEdvQWcxdnNvdDJBdnN6XzdmTzJOSTM0bEdISk9tN0Y1NEpRbld1UQ?oc=5",
-            "source": "Olé",
-            "pubDate": "Fri, 24 Jul 2026 21:52:50 GMT"
-          },
-          {
             "title": "El impresionante récord de transferencias que alcanzó el fútbol mundial",
             "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPUWl2d0tJQW9fLU5XZUZmdUI3bFd2eUd2aDJQS2JTdkpjRGtmLS04TG9Dekc5Mkh2OGxpN19qa2hzZTdpcDNLLWp4T01rV002cmotQm55eGs2TG50dHRaa1kxdVpEbzBsV3NhZmNnaXBCYU9OajlJY2JoNXBKbWpmX0lIX01NU3RtZ1lSa3B2SUozVFdZTnhKTC1mTFBHMjhONHY1WGh0SUg5OHJvdzhDSlI0SmROWm5vYmw0SlNlenZ4anFSR3NLTDJfdTJwMWVfTVdNdk5zSEtUTjVWekJGelBEcXY0NnBzbmVYMDNmNHNpNEdrenBPYl9vVU1HZ1ZpclE?oc=5",
             "source": "TyC Sports",
@@ -223,12 +233,6 @@
             "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa282QV91WHBQam1nODVnYzhWOE5JNWpzT2Y0bGlXZHliNDgtQUdtVWdzLThyaWdhaXlVWmpnM1J5dkl6RS15d1hwOHFCclBaMXhsb2FkNXVWbEJ4Zmxnc0RzazhkYUQxYXI0dVFEbzZHTWRvRXd6VUk3ZUFPbmhiOUVpa2JWZnU3LVlLUEJGdG1aTTBjQWRqcVFXVjdDX1lfOGpmTGlNN0JDQVQybE56X3NkVExaakp4RFpLOWhnUHF0aG9iZHE5UktzOW1DOTByWHdnVGpjeWo?oc=5",
             "source": "Sports Illustrated",
             "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
-          },
-          {
-            "title": "El refuerzo accesible que planea contratar Barcelona para el próximo mercado y pelear por la Champions Leag...",
-            "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNmNEelhRRVhQWTlCelJTU245WlYwSXRQSkVaUXNYSkg3a0JnZmxPWURObm5aaHJ1Tlp3ak53ZEFmbkJyX29DSDBkLTVxa29LRi16bDZCSEphNkgwZE10U0VhMnpZeWtScVZVM0kwQXpmbTUtNVR6YmNJY3UxWld0Qnk5dVVybmNwV2Y4QlBNVHNEQ05XRUhjeGhpN0NtZ210RmdsMW9OMEFYNXdsSVQwaHdDSTZTQV9DdEwtdy10a0w5V2lKQlhOMmNzYjNKcm9CRFNGRXBOOFZsRUpfdjV6ZWg2NGxpTUlUQjA1VFA5S242d1B4UEF6aNIB_gFBVV95cUxQODllMFVKX3VGMjV5TUV3WFpqYkNGejVIRkhnQ3VqZFU5TWx2cWt5OG9HYW0wZ1R0MUV1YnFKdklROWN6YjQ4cUJ3QXhxaTlWNDFobUZsbXlteUNfXzA1QWNENlQ0SlZKQWZfQ2hOM3IyMVgyaWs4bFZwOVpyMFdtNFBneWtmSEpCc01QYmVhUENSVm1kZ004R1ViSUg1SWZFc0J3VXA1cEZ4YVZUcWVKdmtlNEJkdnktVDFSbE9mYVpJZnVlSng5djM0Q1ZveU1hZWlPd3hLUUR2LWZuUG9hVTRqQlVuSDN2OVFvQjNyRGNKbk42Ri1mQ0xsVUxoZw?oc=5",
-            "source": "dsports",
-            "pubDate": "Sun, 03 May 2026 07:00:00 GMT"
           }
         ]
       }
