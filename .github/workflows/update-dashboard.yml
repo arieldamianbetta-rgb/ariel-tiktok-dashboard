@@ -2,8 +2,10 @@ name: Actualizar dashboard de TikTok
 
 on:
   schedule:
-    # 15:10 UTC = 12:10 en Argentina (UTC-3)
-    - cron: "10 15 * * *"
+    # dos corridas por día como respaldo: si GitHub se saltea una
+    # (pasa a veces en repos con poca actividad), suele agarrar la otra.
+    - cron: "10 12 * * *" # 12:10 UTC = 09:10 en Argentina (UTC-3)
+    - cron: "10 21 * * *" # 21:10 UTC = 18:10 en Argentina (UTC-3)
   workflow_dispatch: {}
 
 permissions:
