@@ -17,7 +17,9 @@ const TOPICS = [
   { key: "futbol_intl", label: "Fútbol internacional", query: "fútbol internacional Champions League mercado de pases" },
 ];
 
-const MAX_ITEMS_PER_TOPIC = 6;
+const MAX_ITEMS_PER_TOPIC = 6; // cuántas trae de nuevo por corrida
+const MAX_STORED_PER_TOPIC = 40; // techo de seguridad acumulado, además de los 3 días
+const RETENTION_MS = 3 * 24 * 60 * 60 * 1000; // se borran a los 3 días de haberse guardado
 
 function decodeEntities(s) {
   return s
@@ -74,31 +76,55 @@ async function fetchTopic(topic) {
   return items;
 }
 
+function mergeTopicItems(existingItems, freshItems, nowIso, nowMs) {
+  // el reloj de los 3 días arranca la primera vez que vimos cada noticia
+  // (fetched_at), no cuando fue publicada — así siempre queda acumulado
+  // lo de los últimos días, aunque una nota puntual sea vieja.
+  const byLink = new Map();
+  for (const it of existingItems) {
+    if (it && it.link) byLink.set(it.link, it);
+  }
+  for (const it of freshItems) {
+    if (!byLink.has(it.link)) byLink.set(it.link, { ...it, fetched_at: nowIso });
+  }
+  let merged = [...byLink.values()].filter((it) => {
+    const fetchedAt = it.fetched_at ? new Date(it.fetched_at).getTime() : nowMs;
+    return nowMs - fetchedAt < RETENTION_MS;
+  });
+  merged.sort((a, b) => new Date(b.pubDate || b.fetched_at) - new Date(a.pubDate || a.fetched_at));
+  return merged.slice(0, MAX_STORED_PER_TOPIC);
+}
+
 async function main() {
   const data = JSON.parse(await readFile(DATA_PATH, "utf8"));
   const prevTopics = (data.news && Array.isArray(data.news.topics)) ? data.news.topics : [];
+  const nowMs = Date.now();
+  const nowIso = new Date(nowMs).toISOString();
 
   const resultTopics = [];
   let anyOk = false;
 
   for (const topic of TOPICS) {
+    const prev = prevTopics.find((t) => t.key === topic.key);
+    const existingItems = prev ? prev.items || [] : [];
     try {
-      const items = await fetchTopic(topic);
+      const fresh = await fetchTopic(topic);
+      const items = mergeTopicItems(existingItems, fresh, nowIso, nowMs);
       resultTopics.push({ key: topic.key, label: topic.label, items });
       anyOk = true;
-      console.log(`OK  ${topic.label} -> ${items.length} titulares`);
+      console.log(`OK  ${topic.label} -> ${fresh.length} nuevas, ${items.length} guardadas en total`);
     } catch (err) {
-      // si falla, mantenemos los titulares del día anterior para ese tema
-      // en vez de dejar la sección vacía
-      const prev = prevTopics.find((t) => t.key === topic.key);
-      resultTopics.push({ key: topic.key, label: topic.label, items: prev ? prev.items : [] });
-      console.warn(`FAIL ${topic.label}: ${err.message} (se mantienen los titulares anteriores)`);
+      // si falla la traída de hoy, igual aplicamos el vencimiento de 3 días
+      // sobre lo que ya teníamos, en vez de dejarlo intacto para siempre
+      const items = mergeTopicItems(existingItems, [], nowIso, nowMs);
+      resultTopics.push({ key: topic.key, label: topic.label, items });
+      console.warn(`FAIL ${topic.label}: ${err.message} (se mantienen las anteriores no vencidas)`);
     }
     await new Promise((r) => setTimeout(r, 500));
   }
 
   data.news = {
-    updated_at: anyOk ? new Date().toISOString() : (data.news && data.news.updated_at) || null,
+    updated_at: anyOk ? nowIso : (data.news && data.news.updated_at) || null,
     topics: resultTopics,
   };
 
