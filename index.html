@@ -141,6 +141,21 @@
   .note-item .note-actions { margin-top:8px; }
   .note-item .note-actions button { font-size:12px; }
   .empty-note { font-size:13px; color:var(--muted); text-align:center; padding: 10px 0; }
+  input.notes-input { min-height:auto; padding:12px 14px; }
+
+  /* ideas de video */
+  .idea-item { border-top:1px solid var(--border); padding: 14px 0; }
+  .idea-item:first-child { border-top:none; padding-top:0; }
+  .idea-item .idea-date { font-size:11px; color:var(--muted); margin-bottom:4px; }
+  .idea-item .idea-title { font-size:15px; font-weight:700; color:#fff; }
+  .idea-item .idea-details { font-size:13px; color:var(--text-secondary); margin-top:4px; white-space:pre-wrap; }
+  .idea-item .idea-actions { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
+  .idea-item .idea-actions button { font-size:12px; }
+  .prompt-box { margin-top:10px; background: rgba(255,255,255,0.04); border:1px solid var(--border); border-radius:12px; padding:12px; }
+  .prompt-box textarea { width:100%; min-height:90px; background:transparent; border:none; color:#fff; font-size:13px; line-height:1.5; font-family:inherit; resize:vertical; padding:0; }
+  .prompt-box textarea:focus { outline:none; }
+  .prompt-box .prompt-actions { display:flex; justify-content:space-between; align-items:center; margin-top:8px; gap:8px; }
+  .prompt-box .prompt-hint { font-size:11px; color:var(--muted); }
 
   /* noticias */
   .news-topic { margin-bottom: 22px; }
@@ -294,17 +309,18 @@
   <!-- NOTAS -->
   <div class="view" id="view-notas">
     <div class="card">
-      <div class="section-title">Nueva nota</div>
-      <div class="section-sub">Pegá acá el informe diario, un hallazgo de la competencia, o un guion — queda guardado en este celu.</div>
-      <textarea class="notes-input" id="note-input" placeholder="Pegá el texto acá…"></textarea>
+      <div class="section-title">Nueva idea de video</div>
+      <div class="section-sub">Anotá el video que vas a hacer. Cuando quieras el guion o el hook, apretás "Pedir guion" y te armo el mensaje listo para pegarme acá en el chat.</div>
+      <input type="text" class="notes-input" id="idea-input" placeholder="ej: Los 5 goles más rápidos de la historia" style="min-height:auto; margin-bottom:10px;">
+      <textarea class="notes-input" id="idea-details-input" placeholder="Detalles o enfoque (opcional)" style="min-height:70px;"></textarea>
       <div class="notes-actions">
-        <button class="btn" id="save-note-btn">Guardar</button>
+        <button class="btn" id="save-idea-btn">Guardar idea</button>
       </div>
     </div>
 
     <div class="card">
-      <div class="section-title">Guardadas</div>
-      <div id="notes-list"></div>
+      <div class="section-title">Tus ideas</div>
+      <div id="ideas-list"></div>
     </div>
   </div>
 
@@ -346,50 +362,105 @@ document.querySelectorAll(".nav-item").forEach(item => {
   item.addEventListener("click", () => showView(item.dataset.view));
 });
 
-/* ---------- notas (localStorage) ---------- */
-const NOTES_KEY = "ab_dashboard_notes";
-function getNotes() {
-  try { return JSON.parse(localStorage.getItem(NOTES_KEY) || "[]"); } catch (e) { return []; }
+/* ---------- ideas de video (localStorage) ---------- */
+const IDEAS_KEY = "ab_dashboard_ideas";
+function getIdeas() {
+  try { return JSON.parse(localStorage.getItem(IDEAS_KEY) || "[]"); } catch (e) { return []; }
 }
-function setNotes(notes) {
-  try { localStorage.setItem(NOTES_KEY, JSON.stringify(notes)); } catch (e) {}
+function setIdeas(ideas) {
+  try { localStorage.setItem(IDEAS_KEY, JSON.stringify(ideas)); } catch (e) {}
 }
-function renderNotes() {
-  const notes = getNotes();
-  const list = document.getElementById("notes-list");
+function buildScriptPrompt(idea, details) {
+  let p = `Quiero armar un video de TikTok para mi cuenta de contenido deportivo (fútbol, básquet, curiosidades). Idea: "${idea}".`;
+  if (details) p += ` Detalles / enfoque: ${details}.`;
+  p += ` Dame: 1) un hook fuerte para los primeros 2 segundos, 2) un guion corto (30-45 segundos) para grabar hablando a cámara o en formato vlog en cancha.`;
+  return p;
+}
+async function copyText(text, btn) {
+  const original = btn.textContent;
+  try {
+    await navigator.clipboard.writeText(text);
+    btn.textContent = "✅ Copiado";
+  } catch (e) {
+    // fallback para navegadores/contextos sin permiso de portapapeles
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand("copy"); btn.textContent = "✅ Copiado"; }
+    catch (e2) { btn.textContent = "Copialo de arriba ⬆️"; }
+    document.body.removeChild(ta);
+  }
+  setTimeout(() => { btn.textContent = original; }, 2200);
+}
+function renderIdeas() {
+  const ideas = getIdeas();
+  const list = document.getElementById("ideas-list");
   list.innerHTML = "";
-  if (!notes.length) {
-    list.innerHTML = '<div class="empty-note">Todavía no guardaste nada acá.</div>';
+  if (!ideas.length) {
+    list.innerHTML = '<div class="empty-note">Todavía no guardaste ninguna idea de video.</div>';
     return;
   }
-  notes.slice().reverse().forEach(n => {
+  ideas.slice().reverse().forEach(n => {
     const el = document.createElement("div");
-    el.className = "note-item";
+    el.className = "idea-item";
     const d = new Date(n.ts);
     el.innerHTML = `
-      <div class="note-date">${d.toLocaleString("es-AR", {day:"2-digit", month:"2-digit", year:"numeric", hour:"2-digit", minute:"2-digit"})}</div>
-      <div class="note-text"></div>
-      <div class="note-actions"><button class="btn secondary" data-id="${n.id}">Borrar</button></div>
+      <div class="idea-date">${d.toLocaleString("es-AR", {day:"2-digit", month:"2-digit", year:"numeric", hour:"2-digit", minute:"2-digit"})}</div>
+      <div class="idea-title"></div>
+      <div class="idea-details" style="display:${n.details ? "block" : "none"};"></div>
+      <div class="idea-actions">
+        <button class="btn secondary script-btn">📝 Pedir guion</button>
+        <button class="btn secondary del-btn">Borrar</button>
+      </div>
+      <div class="prompt-box" style="display:none;">
+        <textarea readonly rows="4"></textarea>
+        <div class="prompt-actions">
+          <span class="prompt-hint">Pegalo acá en el chat, conmigo.</span>
+          <button class="btn copy-btn">Copiar mensaje</button>
+        </div>
+      </div>
     `;
-    el.querySelector(".note-text").textContent = n.text; // textContent: evita problemas de HTML/inyección
-    el.querySelector("button").addEventListener("click", () => {
-      setNotes(getNotes().filter(x => x.id !== n.id));
-      renderNotes();
+    el.querySelector(".idea-title").textContent = n.idea;
+    if (n.details) el.querySelector(".idea-details").textContent = n.details;
+
+    el.querySelector(".del-btn").addEventListener("click", () => {
+      setIdeas(getIdeas().filter(x => x.id !== n.id));
+      renderIdeas();
     });
+
+    const promptBox = el.querySelector(".prompt-box");
+    const promptTa = promptBox.querySelector("textarea");
+    el.querySelector(".script-btn").addEventListener("click", () => {
+      const prompt = buildScriptPrompt(n.idea, n.details);
+      promptTa.value = prompt;
+      promptBox.style.display = "block";
+      promptTa.focus();
+      promptTa.select();
+    });
+    el.querySelector(".copy-btn").addEventListener("click", (e) => {
+      copyText(promptTa.value, e.currentTarget);
+    });
+
     list.appendChild(el);
   });
 }
-document.getElementById("save-note-btn").addEventListener("click", () => {
-  const input = document.getElementById("note-input");
-  const text = input.value.trim();
-  if (!text) return;
-  const notes = getNotes();
-  notes.push({ id: String(Date.now()) + Math.random().toString(36).slice(2,7), text, ts: Date.now() });
-  setNotes(notes);
-  input.value = "";
-  renderNotes();
+document.getElementById("save-idea-btn").addEventListener("click", () => {
+  const ideaInput = document.getElementById("idea-input");
+  const detailsInput = document.getElementById("idea-details-input");
+  const idea = ideaInput.value.trim();
+  const details = detailsInput.value.trim();
+  if (!idea) return;
+  const ideas = getIdeas();
+  ideas.push({ id: String(Date.now()) + Math.random().toString(36).slice(2,7), idea, details, ts: Date.now() });
+  setIdeas(ideas);
+  ideaInput.value = "";
+  detailsInput.value = "";
+  renderIdeas();
 });
-renderNotes();
+renderIdeas();
 
 /* ---------- resumen semanal / mensual ---------- */
 function closestEntryAtLeastDaysAgo(hist, days) {
