@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-25T17:07:10.649Z",
+  "updated_at": "2026-08-27T19:46:54.713Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
-    "followers": 788,
-    "hearts": 31100,
+    "followers": 791,
+    "hearts": 31700,
     "top_video_views": 341900,
     "top_video_label": "Viaje a Uruguay · Parte 1",
     "ok": true
@@ -13,29 +13,29 @@
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
-      "followers": 132500,
-      "hearts": 641900,
+      "followers": 132200,
+      "hearts": 643000,
       "ok": true
     },
     {
       "handle": "curiosidades_de_futbol1",
       "label": "informes de futbol",
-      "followers": 3398,
+      "followers": 3397,
       "hearts": 121300,
       "ok": true
     },
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 4044,
-      "hearts": 159700,
+      "followers": 4170,
+      "hearts": 182500,
       "ok": true
     },
     {
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
-      "followers": 962300,
-      "hearts": 546300000,
+      "followers": 964300,
+      "hearts": 547200000,
       "ok": true
     }
   ],
@@ -63,15 +63,40 @@
     {
       "date": "2026-08-25",
       "followers": 788
+    },
+    {
+      "date": "2026-08-27",
+      "followers": 791
     }
   ],
   "news": {
-    "updated_at": "2026-08-25T17:07:15.120Z",
+    "updated_at": "2026-08-27T19:46:54.761Z",
     "topics": [
       {
         "key": "futbol_ar",
         "label": "Fútbol argentino",
         "items": [
+          {
+            "title": "Tras la salida de Coudet en River, otro club de Primera División despidió a su DT: ya son 22 en 2026",
+            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGdERlZpNE4zdG1vd2ZtWW9uNmVKNjBGMnJRbVg3a1Q1S1BlUFJLdVJlOHlUSy1mVURFVFFqZzgzVzl1SzU5NjhyOENHWlFmTnJpU2tWRWJaOHQxODJUajgzSXdPWUFkVkVTOElPN2pPaWJaWS1QZ1d5MlJOMnFjN3dveHlYMS1CM2JDUENoVjZlRGlYOVVBVWpqTzhkT1VqOFc1S1YtQlNHOV9LODVZSlIwRE1mY1RueU5yYXZaNWNXZ9IBxwFBVV95cUxQQVN2ekItNHRyVV9waFZJMFJ5dnNUTXJkM1p1cnUzSW40QnJYQkJLUnd5UV9nX0pCUWJPcVl4ek52bkhzbmZHeWFkUk84Wk50ZVBPNHZRY2lvRXZlejdiZk15U04xanBDb3JveXlWenk2bl8xZjhPUUo0eUwzSFlJWjU5XzRObEFtMUJ5bFlPT2x5S29YWFl2MXJ4NzVYSnMyWGEzdmcxTlEwZlBKU194YlNWdDBNTzBLd3BSdm4zYWl5TmllN25V?oc=5",
+            "source": "MDZ Online",
+            "pubDate": "Thu, 27 Aug 2026 17:59:00 GMT",
+            "fetched_at": "2026-08-27T19:46:54.761Z"
+          },
+          {
+            "title": "Fixture del Clausura 2026: calendario de partidos y todos los resultados",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdk1qSENCX1VFS0Y2MEh6ZGtCUFA1STNnbjJsVUhWT2lsX1U3alBidjNkZVpJdzdMS2dFQjllWEdLVUFKMUZUVGE4RER3Y25FdkJBQ0plLV9sQy1TWU5tMkhhejE3MFJmMHEwYjFlYm9HdlJJdnFlRS13bldWdjk2ajgtdkdFU0RwMmdOSDZyYjA1TVN2bm1HTERURWgyNlhHLUJWWHhwWWY2ODBCSGMtUzRnZTJvVjJLbjBIc282VE9xck1VZW1Z?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Thu, 27 Aug 2026 15:02:36 GMT",
+            "fetched_at": "2026-08-27T19:46:54.761Z"
+          },
+          {
+            "title": "A 110 años del primer clásico platense: ¿cómo fue el histórico Estudiantes vs. Gimnasia?",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMDlOU1JnWGtodlZXc20tVEdJcmZlVkh4eEIzQ3NydEtvcGQ3X2kxRGVtcTd6WWRPTnpEOGxrSldYOWxjajc3S3BDMm9VNXo0YmlzajZKc1pVMVRpUHJpYkQ4VkJXTkdJMEpiWVZyTmlxTnNzVzVJTHoyNDJSdlRQelIyMW04cWNPUElZWnV1N19mamdtVTRjbXVZNTBYbXdzOVF0VkhqM1o5dHYyLXd1N0F2Z0xNWFBRQUdzZ1VXZVRZSDFySnBV0gHMAUFVX3lxTFBDdXVxUi0yQk1uQU5MN2phQzF4UHZPclgtWWVkeUJxdEQ2eXk2OXZBSHlNVzRhbW5lcXBScWZVeXFsWTlUWVNqcVZUS3BaclVMSmJoRTF5c1BKMnVUcm13RXdvMm9vdXNQWmdsZEFyZHkxdEJGVDdqVlJiRGZvQjJFRkZPeWt1NFM2OE1jaWYzc3ptUUhyNGRxeDc5RnpUSlRBZUxnQ0tqcW1fM1pESmt3NnhqSnFxaVF6S01wUU5jLTNhVnNRdnpYSHlRdQ?oc=5",
+            "source": "0221",
+            "pubDate": "Thu, 27 Aug 2026 12:25:00 GMT",
+            "fetched_at": "2026-08-27T19:46:54.761Z"
+          },
           {
             "title": "Mercado de Pases Argentina 2026: altas y bajas de la Liga Profesional",
             "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmxINHdkUlNkUE55Zm5tZlBRU1lhRU9oVXgtY3FuWDRZeWp2dFNtcDlfVjB0Tm5JYjlBTVVsbnYzZDJ6ZVM2YzFjZnFHRlhIcXo1aFdIT0g5aGl0VHZteVo0bURUOGFfMmM2NFZjY1o4bmtGamh6LVhwVDBPUzY5WVg3am5rQ1lnRjBfbHJBeE1YVW02aWtVMXFvYjNYYTA5LVVlSmlYU2dwcTlxM0t3WA?oc=5",
@@ -97,6 +122,13 @@
             "pubDate": "Tue, 25 Aug 2026 00:39:22 GMT"
           },
           {
+            "title": "El fixture del Torneo Clausura 2026: fecha, hora y resultados de los partidos",
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMFVrVEM5LVBxXzhPTGwtVjBnRFd5Um9KTWlnV3RkbmxpT3d6a0I1SU1Mam5HeTYteXoxRmhOQ1Z3S0swV1ZmUXE3UEt4X0plRjc1VUxHeHJNazhMQ2tSR0M1eVZDc094alFReWhSaXdaZndPZGM3aFYwcWZQZDhrQV9mMEdLQ1NQSkh2M0p1UjZjRVowTmNHZTMzQnJpYngxUzlreGJteFBYSlZwR1U5ekQtaVZodUtZYnAySWdsVUZHVVU4c0JDbXNvbkV2V0k?oc=5",
+            "source": "ESPN Argentina",
+            "pubDate": "Mon, 24 Aug 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-27T19:46:54.761Z"
+          },
+          {
             "title": "La fecha 6 del Torneo Clausura 2026 de la Liga Profesional: días, horarios, TV en VIVO y árbitros",
             "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZkxVQ0dXS3NnSlZfVXRQaWYtbGJNa3QyQmtkQWR3eXBhbVh4ZFRCTDhsbVg3bGZPX0hjUV90dE04SDhmWXpqZ1dsVEdvYVF0OW9rSDdMLTM2MmtlMWRwMzUzcWNuSG16XzA1NjRsVHlURDFzZkN2UnYzVDNqaHppUTF3QTdfUHN2LWdZVFFVNnpxcG5OYWNPdzQyVGM2eDDSAaQBQVVfeXFMUEpENmpXNUlkemtXd2MwUTFmeW55OG94ZVdBWVRiN3czRDVJeExjWks3UElVc2o1eEZYblpsNE1lY29TSWY5cUZKVUpGV01aTTBlejhaUVlJZXk5dDJIT25OVjNCeUVBRC1KRC0tZEkzX0JhbTFLbWowVEY3QXdfRkhQa0pKUXNXc3k3Nk1rVUdnaXl0cGxkTEV2UF80aFZHc3NSY2s?oc=5",
             "source": "El Economista - Últimas noticias económicas y financieras",
@@ -115,16 +147,28 @@
         "label": "Básquet",
         "items": [
           {
+            "title": "Formato confirmado para la Liga Nacional 2026-27",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ3dCZGlSTnhJVXRCSk42UFhZajc4WEZKQzJLRlpCdlBWVU9qVVpLWmN2ZlpZT2lRZnl2TVF0LXF5bXZJRTB0R3hkUWZ1aU54amtlLXNKMTJRQjlxdWx0VHVvbVVMeGwtSWtvb05TQnh4SEc4cl9wTmlNeDJpcURFV3BpT3RYMGgxZVZWQmtSVU1SQlFWUU42blZxeVQ?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT"
+          },
+          {
             "title": "El básquet y su fiebre de sábado por la noche: la Liga Nacional y la NBA pueden tener a su campeón",
             "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOdmNmU2Nld1YxUVdUUDlKRWhmU0gySkF6RFNFUWNiWUxqamFhYjd2NUVPZlJqVWVoN2dSdy1ZbmJkd29EOUZ0OFRJQzA2djFOSUVOblpnNGJ0OTBLY2lPUjhBNkw5bExMalNsY3ppejU1SXctWFdmOXdzbEd2X296aG9LNkxFWXpDcENOeWEta01lbFZ3YkZRWWgwNEhYeHNidTFITGFIZlJCOGhCV1JtOFpVTkJIcl8tX25WaDRRU2k5NTNmZ1kwYUVjeWR2Vm1YQ0x1MHFNeFBIa3Z3TnlIVVhOQjdQWW53aUttVnhUbjBZbnppUFJ0MkVmRTNURERtZ3VtZtIBigJBVV95cUxOaDhuRzJzUU5CT3U2SDBNaEFVZ3BqNlhSc2FzcEZ6NTJUZ1kyak1fQlhvMFZwbHJMNWJ5R1hlM1ZjWWYySllXdm4xRmFPM1A4bHdzOE1HOFNoMXhIVk84aE1FZ21XcFhCNVpIVHQwR1BPbVAwM1QzQldudUU1aU5OMXlibzRYV1Zkbm1ad0c4bnEzei1US29jdHJGamRvVzh2U1l6XzQyUV9zQVVCb05aN3lMR3hzZV8wSzgzaU5wRDhudHg5T2FlWGRaREhCZDRLVVhtOTctQXlueGxzWndCeTBGa2FzRzRnQUtHZmxsY252WW5oc3VUb0prOFpLT2lmeU5EbHdjY1Z5Zw?oc=5",
             "source": "Olé",
             "pubDate": "Sat, 13 Jun 2026 13:30:56 GMT"
           },
           {
-            "title": "Formato confirmado para la Liga Nacional 2026-27",
-            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ3dCZGlSTnhJVXRCSk42UFhZajc4WEZKQzJLRlpCdlBWVU9qVVpLWmN2ZlpZT2lRZnl2TVF0LXF5bXZJRTB0R3hkUWZ1aU54amtlLXNKMTJRQjlxdWx0VHVvbVVMeGwtSWtvb05TQnh4SEc4cl9wTmlNeDJpcURFV3BpT3RYMGgxZVZWQmtSVU1SQlFWUU42blZxeVQ?oc=5",
-            "source": "TyC Sports",
-            "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT"
+            "title": "Murió Stacey King, tricampeón de la NBA con Chicago Bulls y con paso por Atenas en la Liga Nacional",
+            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTTRqa2k0V0FOZ1N6T1NsZDVqX194M21qeHdQYVp5TFNpUXcyNnYwT09WcHFfOWNnRWpJWEhZemwwWnh6N2tmZWJSOVZPTVNaMXQ5NG1kdjZMMFFHVnB2TWNuLVgzZ3lQRW0yLXUySGRCejFZMVpiaVBHbjI5MkhXZFBKNGxUa0djRU5vREVlR1ptOTRxTkxOUi11UXNHZWxJV2gydVQtd2N4Nk93b3FuaG80eFNHTGswYTlMSnA3VVk2QQ?oc=5",
+            "source": "La Voz del Interior",
+            "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Agenda deportiva: Champions League, Inter Miami en la Concachampions y NBA",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdFowLXBTTk0xVWROZEltcmZucnJ0eWtCWTdsUlY1c25VYmVXRmFhemVVZjVkalVFWEJtMlc3alVGblczTzZjdVlfX1l4eGM5bG5IVnA3NkpuYWlQbHpLcHdyR3FEcmhNNnZqZnBGUUpKcThPT1ZzcWJXTEFabUVGeTFEbnNHN2VZV0lVeHYzdUQ3ek9Ib0xhTWZKbkZ4dzZEbnFTdE9Td01tdkJSU2VwdWsyLV_SAboBQVVfeXFMTU12ak5wUzFpRHJZQ2wyVUFHZkNWcFRSMXhacElQM2dlSW5ka2lHWVRlSXFKeEdwWHZ2V19FbkF3dzVFQTZNMU5ydVVtMTZUblotemI5SEFqYUVscnlYdGpQTWR1N08zdkRuai10NTRIaS1haHlWZ1R0aDVfemVhVGlmRG50V1BjN0Jhc1EyME9SaVdfTnIycDcwZ29UT1dlTFRWbDc5V3RpU0RXNXh1YUFyUE5mR3ZSbmVB?oc=5",
+            "source": "Diario Mendoza",
+            "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "Bombazo en la Liga Nacional: Platense contrató a un ex NBA",
@@ -137,18 +181,6 @@
             "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE85SXdST1BRM1pMNUNGcTI4blN5aWQ0R0ktcG4wbWZMNWpxeVJrVExhcEZ5LWxJTTZBbHRLaGs3ZGpzXzl1dTgxN3c4SnVwU05odmRCSEFzWmpwVno3dWJVbHk1NW4yVVhSdzdlVThlOElOSGJnaXV1RVQ3NA?oc=5",
             "source": "Canal Doce Misiones",
             "pubDate": "Sun, 04 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "Agenda deportiva: Champions League, Inter Miami en la Concachampions y NBA",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdFowLXBTTk0xVWROZEltcmZucnJ0eWtCWTdsUlY1c25VYmVXRmFhemVVZjVkalVFWEJtMlc3alVGblczTzZjdVlfX1l4eGM5bG5IVnA3NkpuYWlQbHpLcHdyR3FEcmhNNnZqZnBGUUpKcThPT1ZzcWJXTEFabUVGeTFEbnNHN2VZV0lVeHYzdUQ3ek9Ib0xhTWZKbkZ4dzZEbnFTdE9Td01tdkJSU2VwdWsyLV_SAboBQVVfeXFMTU12ak5wUzFpRHJZQ2wyVUFHZkNWcFRSMXhacElQM2dlSW5ka2lHWVRlSXFKeEdwWHZ2V19FbkF3dzVFQTZNMU5ydVVtMTZUblotemI5SEFqYUVscnlYdGpQTWR1N08zdkRuai10NTRIaS1haHlWZ1R0aDVfemVhVGlmRG50V1BjN0Jhc1EyME9SaVdfTnIycDcwZ29UT1dlTFRWbDc5V3RpU0RXNXh1YUFyUE5mR3ZSbmVB?oc=5",
-            "source": "Diario Mendoza",
-            "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "Murió Stacey King, tricampeón de la NBA con Chicago Bulls y con paso por Atenas en la Liga Nacional",
-            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTTRqa2k0V0FOZ1N6T1NsZDVqX194M21qeHdQYVp5TFNpUXcyNnYwT09WcHFfOWNnRWpJWEhZemwwWnh6N2tmZWJSOVZPTVNaMXQ5NG1kdjZMMFFHVnB2TWNuLVgzZ3lQRW0yLXUySGRCejFZMVpiaVBHbjI5MkhXZFBKNGxUa0djRU5vREVlR1ptOTRxTkxOUi11UXNHZWxJV2gydVQtd2N4Nk93b3FuaG80eFNHTGswYTlMSnA3VVk2QQ?oc=5",
-            "source": "La Voz del Interior",
-            "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT"
           }
         ]
       },
@@ -157,16 +189,16 @@
         "label": "Curiosidades de fútbol",
         "items": [
           {
-            "title": "Datos y curiosidades que no sabías de Cabo Verde, el sorprendente rival de Argentina en el Mundial 2026",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa2lkT3d3cnE1em8zb0gzV2FvYk9oaWwwWmhzbzNGOENya2VLT1hycy0tY09QRlY2XzFHQndJakVveDVPUEEyTU4zSFE1UzZXSUUwMlJfTE5SOHRVeGFQVmUwUldLYWlVZ21tX3FsV1ZWOHNXOW1OdHE1QVRCOURCY1ZodG12dzlfbjFfQ3VPWmNseXZYc2tWdTZGWmJDLXN1bm5Yb0tJV19RTjRsVFdzcUZSNXRtTUVJT1E?oc=5",
-            "source": "DeporTV",
-            "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT"
-          },
-          {
             "title": "Argentina vs. Egipto: datos inéditos y curiosidades del cruce de Octavos en el Mundial 2026",
             "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVm1mQ2QwWU9qS0tsQW0tdUxoeDRYNW1OYlFhcWcxSDBZVWpyX2RyX3kyU2E5Um5BNGk0TTFEMk5ZcjdYeGVuaEUyMm80VVVBc19xUXJiUUdzVjZWa3lSbVRrQXRoaUR6NTJOUlAtZGxlLWdHaFV5bHBJU2FHdkFDbnFnaTB5T2E1M0FTLUdIdXpTeUI1RFlSV2gtLTVnSGxfZ1ZXUm82dW15aUNzbHdqRzJUSVhoeWNmR1Z5RU1hMjRxcWRsVWdvaEFoQQ?oc=5",
             "source": "Meteored Argentina",
             "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Datos y curiosidades que no sabías de Cabo Verde, el sorprendente rival de Argentina en el Mundial 2026",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa2lkT3d3cnE1em8zb0gzV2FvYk9oaWwwWmhzbzNGOENya2VLT1hycy0tY09QRlY2XzFHQndJakVveDVPUEEyTU4zSFE1UzZXSUUwMlJfTE5SOHRVeGFQVmUwUldLYWlVZ21tX3FsV1ZWOHNXOW1OdHE1QVRCOURCY1ZodG12dzlfbjFfQ3VPWmNseXZYc2tWdTZGWmJDLXN1bm5Yb0tJV19RTjRsVFdzcUZSNXRtTUVJT1E?oc=5",
+            "source": "DeporTV",
+            "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT"
           },
           {
             "title": "Guía del hincha: requisitos para viajar, datos útiles y curiosidades sobre el Mundial 2026",
@@ -181,16 +213,30 @@
             "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
           },
           {
-            "title": "30 datos curiosos del mundial que no conocías y que te sorprenderán",
-            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXh2M1FrNFk5VUJnRTFPbjNYQW5FNi14MExXUTFpYnd5Ul9iVWMxajFTaFVvQ2FZMWtKZzltMGc4bVFpZ2JhNnpVS1hia2gtYXp0ckg4eVpfRnZBMEs2dlhubm1kQzBrNDBzbndFV0RLQXYwNkJyZnZFa0wxcWdKQmhGWGtaR2RhUnM3RmEzM0xsWUts?oc=5",
-            "source": "Architectural Digest México y Latinoamérica",
-            "pubDate": "Mon, 27 Apr 2026 07:00:00 GMT"
+            "title": "Las 9 curiosidades más sorprendentes del Mundial 2026, el más largo de la historia",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQLWotTV8tMk53NnFyOFJMOTBwbUdJaGZ5OHQ3Y0NJNGlYNnNOUEVfS3FQbXR2OVdjNHotekVmUXptWmljTS14Tm54MHpQUUhOWmxmY210TjA1RWZoR1ZnNkN2T2dXOTYzQTdVcUIxZ1dlM0RiRHRGT1lITW5nSVpJenczQWFUcjFSVXUyTmtzMGwyclM0RHRWVGNkUnQ5WHY2a0xhN1FPTzBzRDR4WDVEMUNjVVFjZ1NpQVhLTEh4MGpyZE5meVZPdHlENmljRnZoY1BqRlFmdzdCMHNBYmdv?oc=5",
+            "source": "revistagente.com",
+            "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-27T19:46:54.761Z"
           },
           {
             "title": "⚽ Datos y curiosidades de los mundiales de Fútbol",
             "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSmdkcEtHdVBlbnhzVVdZaDd0SW0xQ0Nxd2JGcG1sU1Zscm9ndmU4Ukc0YU5PeEpaaEJqSUc4NGt2T1ZseFZTb0kydlN6cVFhRE1aZ3ZUZ2c5bmE1UldmTzVDM2JRdXg3YVE2d1lScFpzQmgwT285c1Uxb01zejhRVlo4M2pXWGZCNlhMTTU1dVlDWFl5VFE?oc=5",
             "source": "Estación Plus Noticias",
             "pubDate": "Sat, 23 May 2026 07:00:00 GMT"
+          },
+          {
+            "title": "30 datos curiosos del mundial que no conocías y que te sorprenderán",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXh2M1FrNFk5VUJnRTFPbjNYQW5FNi14MExXUTFpYnd5Ul9iVWMxajFTaFVvQ2FZMWtKZzltMGc4bVFpZ2JhNnpVS1hia2gtYXp0ckg4eVpfRnZBMEs2dlhubm1kQzBrNDBzbndFV0RLQXYwNkJyZnZFa0wxcWdKQmhGWGtaR2RhUnM3RmEzM0xsWUts?oc=5",
+            "source": "Architectural Digest México y Latinoamérica",
+            "pubDate": "Mon, 27 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Mundial 2026: 10 curiosidades y datos clave que lo convertirán en el torneo más revolucionario de la historia",
+            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaE55WDFDNnZoYlJObkJlSXVsZ05tZTVEeEQzRWpxYWlNQ3JobXlkTmFGSllIZ0k3X3BOdHRGckJmdTJPeVRqVkxYOGYxeExNQy1KNjg1UTVoZUlIeXFuNTNtMnd5OHlJbU1sRnJhZTgzT09hSHhTZGFPaEY1UUJGcElfR1hBSDN6VnU1MFVNdVpyQ0J6Mm9RUXpaUHB5N2VCeFUtM2ZIaUQtZ19LNU9XSFV5TUNMN0ItOTlCcnFWRWtrTDB5SEcwRXgxNjdQUzg2am41UnY4WnZteGV2SHVtdV93?oc=5",
+            "source": "Los Andes",
+            "pubDate": "Sun, 08 Feb 2026 08:00:00 GMT",
+            "fetched_at": "2026-08-27T19:46:54.761Z"
           }
         ]
       },
@@ -199,16 +245,18 @@
         "label": "Fútbol internacional",
         "items": [
           {
-            "title": "Qué jugadores argentinos ya cambiaron de club y quiénes podrían cambiar",
-            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN2kzTi1uR1pRd1hoRkY3RnFQbFFnSlNvMElRWDZ2NWVjcDRwekdjUDA0WXVRTUFzX1habG54ekZ6MS1VZ2xCbGVFNmdyZVZRWmxoVFg3akZvWGY4RWMyMWQzTXp1cEFURHRRb2RvM1VFWUh1Y0tLU0NMM0ZLaWN6dUxvWEZ1QjhNYjZEM1JUcXhKNGkyRmpTdVlxQ2VDWVgzYVpCTWoxSE9MVEFwa3h4MnFfd3RvUmxHVVZhU3RB?oc=5",
-            "source": "ESPN Argentina",
-            "pubDate": "Thu, 13 Aug 2026 07:00:00 GMT"
+            "title": "Fenerbahce dejó a Nicolás Tagliafico sin Champions League: quedó eliminado como local",
+            "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOTkE1X2VTWkozOXNCWnU0M0Y0MnVFSmdFZHVDWmRKckVvOUYtSlRTZkFIMFhtUmc1b1NrOUtpMEwwNlo3SGk3OG5qT1N5OGZDVDctR0RUZkR0MHFXdTVuRkRNdFpGQ2JqZXgzM3hHZHdoMUZNWDl2OXlqTGdDRnJFaVZXQTFCV2xTV0syNUVvbHVCSG12ZVpJa0JUZW1BdHZNeWRiZFVQd1pQNzQxSE5VQTJMU29YZGcta1lFcEM3TzhlUmhfTU4ybE9Zdi00WEpGaE1idGdHUnNNdjVGUHdsYTVhZXdJSi1WSjItZERXdTdvZXlZOGFtMzViWDQ3Sjlodm5JbFNfUkNldlU?oc=5",
+            "source": "Olé",
+            "pubDate": "Wed, 26 Aug 2026 21:04:15 GMT",
+            "fetched_at": "2026-08-27T19:46:54.761Z"
           },
           {
-            "title": "Para ganar la Champions League: el súper equipazo que podría tener el Arsenal si llega Julián Alvarez",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHp1dENtYVBvYnRSTzkzc3BPN1RycnFwLXJpVnJiOXhNb3M5RTRoaXVQWTJfb2F0Wi1QVmtRamZjSGJsTFZXQUVkSUNTQUhiTXBZZTVWcDB6U00wMmlIMldFaFlGZ0libnZjcnAtenB1SmtXNlR1eFowdWx3czVfNWxFdktuLTFPZHFXZ1lJYXJ6YjRwRG1feEdvQWcxdnNvdDJBdnN6XzdmTzJOSTM0bEdISk9tN0Y1NEpRbld1UQ?oc=5",
-            "source": "Olé",
-            "pubDate": "Fri, 24 Jul 2026 21:52:50 GMT"
+            "title": "Mercado de fichajes de verano de 2026 en la Premier League: altas, bajas y rumores",
+            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQXFVYVBqYXczMEtqMzJDaGMxSGZqU1d3VVJKam9IM1gzSzUzcGZVVjZGU2llWG52UXdkczlkV0Vaa1lOZXJKQkh5Vm9GUENaYXM1TlpPd2dqNVFSZU02eEI3UmhZSEozczY5aTNDWW9ld0RfZE84ekVHRkt6Y1VZbWpUVWtNMHE4TjZwU296S2JjNnFEZkZLVUVOYmdhNDZRbjZjTmlyRUtDanhCMmlJSGM1VjRZWTYxamZlUW9LY1TSAcABQVVfeXFMTlI1M21WM2F4MXlJdDc1T3JGQkZRc1pqN2dKLWRQTXJ3bzJFSHMzN2RON0UwRWIzQ1hpMTdkbUlWdzhYTHZjSTdfdkJMMWMzTm51MjBrUEd0bjNsZFdaRHpDeUEtdXp4WTFEemlpVjZXdG00MWd3aTJKOENMS3ZTeVJPNTBhLXNqZmViY2ZQX3ZkSFBIVzY5eVhjRmVheU1VOTVsaWJrUEVLaFZhU2pkVHF4eVluR1VKNGZTRk0yUGRR?oc=5",
+            "source": "MARCA",
+            "pubDate": "Mon, 24 Aug 2026 09:41:07 GMT",
+            "fetched_at": "2026-08-27T19:46:54.761Z"
           },
           {
             "title": "El fichaje de Rodri puede catapultar al Barcelona de vuelta a la cima del fútbol europeo: GOAL valora los mayores movimientos del mercado de fichajes del verano de 2026 | Goal.com Espana",
@@ -217,22 +265,34 @@
             "pubDate": "Mon, 24 Aug 2026 03:00:00 GMT"
           },
           {
+            "title": "Qué jugadores argentinos ya cambiaron de club y quiénes podrían cambiar",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN2kzTi1uR1pRd1hoRkY3RnFQbFFnSlNvMElRWDZ2NWVjcDRwekdjUDA0WXVRTUFzX1habG54ekZ6MS1VZ2xCbGVFNmdyZVZRWmxoVFg3akZvWGY4RWMyMWQzTXp1cEFURHRRb2RvM1VFWUh1Y0tLU0NMM0ZLaWN6dUxvWEZ1QjhNYjZEM1JUcXhKNGkyRmpTdVlxQ2VDWVgzYVpCTWoxSE9MVEFwa3h4MnFfd3RvUmxHVVZhU3RB?oc=5",
+            "source": "ESPN Argentina",
+            "pubDate": "Thu, 13 Aug 2026 07:00:00 GMT"
+          },
+          {
             "title": "Mauro Icardi podría volver al fútbol argentino: Platense lo busca para jugar la Libertadores",
             "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbHN2YTBsTzVieXloR0lVdG1iYjJDa01TdGZ4YnN2ZGhGUnVzUDVtTnBSMXZscm5vcjJ5c2Y1b091TjlpZUYyamNRWHdiUDBMbW82THVWV1FEdG9jLTlyZFNkVkJhRU55QlBPY2EwV0U0QnI0VWM1ZlZtZzJDVU5NdzBpc3JRbjF6eFdWaDZlMVkxbC0xYzc3bU9vZENpWTZLY3dDdjVma25ZVmg2blBXcGtVRTNWRzRDT0JpYzA5WGVJeGtqR2Izd1VaWVpXNXJvVXlRUk56YTJhaEd4UElfVmJHMNIB6AFBVV95cUxOMTRmaWV3TUg4QjUtVzZBaFIxdlBHWFVDSEpWMG9fZjRMS29Db3pFLXVVQWlnbDNrVVVCOVFUc0FiUU9HYWhEZkxDNzZvT3BMVkl0ZkVVZWdjLUZDSXVNSnJXU3JjRjRMVkVNSXU3R2g4ZGctdXJ2dy05LU50cU1lSWhCcTc3c3JFc3Z3bTFZZ19PeEhMSzl6aGZtNUFfUVctYnVBRjhjZ0hwSVV6VWpmaU15UXRyTDAtWDBUS2NvY19PRHV5ZTdzeG1TdHhCU3ZZX2tvXzhtUGNuMjNTbDhxc2xpMHNvQ2Uw?oc=5",
             "source": "El Litoral",
             "pubDate": "Tue, 04 Aug 2026 07:00:00 GMT"
           },
           {
-            "title": "El impresionante récord de transferencias que alcanzó el fútbol mundial",
-            "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPUWl2d0tJQW9fLU5XZUZmdUI3bFd2eUd2aDJQS2JTdkpjRGtmLS04TG9Dekc5Mkh2OGxpN19qa2hzZTdpcDNLLWp4T01rV002cmotQm55eGs2TG50dHRaa1kxdVpEbzBsV3NhZmNnaXBCYU9OajlJY2JoNXBKbWpmX0lIX01NU3RtZ1lSa3B2SUozVFdZTnhKTC1mTFBHMjhONHY1WGh0SUg5OHJvdzhDSlI0SmROWm5vYmw0SlNlenZ4anFSR3NLTDJfdTJwMWVfTVdNdk5zSEtUTjVWekJGelBEcXY0NnBzbmVYMDNmNHNpNEdrenBPYl9vVU1HZ1ZpclE?oc=5",
-            "source": "TyC Sports",
-            "pubDate": "Wed, 28 Jan 2026 08:00:00 GMT"
+            "title": "Para ganar la Champions League: el súper equipazo que podría tener el Arsenal si llega Julián Alvarez",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHp1dENtYVBvYnRSTzkzc3BPN1RycnFwLXJpVnJiOXhNb3M5RTRoaXVQWTJfb2F0Wi1QVmtRamZjSGJsTFZXQUVkSUNTQUhiTXBZZTVWcDB6U00wMmlIMldFaFlGZ0libnZjcnAtenB1SmtXNlR1eFowdWx3czVfNWxFdktuLTFPZHFXZ1lJYXJ6YjRwRG1feEdvQWcxdnNvdDJBdnN6XzdmTzJOSTM0bEdISk9tN0Y1NEpRbld1UQ?oc=5",
+            "source": "Olé",
+            "pubDate": "Fri, 24 Jul 2026 21:52:50 GMT"
           },
           {
             "title": "Los fichajes confirmados de la Premier League: los movimientos del mercado de verano para la temporada 2026-27",
             "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa282QV91WHBQam1nODVnYzhWOE5JNWpzT2Y0bGlXZHliNDgtQUdtVWdzLThyaWdhaXlVWmpnM1J5dkl6RS15d1hwOHFCclBaMXhsb2FkNXVWbEJ4Zmxnc0RzazhkYUQxYXI0dVFEbzZHTWRvRXd6VUk3ZUFPbmhiOUVpa2JWZnU3LVlLUEJGdG1aTTBjQWRqcVFXVjdDX1lfOGpmTGlNN0JDQVQybE56X3NkVExaakp4RFpLOWhnUHF0aG9iZHE5UktzOW1DOTByWHdnVGpjeWo?oc=5",
             "source": "Sports Illustrated",
             "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
+          },
+          {
+            "title": "El impresionante récord de transferencias que alcanzó el fútbol mundial",
+            "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPUWl2d0tJQW9fLU5XZUZmdUI3bFd2eUd2aDJQS2JTdkpjRGtmLS04TG9Dekc5Mkh2OGxpN19qa2hzZTdpcDNLLWp4T01rV002cmotQm55eGs2TG50dHRaa1kxdVpEbzBsV3NhZmNnaXBCYU9OajlJY2JoNXBKbWpmX0lIX01NU3RtZ1lSa3B2SUozVFdZTnhKTC1mTFBHMjhONHY1WGh0SUg5OHJvdzhDSlI0SmROWm5vYmw0SlNlenZ4anFSR3NLTDJfdTJwMWVfTVdNdk5zSEtUTjVWekJGelBEcXY0NnBzbmVYMDNmNHNpNEdrenBPYl9vVU1HZ1ZpclE?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Wed, 28 Jan 2026 08:00:00 GMT"
           }
         ]
       }
