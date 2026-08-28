@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T21:51:52.537Z",
+  "updated_at": "2026-08-28T21:58:10.092Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
@@ -7,7 +7,7 @@
     "hearts": 31900,
     "top_video_views": 341900,
     "top_video_label": "Viaje a Uruguay · Parte 1",
-    "ok": true
+    "ok": false
   },
   "competitors": [
     {
@@ -29,7 +29,7 @@
       "label": "factosfutboleros_",
       "followers": 4376,
       "hearts": 202900,
-      "ok": true
+      "ok": false
     },
     {
       "handle": "charlie_carrillo_",
@@ -74,7 +74,7 @@
     }
   ],
   "news": {
-    "updated_at": "2026-08-28T21:51:52.583Z",
+    "updated_at": "2026-08-28T21:58:10.129Z",
     "topics": [
       {
         "key": "futbol_ar",
