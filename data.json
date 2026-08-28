@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-27T19:46:54.713Z",
+  "updated_at": "2026-08-28T21:51:52.537Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
-    "followers": 791,
-    "hearts": 31700,
+    "followers": 793,
+    "hearts": 31900,
     "top_video_views": 341900,
     "top_video_label": "Viaje a Uruguay · Parte 1",
     "ok": true
@@ -13,8 +13,8 @@
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
-      "followers": 132200,
-      "hearts": 643000,
+      "followers": 132000,
+      "hearts": 644000,
       "ok": true
     },
     {
@@ -27,15 +27,15 @@
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 4170,
-      "hearts": 182500,
+      "followers": 4376,
+      "hearts": 202900,
       "ok": true
     },
     {
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
-      "followers": 964300,
-      "hearts": 547200000,
+      "followers": 964500,
+      "hearts": 547700000,
       "ok": true
     }
   ],
@@ -67,15 +67,40 @@
     {
       "date": "2026-08-27",
       "followers": 791
+    },
+    {
+      "date": "2026-08-28",
+      "followers": 793
     }
   ],
   "news": {
-    "updated_at": "2026-08-27T19:46:54.761Z",
+    "updated_at": "2026-08-28T21:51:52.583Z",
     "topics": [
       {
         "key": "futbol_ar",
         "label": "Fútbol argentino",
         "items": [
+          {
+            "title": "Argentino de Merlo vs. Villa Dálmine en vivo: cómo llegan al partido",
+            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVTE2azdFSks2OVJoVWcwSGZ6VlZIN0R6UzdiZHlYSmFOTlpZbkd4WmxyS28xWkpISWVKZHZPSnFGYXdLYU14RXVHTzZvZW9EeDExMkdyNlBEUV9QbC1GQWd0SVlwUk55aGE2Z05tZVhtWXZfVDhzOVlxenFwN0JMeHJfS3NwVndySHJzUk41MnVLU0RRUnNVRWVDZUdYQjVKcDhYQVFaMzJMQXJvN0QtT1F1MjhFc19ZMU1pNGQ1WlN1QjJZREJuQ3czSDdYZzlwWFVtV1J3?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Fri, 28 Aug 2026 18:00:59 GMT",
+            "fetched_at": "2026-08-28T21:51:52.583Z"
+          },
+          {
+            "title": "Cómo ver Boca Juniors vs Lanús en vivo: canales, streaming y horarios del Clausura de Argentina para España, México, Latinoamérica y USA",
+            "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPb2h3ODVhaUhiYXJmNFhqQTJFTlJBa1JWOC1QdHlNaFdPNTFfa1BCYlpqUER3MFlTT3VHVW1GYWVzcTNlWXNPZjNObG1ycmF1azFENmU2aVIxWU9qSGVIWVNLaFM0RWVQYWNyc0lkWlhvdHVMTVdvRWlzQkdpcno5MUh5UjVCRkpuc1VjMXNUUVNqckV4SDVwWEZ4R3d0QkJUd3ZDY0VJbm5Eai1VWnR3UkFKQUU4SWlkc093WjZtYjF2TU9wMXBoZzZ1a1FnS1cxbHBMLW1XNXVRVjlrYTgyNnIyLUFRdTFvVTFCcWwySV9uRzE5VnF6SHFYT0t0b0tzZHVMVXF3elZ2MWZYSzRIV3ZVUm85QQ?oc=5",
+            "source": "DAZN",
+            "pubDate": "Fri, 28 Aug 2026 12:48:21 GMT",
+            "fetched_at": "2026-08-28T21:51:52.583Z"
+          },
+          {
+            "title": "La fecha 7 del Torneo Clausura 2026 de la Liga Profesional: días, horarios, TV en VIVO y árbitros",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdUU0VzRUQUpGMmxrdEpHYl9KbG9sTkw4QTl4SHVTVzFFQVdkNHhad3EyTXFSY2l6TmFxcEo3UnJZZHVxOXNHcE9qNHl1YmNYbFJTSzFVZERUUElNWGUtR0h6UERmQWd2cThLT2l6RUxKVW9KLWlPaG5iX1FIdFZPZnkxRXh3VmRmbHFHLWh3NVVBOHR0OTNMSlEwZWJjMWfSAaQBQVVfeXFMTUZYa18wZUV5NTQxSGlpMHhzbVhXc3lDQUdrSU5NbThDZ3lZWFdrbk56UXUzd3poVFBfb0pVTlpKa3AxajJPdy16S0w2ckE4RGtQazVSOTdTcDF2djFUTFFSSlNFaUZqeXM1TWtnMDRhQnpWSjdPYjhmcmNBenRaZTRQQ1dEOTh6X3JfSGNzQ3RGZlBqemJLNG5lc1kxUTVYRm1XR2I?oc=5",
+            "source": "El Economista - Últimas noticias económicas y financieras",
+            "pubDate": "Fri, 28 Aug 2026 11:39:00 GMT",
+            "fetched_at": "2026-08-28T21:51:52.583Z"
+          },
           {
             "title": "Tras la salida de Coudet en River, otro club de Primera División despidió a su DT: ya son 22 en 2026",
             "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGdERlZpNE4zdG1vd2ZtWW9uNmVKNjBGMnJRbVg3a1Q1S1BlUFJLdVJlOHlUSy1mVURFVFFqZzgzVzl1SzU5NjhyOENHWlFmTnJpU2tWRWJaOHQxODJUajgzSXdPWUFkVkVTOElPN2pPaWJaWS1QZ1d5MlJOMnFjN3dveHlYMS1CM2JDUENoVjZlRGlYOVVBVWpqTzhkT1VqOFc1S1YtQlNHOV9LODVZSlIwRE1mY1RueU5yYXZaNWNXZ9IBxwFBVV95cUxQQVN2ekItNHRyVV9waFZJMFJ5dnNUTXJkM1p1cnUzSW40QnJYQkJLUnd5UV9nX0pCUWJPcVl4ek52bkhzbmZHeWFkUk84Wk50ZVBPNHZRY2lvRXZlejdiZk15U04xanBDb3JveXlWenk2bl8xZjhPUUo0eUwzSFlJWjU5XzRObEFtMUJ5bFlPT2x5S29YWFl2MXJ4NzVYSnMyWGEzdmcxTlEwZlBKU194YlNWdDBNTzBLd3BSdm4zYWl5TmllN25V?oc=5",
@@ -127,6 +152,13 @@
             "source": "ESPN Argentina",
             "pubDate": "Mon, 24 Aug 2026 07:00:00 GMT",
             "fetched_at": "2026-08-27T19:46:54.761Z"
+          },
+          {
+            "title": "Mercado de pases: Invierno 2026",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3FhN1dsVWsyTDRKaEVxTy1nRkcwSUhTMk9HdUFYaVBmLXhpQU1BUkNrZUd4aTVJR1V5RmlTemQ1N0V0cURkRktCTkFrcURlZnhZbGR5T3pqM0tnbVd2V0gxcS1abE5KeVA3NWdKaHNDZmpod2NKeVBSUEptNVR4VEJDY2tmSmV2MDZxYXBBVWlqQUg2aEt3?oc=5",
+            "source": "El Gráfico",
+            "pubDate": "Mon, 24 Aug 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-28T21:51:52.583Z"
           },
           {
             "title": "La fecha 6 del Torneo Clausura 2026 de la Liga Profesional: días, horarios, TV en VIVO y árbitros",
