@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-08-28T21:58:10.092Z",
+  "updated_at": "2026-08-29T12:13:16.977Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
     "followers": 793,
-    "hearts": 31900,
+    "hearts": 32000,
     "top_video_views": 341900,
     "top_video_label": "Viaje a Uruguay · Parte 1",
-    "ok": false
+    "ok": true
   },
   "competitors": [
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
       "followers": 132000,
-      "hearts": 644000,
+      "hearts": 644100,
       "ok": true
     },
     {
@@ -27,15 +27,15 @@
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 4376,
-      "hearts": 202900,
-      "ok": false
+      "followers": 4451,
+      "hearts": 210100,
+      "ok": true
     },
     {
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
-      "followers": 964500,
-      "hearts": 547700000,
+      "followers": 964600,
+      "hearts": 547900000,
       "ok": true
     }
   ],
@@ -71,15 +71,40 @@
     {
       "date": "2026-08-28",
       "followers": 793
+    },
+    {
+      "date": "2026-08-29",
+      "followers": 793
     }
   ],
   "news": {
-    "updated_at": "2026-08-28T21:58:10.129Z",
+    "updated_at": "2026-08-29T12:13:17.026Z",
     "topics": [
       {
         "key": "futbol_ar",
         "label": "Fútbol argentino",
         "items": [
+          {
+            "title": "Argentinos Juniors vs. Aldosivi, por el Torneo Clausura 2026: día, hora y cómo ver online",
+            "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdl9nRUFNOGdwSzcwekZfUlNDLXF4c1hoRTRQMHlMaUJqUlJuRUY0Tmo3TWluSl82Nmg2RGRiS3dmdEtBS2pFZ2xhUFpMczhTTWc0VGNWS1NEd285ZV82Q2YydG80TTEwa25NY0ozTFZVOWJFNldNRDhSZnpPU2JSU0s1Y0dtVWZCYzJrNlFjc3kzZUFHY01BRmxmZms0TmNVRFRPSjZfUXZfa1lRNFV2T3psX1M2dWh6Ylp4TEQyVzRiR1Z6N21nTEZjREdPb0xoUjRnOU9YelYtQQ?oc=5",
+            "source": "La Nación",
+            "pubDate": "Sat, 29 Aug 2026 05:02:00 GMT",
+            "fetched_at": "2026-08-29T12:13:17.026Z"
+          },
+          {
+            "title": "Los goleadores del fútbol argentino en 2026: el mapa anotador de la temporada",
+            "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZk5xc1VRRVVENDc1V3Y1cDl0WGk4akhrQjZLSjYxd0FvN19QQ3ZWNnJUeGhxUkRvSzFRRm4tWmpwNkFyR3NnLXA3cEJDT0RzMXRHel81enVHSUF0bGE5b1ZRMHd0b1JmTjZQNnVBS0xMVkZ1ZlltU0FPS1dnSlJaYU1VRlpTZ0NkcnNXNF9UNlBRd3JHVlUxWGlHaWVrZDdKSENhcXpHZ0Y1ZXNCVFBWUTlHT2Nfcm1iMEloMkw4cFJ6VmFCUzV6dkVseHFoRVp5dEY2TQ?oc=5",
+            "source": "El Gráfico",
+            "pubDate": "Sat, 29 Aug 2026 02:46:35 GMT",
+            "fetched_at": "2026-08-29T12:13:17.026Z"
+          },
+          {
+            "title": "Horarios confirmados para las fechas 8, 9, 10 y 11 del Torneo Clausura: cuándo juegan Boca, River y el clás...",
+            "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOX2Zma1J5SG96UXo5YVpERFJlYzFWV3R2Rzc1ZVczQ1FYalpzQUZWckpiRXFWU1F2MWtzNC1pNTUwYXdSakNCMEw4NTZETWRaT0dtUHU0bnhvNjc4TG5QQjRkX2dMTGR2cmdFOXJjTGZYbEVjR0FSTmpmZmF1N2hfS3FZc2xhVTR3UWdJRXVTQk5LSWJMblJlUGxSQld2TUZEc1VxT1VmdlVKYU1pZThRME54cmt6UnZUN1hVMEotVlhIT2tDZTN3Z05fRXR0RVhDWm1hck9VYzhUdW9GclViNEE5bDM4c2lNWDdsStIB8gFBVV95cUxQTlowaENYR2RkaFl2REo2dnA2Z0hEU0dKdUFsQmRzX2JNS3ExQVBDNWlLeGxYQUR2aWFUN05pQU9MVjh1TFpQRXdqVXhWNkUwZTNPWXc5U0VLVzROU1B4S0dmX1FnWVpEaUZyTzJ4UVBvTlRGNzJYb1BsMDkwOFliY2h0VUR3YUlHUVU2NkhMWlB3SWJwaWMyT1FYeTFUWHZaeG5zUEJ2QkdzOExLN3lFUzhrX0hfVzNUV3dubVZlbjQ4SlJSZ016eXZGT01FMkhRQm90MjdZakplaUkySDdjSUxtOE9XLTFJV0kxSG5maEJmZw?oc=5",
+            "source": "bolavip.com",
+            "pubDate": "Fri, 28 Aug 2026 23:18:46 GMT",
+            "fetched_at": "2026-08-29T12:13:17.026Z"
+          },
           {
             "title": "Argentino de Merlo vs. Villa Dálmine en vivo: cómo llegan al partido",
             "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVTE2azdFSks2OVJoVWcwSGZ6VlZIN0R6UzdiZHlYSmFOTlpZbkd4WmxyS28xWkpISWVKZHZPSnFGYXdLYU14RXVHTzZvZW9EeDExMkdyNlBEUV9QbC1GQWd0SVlwUk55aGE2Z05tZVhtWXZfVDhzOVlxenFwN0JMeHJfS3NwVndySHJzUk41MnVLU0RRUnNVRWVDZUdYQjVKcDhYQVFaMzJMQXJvN0QtT1F1MjhFc19ZMU1pNGQ1WlN1QjJZREJuQ3czSDdYZzlwWFVtV1J3?oc=5",
@@ -197,10 +222,24 @@
             "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT"
           },
           {
+            "title": "NBA ¿quién te conoce?: el infartante doble con el que Ferro se metió en semifinales tras una remontada épica",
+            "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNOFhpSnlXNHI0S1hUd19iWWkzUFBZRDRYaVYtUEZCNWZrQ1VCNEdQbkRfYXhzVDRHa3RTWlZXdHVtQndEUU5qbERJOFVnU1RIaFgyMi0yLWJxQ0NjX2xaZkx4dUw5SmJUNTYtaGtvcU1iV0JKdU9LeXp1dEFBbklydnQ0eE1xb2kya2pMMDJYdkh6al9SOU1wSHNmeThzdDNERFdqUi1TOURqX2Z2akx1VDFIZndEZXRSblpoQ0xhUm9nS1Z6U3d1ZUUyQmhTTWs3Zlp6TU5uVEZFX1NkS1pqOEkzYW5rTWlLam04d1lvaHFKRnhzLWhUTFo2cW5IRDlBVzE4Z0J0SQ?oc=5",
+            "source": "Diario Registrado",
+            "pubDate": "Tue, 19 May 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-29T12:13:17.026Z"
+          },
+          {
             "title": "Agenda deportiva: Champions League, Inter Miami en la Concachampions y NBA",
             "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdFowLXBTTk0xVWROZEltcmZucnJ0eWtCWTdsUlY1c25VYmVXRmFhemVVZjVkalVFWEJtMlc3alVGblczTzZjdVlfX1l4eGM5bG5IVnA3NkpuYWlQbHpLcHdyR3FEcmhNNnZqZnBGUUpKcThPT1ZzcWJXTEFabUVGeTFEbnNHN2VZV0lVeHYzdUQ3ek9Ib0xhTWZKbkZ4dzZEbnFTdE9Td01tdkJSU2VwdWsyLV_SAboBQVVfeXFMTU12ak5wUzFpRHJZQ2wyVUFHZkNWcFRSMXhacElQM2dlSW5ka2lHWVRlSXFKeEdwWHZ2V19FbkF3dzVFQTZNMU5ydVVtMTZUblotemI5SEFqYUVscnlYdGpQTWR1N08zdkRuai10NTRIaS1haHlWZ1R0aDVfemVhVGlmRG50V1BjN0Jhc1EyME9SaVdfTnIycDcwZ29UT1dlTFRWbDc5V3RpU0RXNXh1YUFyUE5mR3ZSbmVB?oc=5",
             "source": "Diario Mendoza",
             "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Gimnasia de Comodoro Rivadavia dio el golpe y venció a Boca por la Liga Nacional de Básquet",
+            "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTlBySmFEc0lrRjVLQWhoRDRKb1o3REQ1ZS1QaFk5ZEZqTnZ5WTZkWmdjOFZkaGd5el9LLTNmS0dfRDBlZkVNV2h0ZXpIanREemhQTDFQSG9SZlRvRVV0VXJ4eG5YX2p1ZnV4ZXBFM21kUU5QU3dTQTJyNzFCTDMtNWNuOTNiNmtNV0duOC03YzhMUWVEYlpYS05pd29OeG4xVVRmQVkxYUYxVnhsLXdrSjNDRllWeWNZbmxhR2Q5V1JDazliY0JVODA2NWttSWt5Q2RnMV9uVEFVNk80b20zX3lQcW9xYVRsdWhXYXo4TDAtMldUNUHSAfsBQVVfeXFMTmM3dUVFUV9hbkQzOU5seHVrNzM0YVVMQTJMSW1nU194T3I5MlVMZmU5WGZXZ3BhT1ZGQkV0Z2w0YkpZY2dzQnQyOFpCQ3JJUlowbkk5R2JOZmNsdXJWem5qTW9JU3BIWXFJZWxPYXNqdUlvTFF5eGZ2QUw4bWFPb0JhLVB6cDgwSUdzMFpkUEd2RTZXUFR5R3RfLUV1d20wd3ZuaXFJZlVyejNZYXA4ZS1zeEpNUy1feUNjcGtiNUMwajlNOVYycExkc1VraFZNcWxESndWaVFRcnFUd2VoVUhCM29JOFRMSE9nRXhta3lhamsydDF3dFh1N2M?oc=5",
+            "source": "DSports",
+            "pubDate": "Fri, 23 Jan 2026 08:00:00 GMT",
+            "fetched_at": "2026-08-29T12:13:17.026Z"
           },
           {
             "title": "Bombazo en la Liga Nacional: Platense contrató a un ex NBA",
@@ -319,6 +358,13 @@
             "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa282QV91WHBQam1nODVnYzhWOE5JNWpzT2Y0bGlXZHliNDgtQUdtVWdzLThyaWdhaXlVWmpnM1J5dkl6RS15d1hwOHFCclBaMXhsb2FkNXVWbEJ4Zmxnc0RzazhkYUQxYXI0dVFEbzZHTWRvRXd6VUk3ZUFPbmhiOUVpa2JWZnU3LVlLUEJGdG1aTTBjQWRqcVFXVjdDX1lfOGpmTGlNN0JDQVQybE56X3NkVExaakp4RFpLOWhnUHF0aG9iZHE5UktzOW1DOTByWHdnVGpjeWo?oc=5",
             "source": "Sports Illustrated",
             "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Los fichajes más importantes que se realizaron durante el Mundial 2026 - rankeados",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2JKUFMxTEVTbEpBVThoYjBmOENKeWYxalB1U2tQZFlGYl9BMVVQeThldXU4TGo2V0VGMlNqMUtlVUp3NHc4dllqNUpUQmN0d0hBaWVkUWhmb2xxSmFDMEktM3FncmhBMHRNd1VDdk1jZzUxWWFGMmt0RXlXX2ctdERjaks2TGJBcVdxZDMzcGozLTNNLVpMbV9yRDNfbzFqSUFXYXFjZkFYYWRhRTBsWC1n?oc=5",
+            "source": "Sports Illustrated",
+            "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-29T12:13:17.026Z"
           },
           {
             "title": "El impresionante récord de transferencias que alcanzó el fútbol mundial",
