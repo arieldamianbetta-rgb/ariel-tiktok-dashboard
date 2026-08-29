@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-29T12:13:16.977Z",
+  "updated_at": "2026-08-29T21:17:28.911Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
-    "followers": 793,
-    "hearts": 32000,
+    "followers": 792,
+    "hearts": 32200,
     "top_video_views": 341900,
     "top_video_label": "Viaje a Uruguay · Parte 1",
     "ok": true
@@ -13,8 +13,8 @@
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
-      "followers": 132000,
-      "hearts": 644100,
+      "followers": 131900,
+      "hearts": 644500,
       "ok": true
     },
     {
@@ -27,15 +27,15 @@
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 4451,
-      "hearts": 210100,
+      "followers": 4500,
+      "hearts": 217900,
       "ok": true
     },
     {
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
       "followers": 964600,
-      "hearts": 547900000,
+      "hearts": 548100000,
       "ok": true
     }
   ],
@@ -74,16 +74,37 @@
     },
     {
       "date": "2026-08-29",
-      "followers": 793
+      "followers": 792
     }
   ],
   "news": {
-    "updated_at": "2026-08-29T12:13:17.026Z",
+    "updated_at": "2026-08-29T21:17:28.957Z",
     "topics": [
       {
         "key": "futbol_ar",
         "label": "Fútbol argentino",
         "items": [
+          {
+            "title": "Deportivo Riestra y Vélez Sarsfield empataron 1-1 por el Torneo Clausura 2026",
+            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOS3pPb3JscURlSVNrX3dSbTlLOWdyZHc3eDdLQkdITXY4TzVfWlNNQ294OFRrMG11Q1lRak9jQU5EalFkWGJsb19rX2kwd3k5clFlSzA2ZDZ6eUp0bjVsdWNzaTZhZk5WZVNSd2xqSDB2Y0xpZmpUdDFHb1M4SHF4VWo0WHlxZDVLeW5NbXpLUlhSelFyVENiQm8wTDItYUxVcnNtbE9oZ0IweDhtRTlTelZvRm95TUpsSkJ2ZWFxLU9rdG1DYlRvQk1VQ092YUtPeF9PSHln?oc=5",
+            "source": "La Nación",
+            "pubDate": "Sat, 29 Aug 2026 19:43:00 GMT",
+            "fetched_at": "2026-08-29T21:17:28.957Z"
+          },
+          {
+            "title": "¿Desde cuándo se cuentan los títulos? la huelga de 1931 que partió al fútbol argentino",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMjdEQS1tWHB5akE1T2hTaTAyTWlLWENzZ3hVWjhEb1RoZ1c4emhXVEE2U3ZaX1ZSNnhxaTZOc3JSeEFfY3ZIUE5iSW9sR1lsbkt3R3NKUS1iWDBYYjE1RmdUQ1F4UWRFd0h6a0ZGa2FweHNoaVRWdGRYZWdrV1RHTV9QeXlPekRrcUNEUHhROHBncTJCMkI4R0NLNDRoU3ZUMnN1VWxWc212OXkzaTBB?oc=5",
+            "source": "RedBoing",
+            "pubDate": "Sat, 29 Aug 2026 18:46:44 GMT",
+            "fetched_at": "2026-08-29T21:17:28.957Z"
+          },
+          {
+            "title": "Argentino de Merlo vs. Villa Dálmine, EN VIVO: dónde ver por TV y ONLINE",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbUJxZXJ3S1VSOUplZXoyOXV4NkIzTDNKeTFfdHpGSm9TTlR0S0VEYkdMY09QaTZhWGp0S3diNjk2dVB4Y0dYQkE0YVpzZllrS214SUxHS2J3LURGZ09CTUtxaUR5WlJza3EyUnhvSzNaN05FVnR1a2JJOUQ1SndPTXdWZmVhNGFMUUdVMG4zZGtSM3h3eGFxdnhpSDRqSU03cEo1OFdFQWxVNzNnTWJLQ2VfYl82akJacVAzYXdXTDNhZFVKZWtj?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Sat, 29 Aug 2026 18:00:08 GMT",
+            "fetched_at": "2026-08-29T21:17:28.957Z"
+          },
           {
             "title": "Argentinos Juniors vs. Aldosivi, por el Torneo Clausura 2026: día, hora y cómo ver online",
             "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdl9nRUFNOGdwSzcwekZfUlNDLXF4c1hoRTRQMHlMaUJqUlJuRUY0Tmo3TWluSl82Nmg2RGRiS3dmdEtBS2pFZ2xhUFpMczhTTWc0VGNWS1NEd285ZV82Q2YydG80TTEwa25NY0ozTFZVOWJFNldNRDhSZnpPU2JSU0s1Y0dtVWZCYzJrNlFjc3kzZUFHY01BRmxmZms0TmNVRFRPSjZfUXZfa1lRNFV2T3psX1M2dWh6Ylp4TEQyVzRiR1Z6N21nTEZjREdPb0xoUjRnOU9YelYtQQ?oc=5",
