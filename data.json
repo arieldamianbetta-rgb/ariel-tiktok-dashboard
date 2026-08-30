@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-29T21:17:28.911Z",
+  "updated_at": "2026-08-30T12:12:48.767Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
-    "followers": 792,
-    "hearts": 32200,
+    "followers": 793,
+    "hearts": 32300,
     "top_video_views": 341900,
     "top_video_label": "Viaje a Uruguay · Parte 1",
     "ok": true
@@ -13,8 +13,8 @@
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
-      "followers": 131900,
-      "hearts": 644500,
+      "followers": 131800,
+      "hearts": 644600,
       "ok": true
     },
     {
@@ -27,15 +27,15 @@
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 4500,
-      "hearts": 217900,
+      "followers": 4598,
+      "hearts": 226900,
       "ok": true
     },
     {
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
-      "followers": 964600,
-      "hearts": 548100000,
+      "followers": 964500,
+      "hearts": 548200000,
       "ok": true
     }
   ],
@@ -75,15 +75,26 @@
     {
       "date": "2026-08-29",
       "followers": 792
+    },
+    {
+      "date": "2026-08-30",
+      "followers": 793
     }
   ],
   "news": {
-    "updated_at": "2026-08-29T21:17:28.957Z",
+    "updated_at": "2026-08-30T12:12:48.806Z",
     "topics": [
       {
         "key": "futbol_ar",
         "label": "Fútbol argentino",
         "items": [
+          {
+            "title": "Gimnasia La Plata venció por 2-1 a Rosario Central, por el Torneo Clausura 2026",
+            "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT0dYWWJEb1dpZFNqeWNIVTRYbkhJREN0LTZ5RldWWXhZVHd6V3hkZVd5T1BmS2VWbDFEQTFFajA0YWFCM0FjaXc1V2dfTG1ZZVp3RHFsT2JsNVhrNnlYNFBZdnVlUURaTTNid2V5ZkNkcmJmX0FEbnZJTlBFOFdHNlJHNURPSW1HUkdiWDVPeHlOUkZNV2FsMVVqWFdQU21jVVBGREQ1ZVhralVqM2FGeWhxaUZVZ1AwQ0xfa0t5ZF84U0ZmTkNxTk5PTWI1MldhbEx1Wlg1MA?oc=5",
+            "source": "La Nación",
+            "pubDate": "Sat, 29 Aug 2026 21:55:00 GMT",
+            "fetched_at": "2026-08-30T12:12:48.806Z"
+          },
           {
             "title": "Deportivo Riestra y Vélez Sarsfield empataron 1-1 por el Torneo Clausura 2026",
             "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOS3pPb3JscURlSVNrX3dSbTlLOWdyZHc3eDdLQkdITXY4TzVfWlNNQ294OFRrMG11Q1lRak9jQU5EalFkWGJsb19rX2kwd3k5clFlSzA2ZDZ6eUp0bjVsdWNzaTZhZk5WZVNSd2xqSDB2Y0xpZmpUdDFHb1M4SHF4VWo0WHlxZDVLeW5NbXpLUlhSelFyVENiQm8wTDItYUxVcnNtbE9oZ0IweDhtRTlTelZvRm95TUpsSkJ2ZWFxLU9rdG1DYlRvQk1VQ092YUtPeF9PSHln?oc=5",
@@ -125,6 +136,13 @@
             "source": "bolavip.com",
             "pubDate": "Fri, 28 Aug 2026 23:18:46 GMT",
             "fetched_at": "2026-08-29T12:13:17.026Z"
+          },
+          {
+            "title": "Se confirmó el programa de las próximas cuatro fechas del Torneo Clausura",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeHdNX24wSFNsQmVQcThEeWhVWHMyMmlhSFBmTFJSV09kNGs5bkZXc21CNkhDZmtuRmhhVUZyQVViTjBiYTFDdm5fd28yOEtXZ00zZ0UyQ25wT3dhQzRXMVVHYnFOQ3BqYWJBQ3ljOXlENEJXVGtZZENfZTZ4MS1kdmw2VHVPdWRhem8tVUJBRzZuMVRVUUtONFA3akFFcnNBWG5sVER3?oc=5",
+            "source": "Olé",
+            "pubDate": "Fri, 28 Aug 2026 23:13:45 GMT",
+            "fetched_at": "2026-08-30T12:12:48.806Z"
           },
           {
             "title": "Argentino de Merlo vs. Villa Dálmine en vivo: cómo llegan al partido",
@@ -225,6 +243,27 @@
         "label": "Básquet",
         "items": [
           {
+            "title": "Básquet: los últimos extranjeros que pasaron por Regatas",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMFVCZDYzWTMyT294MWVXQ2RDN0p2SEszRWo3ZFBzelpmeXZ4QmdKNVpYVTVpTTF3XzBGSWh4a3RfYl9rVkx6X3hGdlA0UGM4OVF5enZrWjcwZkthOUdSQl85eUJQM2UxcmhPeWp6SV95YUgzNVh3a1pfUno5cDRVd1VTZ1UxakZ2NUFFTVNn?oc=5",
+            "source": "Diario El Norte - San Nicolás",
+            "pubDate": "Fri, 28 Aug 2026 22:27:01 GMT",
+            "fetched_at": "2026-08-30T12:12:48.806Z"
+          },
+          {
+            "title": "Resultados NBA Summer League, Temporada 2026",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQkJMSWsycTd1WnpXaHZsZHFkMDNDNnpEc0FMLVlfdTk5Q1dBcWVqa2NkTlJzMU44OTZJRlZNWnJNTDBPQzVuemphSmlHZjZ6VEVySjg3TERyYVZiMVp4WFdhMlVrT21kUXBHT0RQT2hLbExRd2NlSkQyVmh5Z2phUlBB?oc=5",
+            "source": "ESPN Deportes",
+            "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-30T12:12:48.806Z"
+          },
+          {
+            "title": "Resultados NBA Summer League, Temporada 2026",
+            "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGT1BoX3ZQOFJ2RFhTWDMtUVpuUkx4ZGZWZ2h4ek5wdGFMb2laWmNXcE5yWGQtNXptZTlvZE5kRlc0Z3lTRjBUSWtmRjFhQVN1YjVQTDJ5aXI5WGRRa1FxNzF1WmxhNTl5TXVyUjhYQTFKN2pyVWZrMkpn?oc=5",
+            "source": "ESPN República Dominicana",
+            "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-30T12:12:48.806Z"
+          },
+          {
             "title": "Formato confirmado para la Liga Nacional 2026-27",
             "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ3dCZGlSTnhJVXRCSk42UFhZajc4WEZKQzJLRlpCdlBWVU9qVVpLWmN2ZlpZT2lRZnl2TVF0LXF5bXZJRTB0R3hkUWZ1aU54amtlLXNKMTJRQjlxdWx0VHVvbVVMeGwtSWtvb05TQnh4SEc4cl9wTmlNeDJpcURFV3BpT3RYMGgxZVZWQmtSVU1SQlFWUU42blZxeVQ?oc=5",
             "source": "TyC Sports",
@@ -241,6 +280,13 @@
             "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTTRqa2k0V0FOZ1N6T1NsZDVqX194M21qeHdQYVp5TFNpUXcyNnYwT09WcHFfOWNnRWpJWEhZemwwWnh6N2tmZWJSOVZPTVNaMXQ5NG1kdjZMMFFHVnB2TWNuLVgzZ3lQRW0yLXUySGRCejFZMVpiaVBHbjI5MkhXZFBKNGxUa0djRU5vREVlR1ptOTRxTkxOUi11UXNHZWxJV2gydVQtd2N4Nk93b3FuaG80eFNHTGswYTlMSnA3VVk2QQ?oc=5",
             "source": "La Voz del Interior",
             "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Fechas confirmadas para las finales 2026 de la Liga Nacional",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcXBZRTBmYzVrdW9hdHByWjB4bHlOelZ4Z05ZWUtFdEpxa1Z0Y2llT2FYek8wYlBEXzk0S3BOazlaQnBZZWZqXzI3MW9La0hyUGFyNnhpb1dUZFRqaUZUM0RmMEF5RE9kWXc1YjFJcUpzZXhyOVZ3b1daUG03M1FGeEZ4aDBPaVI5bGpRdE1uNVpvd2Fua3pRZ3BRSDRzT29zb01lRFVXOUF0dl9t?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Thu, 04 Jun 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-30T12:12:48.806Z"
           },
           {
             "title": "NBA ¿quién te conoce?: el infartante doble con el que Ferro se metió en semifinales tras una remontada épica",
@@ -273,6 +319,13 @@
             "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE85SXdST1BRM1pMNUNGcTI4blN5aWQ0R0ktcG4wbWZMNWpxeVJrVExhcEZ5LWxJTTZBbHRLaGs3ZGpzXzl1dTgxN3c4SnVwU05odmRCSEFzWmpwVno3dWJVbHk1NW4yVVhSdzdlVThlOElOSGJnaXV1RVQ3NA?oc=5",
             "source": "Canal Doce Misiones",
             "pubDate": "Sun, 04 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Un basquetbolista argentino, cerca de la NBA",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOV0FZYjlLUDVKcy03S1QtdjNNazQwSlVtQTA1a2pNd3ZJMU84dmd1VGgwQkN2bC11WS1PMFFRN0lNTW5FUDlENzF4VEI0V2E2U3drWnlOWmhWeURpbFNPTjRmRDRlZ3QtcHE2TG0wOUQwLWIwTHpiblVaeXJWV2tUT0l1QjFqTmlsTTFNejAyMVdtRTQyV3NuVEdR?oc=5",
+            "source": "DeporTV",
+            "pubDate": "Tue, 08 Jul 2025 07:00:00 GMT",
+            "fetched_at": "2026-08-30T12:12:48.806Z"
           }
         ]
       },
@@ -386,6 +439,13 @@
             "source": "Sports Illustrated",
             "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT",
             "fetched_at": "2026-08-29T12:13:17.026Z"
+          },
+          {
+            "title": "El refuerzo accesible que planea contratar Barcelona para el próximo mercado y pelear por la Champions Leag...",
+            "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNmNEelhRRVhQWTlCelJTU245WlYwSXRQSkVaUXNYSkg3a0JnZmxPWURObm5aaHJ1Tlp3ak53ZEFmbkJyX29DSDBkLTVxa29LRi16bDZCSEphNkgwZE10U0VhMnpZeWtScVZVM0kwQXpmbTUtNVR6YmNJY3UxWld0Qnk5dVVybmNwV2Y4QlBNVHNEQ05XRUhjeGhpN0NtZ210RmdsMW9OMEFYNXdsSVQwaHdDSTZTQV9DdEwtdy10a0w5V2lKQlhOMmNzYjNKcm9CRFNGRXBOOFZsRUpfdjV6ZWg2NGxpTUlUQjA1VFA5S242d1B4UEF6aNIB_gFBVV95cUxQODllMFVKX3VGMjV5TUV3WFpqYkNGejVIRkhnQ3VqZFU5TWx2cWt5OG9HYW0wZ1R0MUV1YnFKdklROWN6YjQ4cUJ3QXhxaTlWNDFobUZsbXlteUNfXzA1QWNENlQ0SlZKQWZfQ2hOM3IyMVgyaWs4bFZwOVpyMFdtNFBneWtmSEpCc01QYmVhUENSVm1kZ004R1ViSUg1SWZFc0J3VXA1cEZ4YVZUcWVKdmtlNEJkdnktVDFSbE9mYVpJZnVlSng5djM0Q1ZveU1hZWlPd3hLUUR2LWZuUG9hVTRqQlVuSDN2OVFvQjNyRGNKbk42Ri1mQ0xsVUxoZw?oc=5",
+            "source": "DSports",
+            "pubDate": "Sun, 03 May 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-30T12:12:48.806Z"
           },
           {
             "title": "El impresionante récord de transferencias que alcanzó el fútbol mundial",
