@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-31T12:12:58.350Z",
+  "updated_at": "2026-08-31T21:17:24.042Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
-    "followers": 793,
+    "followers": 794,
     "hearts": 32500,
     "top_video_views": 341900,
     "top_video_label": "Viaje a Uruguay · Parte 1",
@@ -13,8 +13,8 @@
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
-      "followers": 131700,
-      "hearts": 644700,
+      "followers": 131600,
+      "hearts": 645000,
       "ok": true
     },
     {
@@ -27,15 +27,15 @@
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 4714,
-      "hearts": 237700,
+      "followers": 4757,
+      "hearts": 241100,
       "ok": true
     },
     {
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
-      "followers": 964700,
-      "hearts": 547400000,
+      "followers": 964800,
+      "hearts": 547600000,
       "ok": true
     }
   ],
@@ -82,11 +82,11 @@
     },
     {
       "date": "2026-08-31",
-      "followers": 793
+      "followers": 794
     }
   ],
   "news": {
-    "updated_at": "2026-08-31T12:12:58.395Z",
+    "updated_at": "2026-08-31T21:17:24.088Z",
     "topics": [
       {
         "key": "futbol_ar",
@@ -147,6 +147,13 @@
             "source": "TyC Sports",
             "pubDate": "Sat, 29 Aug 2026 18:00:08 GMT",
             "fetched_at": "2026-08-29T21:17:28.957Z"
+          },
+          {
+            "title": "Boca escaló a puestos de Libertadores 2027: Así quedó la Tabla Anual",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVFIUnE1Wmk2RnhORzQ1clN4OUdDQlRSYzEwNVFLTURFYWV1ZHVaU0dxTHRVaEdkRF9Va2lSa0hOQzFxaEZHMEdZQTVJZXgzWGV5dUtsR3p1NlZrbzU1Z3h6aGR5WG9HdVBBQWlxeURHOUxUTFdaeHd5cGE1NTBHQTVDUWthRkdOTm9BQzBWeldRVV9GRUNTaTNkMEJPMTBIZ3hiZ3V6d2pKUlpTaGEyVWo5UjhVTGI5cjFYUUVDTkRDU1N6UzRseQ?oc=5",
+            "source": "El Gráfico",
+            "pubDate": "Sat, 29 Aug 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-31T21:17:24.088Z"
           },
           {
             "title": "Argentinos Juniors vs. Aldosivi, por el Torneo Clausura 2026: día, hora y cómo ver online",
