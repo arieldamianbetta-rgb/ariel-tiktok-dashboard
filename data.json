@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-08-30T21:17:22.464Z",
+  "updated_at": "2026-08-31T12:12:58.350Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
     "followers": 793,
-    "hearts": 32300,
+    "hearts": 32500,
     "top_video_views": 341900,
     "top_video_label": "Viaje a Uruguay · Parte 1",
-    "ok": false
+    "ok": true
   },
   "competitors": [
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
-      "followers": 131800,
-      "hearts": 644600,
+      "followers": 131700,
+      "hearts": 644700,
       "ok": true
     },
     {
       "handle": "curiosidades_de_futbol1",
       "label": "informes de futbol",
-      "followers": 3396,
+      "followers": 3394,
       "hearts": 121300,
       "ok": true
     },
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 4636,
-      "hearts": 232000,
+      "followers": 4714,
+      "hearts": 237700,
       "ok": true
     },
     {
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
-      "followers": 964600,
-      "hearts": 547200000,
+      "followers": 964700,
+      "hearts": 547400000,
       "ok": true
     }
   ],
@@ -79,15 +79,26 @@
     {
       "date": "2026-08-30",
       "followers": 793
+    },
+    {
+      "date": "2026-08-31",
+      "followers": 793
     }
   ],
   "news": {
-    "updated_at": "2026-08-30T21:17:22.741Z",
+    "updated_at": "2026-08-31T12:12:58.395Z",
     "topics": [
       {
         "key": "futbol_ar",
         "label": "Fútbol argentino",
         "items": [
+          {
+            "title": "Fixture del Clausura 2026: calendario de partidos y todos los resultados",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdk1qSENCX1VFS0Y2MEh6ZGtCUFA1STNnbjJsVUhWT2lsX1U3alBidjNkZVpJdzdMS2dFQjllWEdLVUFKMUZUVGE4RER3Y25FdkJBQ0plLV9sQy1TWU5tMkhhejE3MFJmMHEwYjFlYm9HdlJJdnFlRS13bldWdjk2ajgtdkdFU0RwMmdOSDZyYjA1TVN2bm1HTERURWgyNlhHLUJWWHhwWWY2ODBCSGMtUzRnZTJvVjJLbjBIc282VE9xck1VZW1Z?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Mon, 31 Aug 2026 04:30:58 GMT",
+            "fetched_at": "2026-08-31T12:12:58.395Z"
+          },
           {
             "title": "Así está la Tabla Anual del fútbol argentino, con las clasificaciones a las copas Libertadores y Sudamericana",
             "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUTZjVHVEOGktRld1OWNuWHdJa3hMUkI0TFVKbzF0TWdXZDlnZzhKOGs2TUJkLTVEQWotRGw3bnRkeGJ4UWxNOVdENmZHUVk0YmJGQVdEQWdMTWxaaTdNVE5uSl9xVEJWUnVxaGhtODQzeDV1X1JMZ3JnQTZxa2gtMExodjdQQURsa0QtSzN2WDJldTJybFV5YXUtRU5GWjJaYUZfTmotekstc2EwUnpuZ3hXQUc4Sm9mS2ltOFFmb1dwVC11NTRRRVo2UEJ5bExaZ1dCLVFRRllaT0dnZ1lvMWh3ZjNsU1k?oc=5",
@@ -351,6 +362,13 @@
             "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
           },
           {
+            "title": "Las 9 curiosidades más sorprendentes del Mundial 2026, el más largo de la historia",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQLWotTV8tMk53NnFyOFJMOTBwbUdJaGZ5OHQ3Y0NJNGlYNnNOUEVfS3FQbXR2OVdjNHotekVmUXptWmljTS14Tm54MHpQUUhOWmxmY210TjA1RWZoR1ZnNkN2T2dXOTYzQTdVcUIxZ1dlM0RiRHRGT1lITW5nSVpJenczQWFUcjFSVXUyTmtzMGwyclM0RHRWVGNkUnQ5WHY2a0xhN1FPTzBzRDR4WDVEMUNjVVFjZ1NpQVhLTEh4MGpyZE5meVZPdHlENmljRnZoY1BqRlFmdzdCMHNBYmdv?oc=5",
+            "source": "revistagente.com",
+            "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
+            "fetched_at": "2026-08-31T12:12:58.395Z"
+          },
+          {
             "title": "⚽ Datos y curiosidades de los mundiales de Fútbol",
             "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSmdkcEtHdVBlbnhzVVdZaDd0SW0xQ0Nxd2JGcG1sU1Zscm9ndmU4Ukc0YU5PeEpaaEJqSUc4NGt2T1ZseFZTb0kydlN6cVFhRE1aZ3ZUZ2c5bmE1UldmTzVDM2JRdXg3YVE2d1lScFpzQmgwT285c1Uxb01zejhRVlo4M2pXWGZCNlhMTTU1dVlDWFl5VFE?oc=5",
             "source": "Estación Plus Noticias",
@@ -361,6 +379,13 @@
             "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXh2M1FrNFk5VUJnRTFPbjNYQW5FNi14MExXUTFpYnd5Ul9iVWMxajFTaFVvQ2FZMWtKZzltMGc4bVFpZ2JhNnpVS1hia2gtYXp0ckg4eVpfRnZBMEs2dlhubm1kQzBrNDBzbndFV0RLQXYwNkJyZnZFa0wxcWdKQmhGWGtaR2RhUnM3RmEzM0xsWUts?oc=5",
             "source": "Architectural Digest México y Latinoamérica",
             "pubDate": "Mon, 27 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Mundial 2026: 10 curiosidades y datos clave que lo convertirán en el torneo más revolucionario de la historia",
+            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaE55WDFDNnZoYlJObkJlSXVsZ05tZTVEeEQzRWpxYWlNQ3JobXlkTmFGSllIZ0k3X3BOdHRGckJmdTJPeVRqVkxYOGYxeExNQy1KNjg1UTVoZUlIeXFuNTNtMnd5OHlJbU1sRnJhZTgzT09hSHhTZGFPaEY1UUJGcElfR1hBSDN6VnU1MFVNdVpyQ0J6Mm9RUXpaUHB5N2VCeFUtM2ZIaUQtZ19LNU9XSFV5TUNMN0ItOTlCcnFWRWtrTDB5SEcwRXgxNjdQUzg2am41UnY4WnZteGV2SHVtdV93?oc=5",
+            "source": "Los Andes",
+            "pubDate": "Sun, 08 Feb 2026 08:00:00 GMT",
+            "fetched_at": "2026-08-31T12:12:58.395Z"
           }
         ]
       },
@@ -368,6 +393,13 @@
         "key": "futbol_intl",
         "label": "Fútbol internacional",
         "items": [
+          {
+            "title": "Fenerbahce dejó a Nicolás Tagliafico sin Champions League: quedó eliminado como local",
+            "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOTkE1X2VTWkozOXNCWnU0M0Y0MnVFSmdFZHVDWmRKckVvOUYtSlRTZkFIMFhtUmc1b1NrOUtpMEwwNlo3SGk3OG5qT1N5OGZDVDctR0RUZkR0MHFXdTVuRkRNdFpGQ2JqZXgzM3hHZHdoMUZNWDl2OXlqTGdDRnJFaVZXQTFCV2xTV0syNUVvbHVCSG12ZVpJa0JUZW1BdHZNeWRiZFVQd1pQNzQxSE5VQTJMU29YZGcta1lFcEM3TzhlUmhfTU4ybE9Zdi00WEpGaE1idGdHUnNNdjVGUHdsYTVhZXdJSi1WSjItZERXdTdvZXlZOGFtMzViWDQ3Sjlodm5JbFNfUkNldlU?oc=5",
+            "source": "Olé",
+            "pubDate": "Wed, 26 Aug 2026 21:04:15 GMT",
+            "fetched_at": "2026-08-31T12:12:58.395Z"
+          },
           {
             "title": "El fichaje de Rodri puede catapultar al Barcelona de vuelta a la cima del fútbol europeo: GOAL valora los mayores movimientos del mercado de fichajes del verano de 2026 | Goal.com Espana",
             "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxNcmZ1WV9WVm5vNmxJY0JMQWJrR0tvTmJ4bC1NSF9HdUlHRFpuOGc4WFZ5ckh5dl9ORkpfTHNqMFMwMmZheDBLdFAwTlE3cnZoMm9mQ2dlQzRBeUFob2sya0JlRkh5ZFdXQllwVVY2S2gxdld1YlJmNEJaTmxyUWJiR2ZRYkFXMFVyMGc4enVEbUo0aG9qMmNVYVpqY0ZjTm1zdDgwTVRNbElGWHdjSTdBR3lma3QtbVkySWN3X1BGT3dROWtfUG13RlZvVDZ1ZnN5MHBHV3JtOEl4dHhxd2NIU0tPM1JRcWV3cWpZRG53S3JnRHlSZVdWRHg3a2ZIYktXUExmSzIwSnJpUW5fWDdLOWlTM0l5MkFtakIyOWJBOWZld3FJSzRVdWY5NGViR0poWmMzaUZ3X1JreEtlSmhtMWJubWdTc01TS3ZreHd1ZGQwWUpoQk1vZmZMUVQ0bk9wNFA1VUdWZVZQVWVsZEtPbzV4cTNxT2lnWXJhOEVSekhzZzVNWEREeEpQQzBRVi1LcC1jeGl6NEh2UDk5?oc=5",
