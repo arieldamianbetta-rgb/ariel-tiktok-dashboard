@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T12:26:15.670Z",
+  "updated_at": "2026-09-01T21:22:11.553Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
@@ -13,29 +13,29 @@
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
-      "followers": 131600,
-      "hearts": 645000,
+      "followers": 131500,
+      "hearts": 645400,
       "ok": true
     },
     {
       "handle": "curiosidades_de_futbol1",
       "label": "informes de futbol",
-      "followers": 3394,
+      "followers": 3395,
       "hearts": 121300,
       "ok": true
     },
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 4836,
-      "hearts": 246300,
+      "followers": 4886,
+      "hearts": 250200,
       "ok": true
     },
     {
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
-      "followers": 965100,
-      "hearts": 547900000,
+      "followers": 965200,
+      "hearts": 549300000,
       "ok": true
     }
   ],
@@ -90,12 +90,19 @@
     }
   ],
   "news": {
-    "updated_at": "2026-09-01T12:26:15.717Z",
+    "updated_at": "2026-09-01T21:22:11.603Z",
     "topics": [
       {
         "key": "futbol_ar",
         "label": "Fútbol argentino",
         "items": [
+          {
+            "title": "Cómo ver fútbol argentino gratis por Internet",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZDFPWkJlMEw3NFRYelh6akFPY21fUklaLTZTS2xabUxDaUxRbWlKRm9xaVV4bzdISWx1RGFkRTZnRlA0cldFYk1zRFlqWWR4c0NMRVk3ZlB4b0lzalQxV2xWM0R6UDVUMW5zREZweURGUVIxWnNMMXpabWZzMjB3Zk4waVBaTnAtZ0pabkx3X3RfUU10M0pMbXZFZw?oc=5",
+            "source": "Diario Nuevo Día",
+            "pubDate": "Tue, 01 Sep 2026 14:13:08 GMT",
+            "fetched_at": "2026-09-01T21:22:11.603Z"
+          },
           {
             "title": "El formato que separa: los partidos del fútbol argentino que llevan más de 2 años sin disputarse",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaW56d215aG8wUU1HWWhVTzMyaWNhWVB0UjNBc29FVlpxVjU2QmRTSDVvbGRtTHhsVzc1S3BMblVQV05uTHozZDI1R3V5clgtNTBzY0VSZl8wYnB1cHNWdG5obU9Yem01X1dHQTl2NUFkNE4tYUJIT2x3YXFsSHVNUHJjVjVIMERBSDFHWDNoeHppNzlzVk96U3dWRkpHUm9BTk5BUF91bkRkbjRYeVF4eHFfeGZ4bE00TlJKX2tCeGlHZzdBZjJJ0gHMAUFVX3lxTFBocnBzNi1saHV5LVNlSzEyaTFEM0hWZndMLUM1eTUxYjdpNXh6bDNzbFRVNVVlOVgwWnBnSmZrTzhUTEYtc0wzOUxSazE5bFVQbVBtYnRPbm1FYXRZekZpYnFyMk1NOTIzQkEwYVFWblQzRGRzOGx4eV9CTFQzUDI4YU5lcm5yc1RRb0Z3WWlyRTROanJUYjdZUVgyUDdHSmktX1JXSHpoRFZRTXRLeEN4akZfN3dLVlNKV3FMaDk4Rm9hM2N2dHBqclRzMQ?oc=5",
@@ -146,27 +153,6 @@
             "fetched_at": "2026-08-30T12:12:48.806Z"
           },
           {
-            "title": "Deportivo Riestra y Vélez Sarsfield empataron 1-1 por el Torneo Clausura 2026",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOS3pPb3JscURlSVNrX3dSbTlLOWdyZHc3eDdLQkdITXY4TzVfWlNNQ294OFRrMG11Q1lRak9jQU5EalFkWGJsb19rX2kwd3k5clFlSzA2ZDZ6eUp0bjVsdWNzaTZhZk5WZVNSd2xqSDB2Y0xpZmpUdDFHb1M4SHF4VWo0WHlxZDVLeW5NbXpLUlhSelFyVENiQm8wTDItYUxVcnNtbE9oZ0IweDhtRTlTelZvRm95TUpsSkJ2ZWFxLU9rdG1DYlRvQk1VQ092YUtPeF9PSHln?oc=5",
-            "source": "La Nación",
-            "pubDate": "Sat, 29 Aug 2026 19:43:00 GMT",
-            "fetched_at": "2026-08-29T21:17:28.957Z"
-          },
-          {
-            "title": "¿Desde cuándo se cuentan los títulos? la huelga de 1931 que partió al fútbol argentino",
-            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMjdEQS1tWHB5akE1T2hTaTAyTWlLWENzZ3hVWjhEb1RoZ1c4emhXVEE2U3ZaX1ZSNnhxaTZOc3JSeEFfY3ZIUE5iSW9sR1lsbkt3R3NKUS1iWDBYYjE1RmdUQ1F4UWRFd0h6a0ZGa2FweHNoaVRWdGRYZWdrV1RHTV9QeXlPekRrcUNEUHhROHBncTJCMkI4R0NLNDRoU3ZUMnN1VWxWc212OXkzaTBB?oc=5",
-            "source": "RedBoing",
-            "pubDate": "Sat, 29 Aug 2026 18:46:44 GMT",
-            "fetched_at": "2026-08-29T21:17:28.957Z"
-          },
-          {
-            "title": "Argentino de Merlo vs. Villa Dálmine, EN VIVO: dónde ver por TV y ONLINE",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbUJxZXJ3S1VSOUplZXoyOXV4NkIzTDNKeTFfdHpGSm9TTlR0S0VEYkdMY09QaTZhWGp0S3diNjk2dVB4Y0dYQkE0YVpzZllrS214SUxHS2J3LURGZ09CTUtxaUR5WlJza3EyUnhvSzNaN05FVnR1a2JJOUQ1SndPTXdWZmVhNGFMUUdVMG4zZGtSM3h3eGFxdnhpSDRqSU03cEo1OFdFQWxVNzNnTWJLQ2VfYl82akJacVAzYXdXTDNhZFVKZWtj?oc=5",
-            "source": "TyC Sports",
-            "pubDate": "Sat, 29 Aug 2026 18:00:08 GMT",
-            "fetched_at": "2026-08-29T21:17:28.957Z"
-          },
-          {
             "title": "Boca escaló a puestos de Libertadores 2027: Así quedó la Tabla Anual",
             "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVFIUnE1Wmk2RnhORzQ1clN4OUdDQlRSYzEwNVFLTURFYWV1ZHVaU0dxTHRVaEdkRF9Va2lSa0hOQzFxaEZHMEdZQTVJZXgzWGV5dUtsR3p1NlZrbzU1Z3h6aGR5WG9HdVBBQWlxeURHOUxUTFdaeHd5cGE1NTBHQTVDUWthRkdOTm9BQzBWeldRVV9GRUNTaTNkMEJPMTBIZ3hiZ3V6d2pKUlpTaGEyVWo5UjhVTGI5cjFYUUVDTkRDU1N6UzRseQ?oc=5",
             "source": "El Gráfico",
@@ -179,6 +165,13 @@
             "source": "Olé",
             "pubDate": "Fri, 28 Aug 2026 23:13:45 GMT",
             "fetched_at": "2026-08-30T12:12:48.806Z"
+          },
+          {
+            "title": "Mercado de pases: Invierno 2026",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3FhN1dsVWsyTDRKaEVxTy1nRkcwSUhTMk9HdUFYaVBmLXhpQU1BUkNrZUd4aTVJR1V5RmlTemQ1N0V0cURkRktCTkFrcURlZnhZbGR5T3pqM0tnbVd2V0gxcS1abE5KeVA3NWdKaHNDZmpod2NKeVBSUEptNVR4VEJDY2tmSmV2MDZxYXBBVWlqQUg2aEt3?oc=5",
+            "source": "El Gráfico",
+            "pubDate": "Fri, 28 Aug 2026 07:00:00 GMT",
+            "fetched_at": "2026-09-01T21:22:11.603Z"
           },
           {
             "title": "Mercado de Pases Argentina 2026: altas y bajas de la Liga Profesional",
@@ -275,6 +268,13 @@
             "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
           },
           {
+            "title": "Gimnasia de Comodoro Rivadavia dio el golpe y venció a Boca por la Liga Nacional de Básquet",
+            "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTlBySmFEc0lrRjVLQWhoRDRKb1o3REQ1ZS1QaFk5ZEZqTnZ5WTZkWmdjOFZkaGd5el9LLTNmS0dfRDBlZkVNV2h0ZXpIanREemhQTDFQSG9SZlRvRVV0VXJ4eG5YX2p1ZnV4ZXBFM21kUU5QU3dTQTJyNzFCTDMtNWNuOTNiNmtNV0duOC03YzhMUWVEYlpYS05pd29OeG4xVVRmQVkxYUYxVnhsLXdrSjNDRllWeWNZbmxhR2Q5V1JDazliY0JVODA2NWttSWt5Q2RnMV9uVEFVNk80b20zX3lQcW9xYVRsdWhXYXo4TDAtMldUNUHSAfsBQVVfeXFMTmM3dUVFUV9hbkQzOU5seHVrNzM0YVVMQTJMSW1nU194T3I5MlVMZmU5WGZXZ3BhT1ZGQkV0Z2w0YkpZY2dzQnQyOFpCQ3JJUlowbkk5R2JOZmNsdXJWem5qTW9JU3BIWXFJZWxPYXNqdUlvTFF5eGZ2QUw4bWFPb0JhLVB6cDgwSUdzMFpkUEd2RTZXUFR5R3RfLUV1d20wd3ZuaXFJZlVyejNZYXA4ZS1zeEpNUy1feUNjcGtiNUMwajlNOVYycExkc1VraFZNcWxESndWaVFRcnFUd2VoVUhCM29JOFRMSE9nRXhta3lhamsydDF3dFh1N2M?oc=5",
+            "source": "dsports",
+            "pubDate": "Fri, 23 Jan 2026 08:00:00 GMT",
+            "fetched_at": "2026-09-01T21:22:11.603Z"
+          },
+          {
             "title": "Bombazo en la Liga Nacional: Platense contrató a un ex NBA",
             "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUHFqMzZ2TzFKM29ZcTdEODhLbllhTERQN2kxV1NrUkZNLWc1UVNnUDVZTVFnZjBaZlhKZzIxNUIwVVFqSTBvQnpFbkQ1X3ZxTWtpRFVkSkNXUXBVUWNCRkZzOENlMmFXTjQ3VGVFa1hoaFdUTl9jT0o5OFA2MjluNEtXUHdwUHJsbXp3cWRPRWhLOF9tUmtiMi1TOGJBc2lhV21vblhoU0R3MU9oaFB4ODVvRXQ4V2xMRFdjVURKTFJkcFpZ?oc=5",
             "source": "Diario Registrado",
@@ -356,6 +356,13 @@
         "label": "Fútbol internacional",
         "items": [
           {
+            "title": "Qué jugadores argentinos cambiaron de club en este mercado de pases europeo",
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM2lJMkgzUUkyQTF0bUVzRkYzM2NYdWExUUtIN2Y2YmRWZS1uZWlNbmxxSTlHYzFCMXF2bk9SdUlMOGZqQ1lQODl0ckpHUDNveXdaZ0VlWmN2VExDcWVvT3VnYnlpcFdhVTZmLUI2ajhZSXV4Z2FoWjEzTmVrM01zX1dHVzFVczFTeHpLbnBZR3pLWHpHX19JMkprWmkxOGtfdDhGOFJTSzVLQmFkaUo4cTNheEtIWmM?oc=5",
+            "source": "ESPN Argentina",
+            "pubDate": "Tue, 01 Sep 2026 19:58:10 GMT",
+            "fetched_at": "2026-09-01T21:22:11.603Z"
+          },
+          {
             "title": "Fenerbahce dejó a Nicolás Tagliafico sin Champions League: quedó eliminado como local",
             "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOTkE1X2VTWkozOXNCWnU0M0Y0MnVFSmdFZHVDWmRKckVvOUYtSlRTZkFIMFhtUmc1b1NrOUtpMEwwNlo3SGk3OG5qT1N5OGZDVDctR0RUZkR0MHFXdTVuRkRNdFpGQ2JqZXgzM3hHZHdoMUZNWDl2OXlqTGdDRnJFaVZXQTFCV2xTV0syNUVvbHVCSG12ZVpJa0JUZW1BdHZNeWRiZFVQd1pQNzQxSE5VQTJMU29YZGcta1lFcEM3TzhlUmhfTU4ybE9Zdi00WEpGaE1idGdHUnNNdjVGUHdsYTVhZXdJSi1WSjItZERXdTdvZXlZOGFtMzViWDQ3Sjlodm5JbFNfUkNldlU?oc=5",
             "source": "Olé",
@@ -391,6 +398,13 @@
             "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa282QV91WHBQam1nODVnYzhWOE5JNWpzT2Y0bGlXZHliNDgtQUdtVWdzLThyaWdhaXlVWmpnM1J5dkl6RS15d1hwOHFCclBaMXhsb2FkNXVWbEJ4Zmxnc0RzazhkYUQxYXI0dVFEbzZHTWRvRXd6VUk3ZUFPbmhiOUVpa2JWZnU3LVlLUEJGdG1aTTBjQWRqcVFXVjdDX1lfOGpmTGlNN0JDQVQybE56X3NkVExaakp4RFpLOWhnUHF0aG9iZHE5UktzOW1DOTByWHdnVGpjeWo?oc=5",
             "source": "Sports Illustrated",
             "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Los fichajes más importantes que se realizaron durante el Mundial 2026 - rankeados",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2JKUFMxTEVTbEpBVThoYjBmOENKeWYxalB1U2tQZFlGYl9BMVVQeThldXU4TGo2V0VGMlNqMUtlVUp3NHc4dllqNUpUQmN0d0hBaWVkUWhmb2xxSmFDMEktM3FncmhBMHRNd1VDdk1jZzUxWWFGMmt0RXlXX2ctdERjaks2TGJBcVdxZDMzcGozLTNNLVpMbV9yRDNfbzFqSUFXYXFjZkFYYWRhRTBsWC1n?oc=5",
+            "source": "Sports Illustrated",
+            "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT",
+            "fetched_at": "2026-09-01T21:22:11.603Z"
           },
           {
             "title": "El refuerzo accesible que planea contratar Barcelona para el próximo mercado y pelear por la Champions Leag...",
