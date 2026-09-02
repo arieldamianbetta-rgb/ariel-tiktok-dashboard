@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T12:26:37.549Z",
+  "updated_at": "2026-09-02T18:18:38.080Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
@@ -14,7 +14,7 @@
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
       "followers": 131400,
-      "hearts": 645500,
+      "hearts": 646200,
       "ok": true
     },
     {
@@ -27,8 +27,8 @@
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 4959,
-      "hearts": 254700,
+      "followers": 4970,
+      "hearts": 255800,
       "ok": true
     },
     {
@@ -95,12 +95,40 @@
     }
   ],
   "news": {
-    "updated_at": "2026-09-02T12:26:37.597Z",
+    "updated_at": "2026-09-02T18:18:38.428Z",
     "topics": [
       {
         "key": "futbol_ar",
         "label": "Fútbol argentino",
         "items": [
+          {
+            "title": "Omar De Felippe, historia, títulos y una vida marcada por el fútbol",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ1ItMTRhbXRrUDVfZU5DM2JhYngzY2FsRDR4dlE4dXU4LUpNTDZyZ3BwaVJ2QXhBV0g1SW5sWUpSMGN0VDhFNzlPQVRRckw3Zm1jZGJiRGc0eVpodTFrMms0TjRiWS1zUUtJTkR2WnB6eWtkbHdzQndlRVk2NER3c21FR0tubHZoSlZuYkZrNGdXdWtlcnhlM0FOdVV3eDA?oc=5",
+            "source": "Club Atlético Talleres",
+            "pubDate": "Wed, 02 Sep 2026 17:03:25 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "El fixture del Torneo Clausura 2026: fecha, hora y resultados de los partidos",
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMFVrVEM5LVBxXzhPTGwtVjBnRFd5Um9KTWlnV3RkbmxpT3d6a0I1SU1Mam5HeTYteXoxRmhOQ1Z3S0swV1ZmUXE3UEt4X0plRjc1VUxHeHJNazhMQ2tSR0M1eVZDc094alFReWhSaXdaZndPZGM3aFYwcWZQZDhrQV9mMEdLQ1NQSkh2M0p1UjZjRVowTmNHZTMzQnJpYngxUzlreGJteFBYSlZwR1U5ekQtaVZodUtZYnAySWdsVUZHVVU4c0JDbXNvbkV2V0k?oc=5",
+            "source": "ESPN Argentina",
+            "pubDate": "Wed, 02 Sep 2026 14:48:36 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "Jugó en LaLiga y ahora está en un pequeño equipo del ascenso argentino",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd1NMZnJYazhhQjdpcWNhWXBzTWhFLXgxQ2ZpLWwzOUZKUmZEYTRkeDl4eUV3Z2dqTE0yZlpoZjFqZ2FYUUxrRnhfc3RnRTNvNkxRTHpBV081ZnZXZ2prN3gtNXJfSUFJaW1jNmROWjl1ZmZmYUxBc2I5Ym1razNlcE54d1lfdVVIYnp0RlI2amJ2YzJxaTZPSjdDOEhKSDlkcTZyT2dROTdVNEd5NEF2SzBYSjJBdC13SXFYNGRENTlrZDBCaU5MWlBn0gHKAUFVX3lxTE13U0xmclhrOGFCN2lxY2FZcHNNaEUteDFDZmktbDM5RkpSZkRhNGR4OXh5RXdnZ2pMTTJmWmhmMWpnYVhRTGtGeF9zdGdFM282TFFMekFXTzVmdldnams3eC01cl9JQUlpbWM2ZE5aOXVmZmZhTEFzYjlibWtrM2VwTnh3WV91VUhienRGUjZqYnZjMnFpNk9KN0M4SEpIOWRxNnJPZ1E5N1U0R3k0QXZLMFhKMkF0LXdJcVg0ZEQ1OWtkMEJpTkxaUGc?oc=5",
+            "source": "DSports",
+            "pubDate": "Wed, 02 Sep 2026 13:11:31 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "Murió el futbolista que fue campeón con River, jugó en Independiente y ayudó a llevar a Maradona a Boca",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTXg1T3ZlWWlRLXFXWEwxNno5Zi1XQWtDazFCWUxQMzU2UlEtVktBZERFN2NLeElpZVBDaWkzalF0cEVFalFQTjNBd2h4a29tUHVnVE56d0FuaHlLcnU2TFowNWQwaUdsMXIxMFFxenE0Njc5aGFPTUROalpkVndQSWt1LVJ0STY1VE1nRjdKMWNjaThKWVBKMm9FUV9ac2lUUTNwREEzWkNUZUd1ZmJ2Z3hQODRkZ1UtZ1RlMXJLeFU2V2lfcVk0?oc=5",
+            "source": "La Voz del Interior",
+            "pubDate": "Wed, 02 Sep 2026 02:39:06 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
           {
             "title": "Estudiantes se prepara para recibir a Sarmiento de Junín en el Candini",
             "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYlVobTNqTmRwc1JLNmpFbk1tazBWcVAwOHZINHpXNmxaemYwTXI5a09kNnhCTi0xWDBJTnE2S0p4RjZZaGd2eXMyVUs2S2kwV1I2Z3dWdFg5d1RPSXlSTzZQeS1GY2VlMUNVZzNYT19iMVNZRFpSZFhmbklHcWIxc29FMUktcm02VDJ4dkhvZXFuaW1MZFNMbDRXdy1nMURveGtwMWIwaEpPYXdXY25NMFhCSHltbmVkTC0w0gHAAUFVX3lxTE5ybHRWYktMMGFHQjFKRkstdnYxOFJ5X01KejNfNEpiR3BINmJudWY0T1VMZVItMUJlX09sWjVOUkwxdmVpbVJmRGZaRjllc2NiYUFSdHQ5SmZ5WEtBLW5aZF9KWGw0SFNkUGhzSFRUZk9yQnhwT3J0dURSRGczY25OazlLTktkblk0aHFGY3hETmgxYjBBT0VNYnYtMVhQdWxZSkZlWDkyQVNHRHMxeGxZLVRCLW1JemJQeTRRRXdhag?oc=5",
@@ -123,11 +151,25 @@
             "fetched_at": "2026-09-01T12:26:15.717Z"
           },
           {
+            "title": "Tablas del descenso: quiénes se irían a la Primera Nacional en la Liga Argentina 2026",
+            "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORTRBaVNRUzA5WGl2UXFwREdkYVQ0WTBkZFRwbjV0V2NUYmxycG4ybjgwU1M0VTRiWDBDaGhkYkdCNVVSbHdKV2Y0amdZTHdQd0JFcDM5WjhHZG1ubE4zbTRHQ1NSR3UwTUVycnl2bXBad0tBaVpINUg3RENKVVQyZ1dPMlB1ZDQzMkRIdndxSWxOTHVMOXFxdUZFUU8xV1BqeWptZ1ZNbW5MSnVMNEhreFZVQ3ZQd2V2WktGVUhBcmRjZVlwWXJ2T0haNm5XZUJuaG14blJjYUkzNkJYYW52bS1NM2czdDA?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Tue, 01 Sep 2026 02:20:41 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
             "title": "Instituto venció por 1-0 a San Lorenzo, por el Torneo Clausura 2026",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbDV3am1HSkRBRVUxa09OaW0ySkE0bHpOVHVuMWdybTNLbGdseXVHZ01XdEdIOXViLU9ibS1HLUx4ZkJVcS1uNXdLQkNMcjBOQ1hTTVlia3d5clZ6d1k5SUUyYjRnX3hsTGN1ZTNXR21mVjF2cDVMNG9zeHVWMDZ3QnA3amlTbE0wSmUwcl9qc0xRUUREaHpneElHX3EzSXdXclpCbEktZFdwM0I1dF9DRHpUdkl2aU5KYnR0ZHUzS2hNeU9DV0VB?oc=5",
             "source": "La Nación",
             "pubDate": "Tue, 01 Sep 2026 02:10:00 GMT",
             "fetched_at": "2026-09-01T12:26:15.717Z"
+          },
+          {
+            "title": "Liga de Argentina: así está la tabla de posiciones",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa1NIamM2UGdfeE40YVEzQmd5dmZKbzFhUjBhTDBVMWVBUEF4aVRHZ09RSE5pQUhWQWdXcmQ5UHFhQkl6TlJYelREeG5uZVplSVRybUg0NzdpbWd0WllqWENWTjFQbEZBTTIzWWw3ekV0YXB3ME5DWDhCVENEY3FXTkY0WDE0RlM4c3Q2TGFJcGxCaVBoMHhna1VwN01QNm52UHVJTXhrVjdHS2hhdG1VQ3E2S0QtMXF4cXBDLVk5TUdSaG5R?oc=5",
+            "source": "ESPN Chile",
+            "pubDate": "Mon, 31 Aug 2026 22:30:00 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
           },
           {
             "title": "Fixture del Clausura 2026: calendario de partidos y todos los resultados",
@@ -221,6 +263,48 @@
         "label": "Básquet",
         "items": [
           {
+            "title": "Cómo quedó Argentina en la tabla de la clasificación al Mundial 2027 de básquet tras la derrota con Canadá: sus próximos partidos",
+            "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOdXQxS1dHV2dQNUk0OTd0WUtiejl5eDlzck5NMVJfLTVJVmlxWkVnUUNUY0dhMHhZdnAzWFdZQlVEM0g2Y3NabGtObnJBRjlYZDNFTzJVbFoxX09RUnZDaGFCNWJsclZMZVg3eWtCbWlmWDB3akZ6TE5saXNsYWNkUTUySkppbC1rUWhremVaNGNGTTIzY3c0aXBRUmhDSjQyeEZqM00yejkxUGZ0SFBkVzkteUZZbU1Zb3hjcFdZVHV3b0hqTldtaTl5QnlyLWh0X2YwVXlsaFNmT00tT3BIbmZweE9Kb3dvS0k0VjZfZ196YVFUTU81YWxJRmZTZ3FDcjdV0gGeAkFVX3lxTE9GQzVQcmx0RGRrQzg4Q196a1VySmlSS0RwUWs3S1VpVS1uMU9LN1pvM2VWZUFuTXZuQV9GbzF0YmtkQlJLN2MzUlNDZ1A5VmpIb3FPZS1UbXJWUmR5UFJEd2hvSWtsd1h1T2YzSEduRzBwaG9IS1I1LUlURnZJN3AxZ3lKdjhNR2hQOGZJb193b1ViLXR6WFpEcS1Lb2RfRE9KREplcm9YamNfTUJBZjhheHI2Q0Y2eVlTSVZjaVFhVDFZYjBmSDdUSWpvOHdUdXdaNWg0Y25YZ2ozaGhaMUVrcFZudTlmZlhlNlZlMjhlU0FhTldvYW9rOHpoN1BkWk1JZ0dwZmRRQ3Z0SWttdFp3SVRKWXhLSlVhT3MyaVE?oc=5",
+            "source": "Infobae",
+            "pubDate": "Tue, 01 Sep 2026 19:24:00 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "Con la derrota de Argentina y el agónico triunfo de Uruguay, así se jugó una nueva fecha de Eliminatorias F...",
+            "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNMmdkVlRESFZQcVplYkF1dC1LblR6R1FXbG04MnpQdFlRMDZJYTlMdDFqdXByNWFidmNmT2wzWkpSRlJKMUxnazUxcW4tVG54eVc5QWRjYXdLMHV3ZHZyejk5RnhMejRVVjF4Z0ZkMGxvZ0x1ZlJ3NnhJSnI0VndFclRnLVgwSW9GeXVBbml1Rk9IMzFMRV9DS0drUG5xMFlMOGdKdklwU0Njbkg5RVd6QWx2VjEzM09taWlQWURrd21pbzRUNFlFeDhHZHFPWURfNFhzblFadjZRQ2tpT3A5ZEc3RExKY1h0OFhMMEhHdVp4MDhtS2pTVEs1MUhYNHdMSFZCSklacDJsQWc5Qkswc1ltVDJMUmPSAZcCQVVfeXFMTTJnZFZUREhWUHFaZWJBdXQtS25UekdRV2xtODJ6UHRZUTA2SWE5THQxanVwcjVhYnZjZk9sM1pKUkZSSjFMZ2s1MXFuLVRueHlXOUFkY2F3SzB1d2R2cno5OUZ4THo0VVYxeGdGZDBsb2dMdWZSdzZ4SUpyNFZ3RXJUZy1YMElvRnl1QW5pdUZPSDMxTEVfQ0tHa1BucTBZTDhnSnZJcFNDY25IOUVXekFsdlYxMzNPbWlpUFlEa3dtaW80VDRZRXg4R2RxT1lEXzRYc25RWnY2UUNraU9wOWRHN0RMSmNYdDhYTDBIR3VaeDA4bUtqU1RLNTFIWDR3TEhWQkpJWnAybEFnOUJLMHNZbVQyTFJj?oc=5",
+            "source": "DSports",
+            "pubDate": "Tue, 01 Sep 2026 03:26:43 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "Se le escapó a Argentina ante la Canadá de los NBA y quedó tercera en las Eliminatorias",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcmhpTWxEVTV3VkdvRC1pYkx5bWFnb0F5NlRBRjRMLUpncG1qNjR5TkQ4SllwX2FMcUVuRUxvYmhsWm54VXhfZnlkQ0FkanJ6NTJXYWp4bTVGSzBHbWVacVpOeFk1M3NsaEVMZXY0LXRialVlTXl1bGNNcmVINXdqVjJycUd4LU1xU1hEZUlUeDJra2JKa2JkV2gyRGMyMy10VUwxVjU5cFlXRzNKSndUbHplRWk4NzY1dmg2N0NjS1J2STZkdnNF0gHMAUFVX3lxTE82bzNfYjREMEd3dXlPYzlMeFV5eUhGRmpKOFBka1FlNEdBNGdHWk1OUlZlMVZKX182czV3cFJSM19KWFlobG1obUlPMjA5WDI4QkY5RTNPVmozVmxOVldPZ21Xdm9nU05Tbl9QdHVkWFNiOHlYb0g2dFo4QjJZbGViVzhqdmVnYmVDanFHODlCc1VWOVhiSW1kTlhpX1hDemJ3a01adWl6TVJBYlQwbHFNVllJUVNrRlVZellobWlsSWw4VW0xSm5Wb1R2eQ?oc=5",
+            "source": "Sitio Andino",
+            "pubDate": "Tue, 01 Sep 2026 02:12:58 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "La Liga Argentina ya está en marcha para El Ceibo",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMm1NVG5TMUViTEJETDZZSGs2cUZLdzh4UGQ5ckptNDJjUjBuZ3RPcDU0MjBJWmJlanI3bkJKalMzeHVIRFRtOWNhS0hzQ3hTU19kSkM0a2hMZmFOc29ydFNET0V1aFI3alI4TGFPQW5nUllPYjltVWc1TTc3MUZxWHgtTmdNVGJoTVpFcW45NXVIaUtGWXVlWGllLTdEcDRDS0pn?oc=5",
+            "source": "todobasquet.com.ar",
+            "pubDate": "Mon, 31 Aug 2026 21:16:52 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "Argentina visita a la invicta Canadá en el cierre de la cuarta ventana FIBA | 30 de agosto de 2026",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYUZvT2ZWMHQtTEs1RXdpNUxndzFLSnhDWURuWTVjVjlIRVVGWkgyeDROVnhLTmtDVkFYVnVUcmhoQ0VZMWh5YkVMbTFZWTI5OWMwSGhvbjN5N05FeUhPb0xnYk9IRFVjM3dMVXdJblFSZ0JzQ1Y3Z1NHUlBSdHctTUlLX2ZVX2o5OWlFbGV3MlF4UHpSSHZjUFZqaWxGOWtSUzZTUUFZOERNMXJDUGwwUDh5UXN2d9IBuwFBVV95cUxONzN1VFFFb0Rpa3dIUmJqQWNVT3RKaDN0LW93Z2pNYlJaYS1TTnVMNVFUUUFRX0pMdjI2X01QN1RwOXNfZUZCLUJGSmRWeVdqRFJDaUdhQUpHRklOQ2hQa2I1MXl6VmZKQ2Vrak5XM2ZMNUxEbTFEbUVxcFZ4MjBkUFJVdkdJTzN5eklGZUxZemVBUGlpazFFdEt6blpkeHN1LWd2eURPLWk0LWVjTXFGMVlJN0k5VEppQ04w?oc=5",
+            "source": "Hoy Día Córdoba",
+            "pubDate": "Sun, 30 Aug 2026 21:09:00 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "97 años de la CAB: Bahía Blanca, desde el origen y hacia el futuro del básquet argentino",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZGZKVW5ycTVGWGZUT2ZfSEZHYlZSRV9rV2hvSXZaX1hEZmpCWDMwdWQzam05dl90dFFhd21BbE9Kdl81MHIwSkF1QThRSmNZR2tOMTdBTlN4aktzaGJCS1dfeDBRUHU5d0Z5RkZma1pIaWMxbGRpdDA1b21aSUk1X3BHclE3Szc2aXg1X2l1QkxjOVFJeGh6ODg4VHQ2M05hN1F0d0hlYUxqWXJEZEE?oc=5",
+            "source": "abbasquet.com",
+            "pubDate": "Sun, 30 Aug 2026 05:19:24 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
             "title": "Formato confirmado para la Liga Nacional 2026-27",
             "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ3dCZGlSTnhJVXRCSk42UFhZajc4WEZKQzJLRlpCdlBWVU9qVVpLWmN2ZlpZT2lRZnl2TVF0LXF5bXZJRTB0R3hkUWZ1aU54amtlLXNKMTJRQjlxdWx0VHVvbVVMeGwtSWtvb05TQnh4SEc4cl9wTmlNeDJpcURFV3BpT3RYMGgxZVZWQmtSVU1SQlFWUU42blZxeVQ?oc=5",
             "source": "TyC Sports",
@@ -269,6 +353,13 @@
         "key": "curiosidades",
         "label": "Curiosidades de fútbol",
         "items": [
+          {
+            "title": "‘No es solo un juego’: el nuevo libro de Panenka",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUVZWQkxGQjNITThreGpkMTdKQzR3SjFZNDNxV3lBQXVOdXVaemowWjVxbl82OXdXbGRwMUpUYTJadFJOREVEaElQWU5fX0poaXpxaThCZHBjQU1MTXFYbVFTZUZ0emdLUU5GVFEtWl9RRkl1d1lvRmcwTzd1Q3pEdVhsQUYxZEdQZmfSAYoBQVVfeXFMUFFWVkJMRkIzSE04a3hqZDE3SkM0d0oxWTQzcVd5QUF1TnV1WnpqMFo1cW5fNjl3V2xkcDFKVGEyWnRSTkRFRGhJUFlOX19KaGl6cWk4QmRwY0FNTE1xWG1RU2VGdHpnS1FORlRRLVpfUUZJdXdZb0ZnME83dUN6RHVYbEFGMWRHUGZn?oc=5",
+            "source": "panenka.org",
+            "pubDate": "Wed, 02 Sep 2026 08:59:55 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
           {
             "title": "Argentina vs. Egipto: datos inéditos y curiosidades del cruce de Octavos en el Mundial 2026",
             "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVm1mQ2QwWU9qS0tsQW0tdUxoeDRYNW1OYlFhcWcxSDBZVWpyX2RyX3kyU2E5Um5BNGk0TTFEMk5ZcjdYeGVuaEUyMm80VVVBc19xUXJiUUdzVjZWa3lSbVRrQXRoaUR6NTJOUlAtZGxlLWdHaFV5bHBJU2FHdkFDbnFnaTB5T2E1M0FTLUdIdXpTeUI1RFlSV2gtLTVnSGxfZ1ZXUm82dW15aUNzbHdqRzJUSVhoeWNmR1Z5RU1hMjRxcWRsVWdvaEFoQQ?oc=5",
@@ -340,6 +431,41 @@
         "label": "Fútbol internacional",
         "items": [
           {
+            "title": "Sin Messi ni Cristiano Ronaldo: quiénes son los máximos candidatos a quedarse con el Balón de Oro",
+            "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTjNfVUtLazZJX2l3Q3N4Nk9FV0NVRzhKUm5ZcGFkN0NTMERUOTJqbDRLVklsWVhwMW5QWHpvaWQwWFRWMDBQSTRqbHR0Y0dYOXBXZXFkQkcyeFhWSW14WV96cjJTaUR1emNfUktreEZ6NXlqMEdVeXcxNUxodXFkMTNHX1NtRFg4Tnhmbi1iUDZQTUFPakdvdmZPV0hkTTJsSHlvTk9VbTB0dC1TRGgyWWI1UE9YQVB3ejREZmpJVlBPRTd4YjZZMThpUnNVNnUxVllJTjVIeHFOTnE1ZFpFMjlPMkJHaUHSAewBQVVfeXFMTUgyS216XzJreHBxWkV3Q1ZoU1l1bWhOS2luTzRBREQxZ0htVmRIVHpkMUd3d0xxY3VBeUZ0UFU0ZlJ0VWRCaW9yOFJGRHdQU05TMURqT25lbGhhUE1sZ1cxdTZ2ajBaUm5Cc3RzZUQ0STA3YUd6S3dKdXRJRDlRck50VDRPOHJQVW9tN1VGUGlBWUxhS1hMMDBFQlNOMmQwV2ZSUy12alA1NC13cEdvNXViaFhlS29jMkNubTRGeWZrRlFsdmhnQUEyb3B4ZDVyY0dlQ2JNUnlXR3NHek4wU2E0VWQwUTJTM3pDSXQ?oc=5",
+            "source": "DSports",
+            "pubDate": "Wed, 02 Sep 2026 16:23:21 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "Qué estrellas siguen libres tras el cierre del mercado de pases europeo",
+            "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOQ1R5aFZTdk8xd3hlQTdYNGV1djhSVFZOUFZkV19JeU1OY0dRSjhIX3NKZXJqM0hvT1pMRUhRRE1nQlk0RklVd2FjNE94RURIbjBOeUhOWTk3cFc4ZzB0V3FPbC1rZTZYVUF2QUExdC0wUmkwdHZMTWswRDVNYndPeEdXcjNLR2lEVGJjaWNPNHM5UXVGb2ZqSWZqYjdsNG0zS3FQaXg4RWVKTWR5b1lwRVVVS25yVU1vZ3M4VlpJWG8tcWdKZGpuVnRaUnNQbzVwWkpwekxzV0l3R3B4c0VjY05zLWNEU1RjR1pUMGx2RWtVcjdNSzJoOTh6WGgzMjVq?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Wed, 02 Sep 2026 13:59:07 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "De Mauro Icardi a Karim Benzema: las 20 estrellas que están libres tras el cierre del mercado de pases en Europa",
+            "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUHdZSGdEeEpWVGZ3ZW55SnBTOG9Bd1FaMmdSQnItNU45RFVieUs5TXNORXFfei0yZEl6NlRPc2pqMTFnZUhfd1o2TW9rVGpCaFYxZkNubUtLVi1TcUtZVVJhRWFoMy1BaHJRbzEtSWViWU43WldZb2hlazhUU2UweWJvRmxqSnMyZWVYanJaUTVsVHVZX204NlJhQzRhMVJuLXp4b0JpdlRtdTRtamF0S21aZ3M3NmJmLS1laWRWVzNveXNuaG1pVjIwZE5rZUJwbVZBZ21hUVJaQUd3blRscFJzSHNqbHc4ekNKdmNVeGFjMm4yU2NGOExlYmV0RnJpX3NZWWM2QdIBhwJBVV95cUxNUHdZSGdEeEpWVGZ3ZW55SnBTOG9Bd1FaMmdSQnItNU45RFVieUs5TXNORXFfei0yZEl6NlRPc2pqMTFnZUhfd1o2TW9rVGpCaFYxZkNubUtLVi1TcUtZVVJhRWFoMy1BaHJRbzEtSWViWU43WldZb2hlazhUU2UweWJvRmxqSnMyZWVYanJaUTVsVHVZX204NlJhQzRhMVJuLXp4b0JpdlRtdTRtamF0S21aZ3M3NmJmLS1laWRWVzNveXNuaG1pVjIwZE5rZUJwbVZBZ21hUVJaQUd3blRscFJzSHNqbHc4ekNKdmNVeGFjMm4yU2NGOExlYmV0RnJpX3NZWWM2QQ?oc=5",
+            "source": "Infobae",
+            "pubDate": "Wed, 02 Sep 2026 12:59:13 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "Igualar el récord británico para fichar a Enzo Fernandez es ridículo para el Manchester City, y además deja al Chelsea corto en el centro del campo: GOAL califica los mayores movimientos del mercado de fichajes del verano de 2026 | Goal.com Argentina",
+            "link": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPcTkzMDViTnhsSUhqQ2NIT2dBYWtLaUJuVEk5MWRNTWF3cGF6d2NKYlN1dFRIY1ZHejMwaXltNnNZdUFBUndCMHB0eW55aTNVOVlrdnJkbU92a2w5LUxvM2YtUk1YNGFFWVg0T2lscklxMkIzdEdiZlpicmV4OExubjAxNHYwek96aFYybkFzcndqZEYzNU8yZ0pxTnI5TkZ0dzhybG52SnNxMG5iazZCQ2xGVS1Mc08tRGhScTdXVDlPUFhCTVJDcjNYTTZvaWJoUEdMZWN4ZC1BTjBCWGZHZU9TQXV3WWN3QlFRZVctc04xQXB4SUJFam9QWVFDaF9xUWRlY3RxN0lGUmlLYUZnRk40OUU4UWpuVlMwS0hXdjkzb2V5NEotZjBiLUtRQ1ByVlNWbHZ1VGJUQ0g0R1hEUVVuMHhVWUtlZDFBY1Zmb1VlN1FoQVJCbkVGNG1VM2M1dk5wT0lZUUt1Y0V3VDF6Ui1qeExUdXJVQnRIS0lRU0hVR1JyNXRBN3hBNHVTa0VKWXc?oc=5",
+            "source": "Goal.com",
+            "pubDate": "Wed, 02 Sep 2026 05:28:52 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
+            "title": "Bomba en el mercado inglés: Enzo Fernández dejó Chelsea para firmar con el Manchester City de Maresca",
+            "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSGpULUVMUHltNGJSSkdoQVB3ZE1kV1hlMEpjQm1nbi1NbWxGeDZUczBwZGU2SmxsTGVSX1pNUDZwazE1NFdIQUpib0ZxVi0ycGNKeXU3UGNDd3pLX0ZqNW5paTNFTVYtU082ei16dFZHbFJRVVpVSUlKSXdPTWpTSmdFQ2N4OFVnRE01M0RTQVpjU29ER3JBOXlKN0RKMk5icHM3dURDYjVLNk1vbEt4RF9Jd2hhdWFQdTV0OG8zelhJVTI5ZGRsaHg5blpuNEs5UHQtbEFxQ2EtbG9TNE9PRnl2Vm1zR3RxNjFhNzV4eXFnd9IB8gFBVV95cUxPSGpULUVMUHltNGJSSkdoQVB3ZE1kV1hlMEpjQm1nbi1NbWxGeDZUczBwZGU2SmxsTGVSX1pNUDZwazE1NFdIQUpib0ZxVi0ycGNKeXU3UGNDd3pLX0ZqNW5paTNFTVYtU082ei16dFZHbFJRVVpVSUlKSXdPTWpTSmdFQ2N4OFVnRE01M0RTQVpjU29ER3JBOXlKN0RKMk5icHM3dURDYjVLNk1vbEt4RF9Jd2hhdWFQdTV0OG8zelhJVTI5ZGRsaHg5blpuNEs5UHQtbEFxQ2EtbG9TNE9PRnl2Vm1zR3RxNjFhNzV4eXFndw?oc=5",
+            "source": "alertadigital.ar",
+            "pubDate": "Tue, 01 Sep 2026 22:40:58 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
+          },
+          {
             "title": "La Inteligencia Artificial pronosticó al campeón de la UEFA Champions League 2026-27",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNXJhbk9oUGY1OGtNbHgxZ05xQkNKVHpvUzN3UUlXNTd0TV9ENFptVkg2cC1hREU1ZjB5YTJ2S0Ntc19zRFVlZmJOdktjY0NZS0x4RGc2eG5OMmxGeGlhSFk1QmFsWkNnWjNwakFQWldsb2JkUFA0ektGT3ZrNmdPSWdIeUpmUHhZZmFUQ2JTLXNEdVltUmVuX0J1T3FxQ21FanI3dGQ3NUMzaC1XTFpuTmo0Mm5CTlR6eTlPSHdwS2JndUVyel9F0gHMAUFVX3lxTE9vU1BBVGFKMW45eUZyQ0VrOGpMSVBnVjJ6dDZ1ZllLUWFCdkU3THRmbGVhXy11ZTNxdEFId05rbms0OGxXeU1ncWlUaGxldmxQY2RlT053ajZPeDF0cm1sR2FDM2ozRlJrWHlKUmpFWlJDR0RCU0ZCc0dLM2ZBNTRTanlQWFNOODZWT3RwOWlvU0FVOHJ4b0MyZTF5VTQ4UDdLYjQ3dkV6b18zZjZxRHZpbU1PQnBrX1hFTHFfX3l0NlZaMVBMWEZwaEVEWg?oc=5",
             "source": "bolavip.com",
@@ -352,6 +478,13 @@
             "source": "ESPN Argentina",
             "pubDate": "Tue, 01 Sep 2026 19:58:10 GMT",
             "fetched_at": "2026-09-01T21:22:11.603Z"
+          },
+          {
+            "title": "Qué jugadores argentinos cambiaron de club en este mercado de pases europeo",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSGl1NDN1Um9BNlR4TlFXM1RadDdVaHRYVWdZVl9WaFpjTkxpTjBXai1Ia2FnYnpFUXlHUklENTN5c3QwTHNMdFZ5MEdtV3ZfWjB5Qk9aS3F5dmZwbEx0ZWFjRjA4NzViWnZtZk5aODktMzhHN0laUzhVdG1PeUp1bzVYeWRkeXM5SHVSVng2WENhNEI3aXo2dVJpNlhJWDRIdkpKMUhjSmdZQ0tEMkNNZXh4c1ppQUdRV29XcmF1dw?oc=5",
+            "source": "ESPN Deportes",
+            "pubDate": "Tue, 01 Sep 2026 19:47:00 GMT",
+            "fetched_at": "2026-09-02T18:18:38.428Z"
           },
           {
             "title": "El Liverpool está pagando de más por Bradley Barcola, pero fichar por el Liverpool ofrece al veloz extremo francés la oportunidad de convertirse en una superestrella mundial: GOAL califica los mayores fichajes del mercado de verano de 2026 | Goal.com Es",
