@@ -40,14 +40,14 @@
 
   /* ---- layout distinto en pantallas grandes (PC) ---- */
   @media (min-width: 900px) {
-    body { display:flex; justify-content:center; align-items:flex-start; }
-    .wrap { max-width: 680px; margin: 0; padding: max(16px, env(safe-area-inset-top)) 28px 40px; }
-    .kpi-grid { grid-template-columns: repeat(4, 1fr); }
-    .menu-btn { display:none; }
+    body { display:flex !important; justify-content:center; align-items:flex-start; }
+    .wrap { max-width: 680px !important; margin: 0 !important; padding: max(16px, env(safe-area-inset-top)) 28px 40px !important; }
+    .kpi-grid { grid-template-columns: repeat(4, 1fr) !important; }
+    .menu-btn { display:none !important; }
     .overlay { display:none !important; }
     .drawer {
-      position: sticky; top:0; left:auto; transform:none !important;
-      order:-1; height:100vh; flex-shrink:0; align-self:flex-start;
+      position: sticky !important; top:0 !important; left:auto !important; transform:none !important;
+      order:-1; height:100vh !important; flex-shrink:0; align-self:flex-start;
     }
   }
 
