@@ -1,0 +1,48 @@
+name: Conectar cuenta de TikTok
+
+# Se corre a mano, una sola vez (y de nuevo solo si hay que reconectar en
+# el futuro). Canjea el código que te da tiktok-callback.html por un
+# refresh_token y lo guarda cifrado en el repo.
+
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: "Código que te mostró tiktok-callback.html después de loguearte"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  connect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Canjear código por tokens
+        env:
+          TIKTOK_AUTH_CODE: ${{ inputs.code }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_ENC_PASSPHRASE: ${{ secrets.TIKTOK_ENC_PASSPHRASE }}
+        run: node tiktok-exchange-token.mjs
+
+      - name: Commit y push del token cifrado
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- .tiktok-refresh.enc; then
+            echo "Sin cambios."
+          else
+            git add .tiktok-refresh.enc
+            git commit -m "Conectar cuenta de TikTok"
+            git push
+          fi
