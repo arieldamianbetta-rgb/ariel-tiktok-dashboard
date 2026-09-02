@@ -989,6 +989,8 @@ async function load() {
   const colors = ["#3987e5","#d95926","#199e70","#c98500","#9085e9"];
   const list = document.getElementById("bench-list");
   const videoLinks = document.getElementById("video-links");
+  list.innerHTML = "";
+  videoLinks.innerHTML = "";
   let anyStale = false;
   all.forEach((a, i) => {
     if (!a.ok) anyStale = true;
