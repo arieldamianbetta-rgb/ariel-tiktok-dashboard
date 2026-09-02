@@ -250,6 +250,25 @@
             <div class="value" id="summary-month">—</div>
             <div class="period" id="summary-month-period"></div>
           </div>
+          <div class="summary-item">
+            <div class="label">Racha de crecimiento</div>
+            <div class="value" id="summary-streak">—</div>
+            <div class="period" id="summary-streak-period"></div>
+          </div>
+          <div class="summary-item">
+            <div class="label">Mejor semana</div>
+            <div class="value" id="summary-bestweek">—</div>
+            <div class="period" id="summary-bestweek-period"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title">Engagement</div>
+        <div class="section-sub">Me gusta acumulados por cada seguidor — qué tan enganchada está tu audiencia, más allá de cuánta gente te sigue</div>
+        <div class="summary-item">
+          <div class="value" id="engagement-value" style="font-size:32px;">—</div>
+          <div class="period" id="engagement-trend"></div>
         </div>
       </div>
 
@@ -506,6 +525,97 @@ function renderSummaryPeriod(hist, days, valueElId, periodElId) {
 function renderSummary(hist) {
   renderSummaryPeriod(hist, 7, "summary-week", "summary-week-period");
   renderSummaryPeriod(hist, 30, "summary-month", "summary-month-period");
+  renderStreak(hist);
+  renderBestWeek(hist);
+}
+
+/* ---------- racha de crecimiento ---------- */
+function computeStreak(hist) {
+  if (hist.length < 2) return 0;
+  let streak = 0;
+  for (let i = hist.length - 1; i > 0; i--) {
+    if (hist[i].followers > hist[i - 1].followers) streak++;
+    else break;
+  }
+  return streak;
+}
+function renderStreak(hist) {
+  const valueEl = document.getElementById("summary-streak");
+  const periodEl = document.getElementById("summary-streak-period");
+  if (hist.length < 2) {
+    valueEl.textContent = "—";
+    periodEl.textContent = "todavía no hay suficientes días guardados";
+    return;
+  }
+  const streak = computeStreak(hist);
+  if (streak > 0) {
+    valueEl.textContent = `🔥 ${streak}`;
+    valueEl.classList.add("good");
+    periodEl.textContent = streak === 1 ? "día seguido creciendo" : "días seguidos creciendo";
+  } else {
+    valueEl.textContent = "0";
+    valueEl.classList.remove("good");
+    periodEl.textContent = "hoy no sumó respecto al día anterior";
+  }
+}
+
+/* ---------- mejor semana ---------- */
+function computeBestWeek(hist) {
+  if (hist.length < 2) return null;
+  let best = null;
+  for (let j = 1; j < hist.length; j++) {
+    const dj = new Date(hist[j].date + "T00:00:00");
+    let i = -1;
+    for (let k = 0; k < j; k++) {
+      const dk = new Date(hist[k].date + "T00:00:00");
+      if ((dj - dk) / 86400000 >= 6) i = k;
+    }
+    if (i === -1) continue;
+    const delta = hist[j].followers - hist[i].followers;
+    if (!best || delta > best.delta) {
+      best = { delta, fromDate: hist[i].date, toDate: hist[j].date };
+    }
+  }
+  return best;
+}
+function renderBestWeek(hist) {
+  const valueEl = document.getElementById("summary-bestweek");
+  const periodEl = document.getElementById("summary-bestweek-period");
+  const best = computeBestWeek(hist);
+  if (!best) {
+    valueEl.textContent = "—";
+    periodEl.textContent = "necesitamos al menos una semana completa de historial";
+    return;
+  }
+  valueEl.textContent = (best.delta > 0 ? "+" : "") + best.delta;
+  valueEl.classList.toggle("good", best.delta > 0);
+  periodEl.textContent = `del ${best.fromDate} al ${best.toDate}`;
+}
+
+/* ---------- engagement (me gusta por seguidor) ---------- */
+function renderEngagement(data, hist) {
+  const valueEl = document.getElementById("engagement-value");
+  const trendEl = document.getElementById("engagement-trend");
+  const followers = data.me.followers, hearts = data.me.hearts;
+  if (!followers) {
+    valueEl.textContent = "—";
+    trendEl.textContent = "";
+    return;
+  }
+  const ratio = hearts / followers;
+  valueEl.textContent = ratio.toFixed(1);
+
+  const withHearts = hist.filter(h => typeof h.hearts === "number" && h.followers);
+  if (withHearts.length >= 2) {
+    const first = withHearts[0], last = withHearts[withHearts.length - 1];
+    const r0 = first.hearts / first.followers, r1 = last.hearts / last.followers;
+    const diff = r1 - r0;
+    if (diff > 0.05) trendEl.textContent = `▲ mejorando desde el ${first.date}`;
+    else if (diff < -0.05) trendEl.textContent = `▼ bajando desde el ${first.date}`;
+    else trendEl.textContent = `estable desde el ${first.date}`;
+  } else {
+    trendEl.textContent = "vamos a poder mostrar la tendencia con más días de datos";
+  }
 }
 
 /* ---------- meta de seguidores ---------- */
@@ -763,6 +873,7 @@ async function load() {
   renderChart(hist);
   window.__lastHist = hist;
   renderSummary(hist);
+  renderEngagement(data, hist);
   renderGoal(hist);
   renderNews(data.news);
 
@@ -849,6 +960,25 @@ function renderChart(hist) {
 }
 
 load();
+
+/* ---------- refrescar solo al volver a abrir la app ---------- */
+// las apps instaladas (PWA) suelen quedar "abiertas" en segundo plano en el
+// celu, mostrando para siempre los datos de la primera vez que se cargaron.
+// Estas dos cosas hacen que, cada vez que volvés a la app (la traés al
+// frente, o Android/iOS la revive desde background), se vuelva a pedir
+// data.json fresco — sin que tengas que cerrarla y abrirla a mano.
+let loadInFlight = false;
+async function reload() {
+  if (loadInFlight) return;
+  loadInFlight = true;
+  try { await load(); } finally { loadInFlight = false; }
+}
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") reload();
+});
+window.addEventListener("pageshow", (e) => {
+  if (e.persisted) reload(); // volvió desde el back-forward cache del navegador
+});
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js").catch(() => {});
