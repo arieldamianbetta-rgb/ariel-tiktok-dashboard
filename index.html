@@ -296,7 +296,7 @@
       </div>
 
       <div class="card" id="videos-card" style="display:none;">
-        <div class="section-title">Tus Ãºltimos videos</div>
+        <div class="section-title">Tus últimos videos</div>
         <div class="section-sub">Vistas, me gusta y comentarios reales de la API de TikTok</div>
         <div id="videos-list"></div>
       </div>
@@ -961,7 +961,7 @@ async function load() {
   document.getElementById("kpi-hearts").textContent = fmt(data.me.hearts);
   document.getElementById("kpi-topvideo").textContent = fmt(data.me.top_video_views);
   document.getElementById("kpi-topvideo-label").textContent =
-    (data.me.top_video_label || "") + (data.me.top_video_auto ? " Â· automÃ¡tico" : "");
+    (data.me.top_video_label || "") + (data.me.top_video_auto ? " · automático" : "");
   renderVideos(data.me.videos);
 
   const hist = data.history || [];
@@ -1027,10 +1027,10 @@ function renderVideos(videos) {
   videos.slice(0, 5).forEach((v) => {
     const row = document.createElement("div");
     row.className = "video-item";
-    const title = v.title && v.title.trim() ? v.title.trim() : "(sin tÃ­tulo)";
+    const title = v.title && v.title.trim() ? v.title.trim() : "(sin título)";
     row.innerHTML = `
       <div class="video-title">${v.url ? `<a href="${v.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">${title}</a>` : title}</div>
-      <div class="video-stats">${fmt(v.views)} vistas Â· ${fmt(v.likes)} me gusta Â· ${fmt(v.comments)} comentarios Â· ${fmt(v.shares)} compartidos</div>
+      <div class="video-stats">${fmt(v.views)} vistas · ${fmt(v.likes)} me gusta · ${fmt(v.comments)} comentarios · ${fmt(v.shares)} compartidos</div>
       ${v.created ? `<div class="video-date">${v.created}</div>` : ""}
     `;
     list.appendChild(row);
