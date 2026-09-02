@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conectar TikTok — Ariel Betta Dashboard</title>
+<style>
+  body { background:#0d0d0d; color:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; max-width:520px; margin:0 auto; padding:40px 20px; line-height:1.6; text-align:center; }
+  h1 { font-size:20px; }
+  p { color:#c3c2b7; font-size:14px; }
+  button, .btn { display:inline-block; margin-top:20px; padding:12px 22px; border-radius:10px; border:none; background:#3987e5; color:#fff; font-size:15px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .warn { margin-top:24px; padding:12px 14px; border-radius:10px; background:#2c2c2a; color:#d95926; font-size:13px; text-align:left; }
+  a.back { color:#898781; display:block; margin-top:28px; font-size:13px; }
+</style>
+</head>
+<body>
+  <h1>Conectar tu cuenta de TikTok</h1>
+  <p>Este paso conecta tu cuenta @ariel_betta45 con el dashboard para poder traer, todos los días, las vistas, me gusta, comentarios y compartidos reales de tus videos. Es solo lectura: el dashboard nunca publica ni cambia nada en tu cuenta.</p>
+
+  <div id="app">
+    <button id="connectBtn">Conectar con TikTok</button>
+  </div>
+
+  <a class="back" href="./">← Volver al dashboard</a>
+
+<script>
+  // Reemplazá esto por tu Client Key una vez que registres la app en
+  // developers.tiktok.com (no es un dato secreto, es un identificador público).
+  const CLIENT_KEY = "PEGAR_CLIENT_KEY_ACA";
+  const REDIRECT_URI = "https://arieldamianbetta-rgb.github.io/ariel-tiktok-dashboard/tiktok-callback.html";
+  const SCOPES = "user.info.basic,video.list";
+
+  const btn = document.getElementById("connectBtn");
+
+  if (CLIENT_KEY === "PEGAR_CLIENT_KEY_ACA") {
+    document.getElementById("app").innerHTML =
+      '<div class="warn">Todavía falta configurar el Client Key de la app de TikTok en esta página. Una vez que la tengas registrada, pasámelo y lo dejo listo.</div>';
+  } else {
+    btn.addEventListener("click", () => {
+      const state = Math.random().toString(36).slice(2) + Date.now().toString(36);
+      try { localStorage.setItem("tiktok_oauth_state", state); } catch (e) {}
+      const url = new URL("https://www.tiktok.com/v2/auth/authorize/");
+      url.searchParams.set("client_key", CLIENT_KEY);
+      url.searchParams.set("scope", SCOPES);
+      url.searchParams.set("response_type", "code");
+      url.searchParams.set("redirect_uri", REDIRECT_URI);
+      url.searchParams.set("state", state);
+      window.location.href = url.toString();
+    });
+  }
+</script>
+</body>
+</html>
