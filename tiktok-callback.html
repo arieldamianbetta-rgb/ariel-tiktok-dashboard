@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conectar TikTok — paso final</title>
+<style>
+  body { background:#0d0d0d; color:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; max-width:560px; margin:0 auto; padding:40px 20px; line-height:1.6; }
+  h1 { font-size:20px; }
+  p, li { color:#c3c2b7; font-size:14px; }
+  ol { padding-left:20px; }
+  code, .code-box { font-family:"SF Mono",Consolas,monospace; }
+  .code-box { display:block; background:#1a1a19; border:1px solid rgba(255,255,255,0.1); border-radius:10px; padding:14px; margin:16px 0; font-size:13px; word-break:break-all; color:#fff; }
+  button { padding:10px 16px; border-radius:8px; border:none; background:#3987e5; color:#fff; font-size:14px; font-weight:600; cursor:pointer; }
+  .err { color:#d95926; }
+  a.back { color:#898781; display:block; margin-top:28px; font-size:13px; }
+</style>
+</head>
+<body>
+  <div id="app">Cargando…</div>
+  <a class="back" href="./">← Volver al dashboard</a>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const code = params.get("code");
+  const error = params.get("error");
+  const app = document.getElementById("app");
+
+  if (error) {
+    app.innerHTML = `
+      <h1>TikTok devolvió un error</h1>
+      <p class="err">${params.get("error_description") || error}</p>
+      <p>Volvé a intentarlo desde la página de conexión.</p>
+    `;
+  } else if (!code) {
+    app.innerHTML = `
+      <h1>No llegó ningún código</h1>
+      <p>Esta página se usa solo como paso final del login con TikTok. Si llegaste acá directamente, volvé al dashboard y probá de nuevo desde "Conectar con TikTok".</p>
+    `;
+  } else {
+    app.innerHTML = `
+      <h1>¡Listo! Un último paso</h1>
+      <p>Copiá este código (vale solo por unos minutos, así que hacé el siguiente paso enseguida):</p>
+      <span class="code-box" id="codeBox">${code}</span>
+      <button id="copyBtn">Copiar código</button>
+      <p style="margin-top:24px">Ahora andá a la pestaña <strong>Actions</strong> del repositorio en GitHub → workflow <strong>"Conectar cuenta de TikTok"</strong> → botón <strong>Run workflow</strong> → pegá el código en el campo <code>code</code> → <strong>Run workflow</strong>.</p>
+      <p>Con eso el sitio queda conectado para traer tus estadísticas reales todos los días, sin que tengas que repetir este paso (salvo una vez al año, como máximo).</p>
+    `;
+    document.getElementById("copyBtn").addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(code);
+        document.getElementById("copyBtn").textContent = "¡Copiado!";
+      } catch (e) {
+        // fallback: seleccionar el texto para copiar a mano
+        const range = document.createRange();
+        range.selectNode(document.getElementById("codeBox"));
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+      }
+    });
+  }
+</script>
+</body>
+</html>
