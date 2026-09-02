@@ -26,6 +26,13 @@ jobs:
       - name: Refrescar estadísticas de TikTok
         run: node fetch-stats.mjs
 
+      - name: Traer estadísticas reales de mis videos (API de TikTok)
+        env:
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_ENC_PASSPHRASE: ${{ secrets.TIKTOK_ENC_PASSPHRASE }}
+        run: node fetch-tiktok-videos.mjs
+
       - name: Traer noticias del día
         run: node fetch-news.mjs
 
@@ -33,10 +40,11 @@ jobs:
         run: |
           git config user.name "dashboard-bot"
           git config user.email "actions@users.noreply.github.com"
-          if git diff --quiet -- data.json; then
+          git add data.json
+          if [ -f .tiktok-refresh.enc ]; then git add .tiktok-refresh.enc; fi
+          if git diff --cached --quiet; then
             echo "Sin cambios, no hay nada para commitear."
           else
-            git add data.json
             git commit -m "Actualizar métricas ($(date -u +%Y-%m-%d))"
             git push
           fi
