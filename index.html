@@ -119,6 +119,8 @@
   .line-path { fill:none; stroke:var(--series-1); stroke-width:3.5; stroke-linecap:round; stroke-linejoin:round; }
   .end-dot { fill:var(--series-1); stroke:var(--surface-1); stroke-width:3; }
   .end-label { fill:var(--text-primary); font-size:15px; font-weight:800; }
+  .line-path.views { stroke:var(--series-3); }
+  .end-dot.views { fill:var(--series-3); }
 
   .bar-row { margin-bottom:14px; }
   .bar-row .top { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:6px; gap:8px; }
@@ -325,6 +327,20 @@
             </linearGradient>
           </defs>
           <g id="chart-content"></g>
+        </svg>
+      </div>
+
+      <div class="card">
+        <div class="section-title">Tendencia de vistas por video</div>
+        <div class="section-sub" id="chart-views-sub">Promedio de vistas de tus últimos videos</div>
+        <svg id="chart-views" viewBox="0 0 520 220" width="100%" height="220">
+          <defs>
+            <linearGradient id="areaGradViews" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#199e70" stop-opacity="0.35"/>
+              <stop offset="100%" stop-color="#199e70" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <g id="chart-views-content"></g>
         </svg>
       </div>
 
@@ -1086,6 +1102,7 @@ async function load() {
   }
 
   renderChart(hist);
+  renderViewTrendChart(data.me.view_trend || []);
   window.__lastHist = hist;
   renderSummary(hist);
   renderEngagement(data, hist);
@@ -1358,6 +1375,59 @@ function renderChart(hist) {
   g.innerHTML = html;
   document.getElementById("chart-sub").textContent =
     hist.length === 1 ? "Primer registro — mañana empieza a dibujar la curva" : `Del ${hist[0].date} al ${hist[hist.length-1].date}`;
+}
+
+function renderViewTrendChart(trend) {
+  const g = document.getElementById("chart-views-content");
+  if (!g) return;
+  const sub = document.getElementById("chart-views-sub");
+  if (!trend.length) {
+    if (sub) sub.textContent = "Todavía no hay suficientes días para dibujar la curva.";
+    return;
+  }
+  const W = 520, H = 220, padL = 36, padR = 10, padT = 20, padB = 28;
+  const innerW = W - padL - padR, innerH = H - padT - padB;
+
+  const values = trend.map((t) => t.avg_views);
+  const min = Math.min(...values), max = Math.max(...values);
+  const range = (max - min) || Math.max(10, Math.round(min * 0.08));
+  const yMin = Math.max(0, min - range * 0.4);
+  const yMax = max + range * 0.4;
+
+  const x = (i) => padL + (trend.length === 1 ? innerW/2 : (i/(trend.length-1)) * innerW);
+  const y = (v) => padT + innerH - ((v - yMin) / (yMax - yMin)) * innerH;
+
+  let html = "";
+  for (let i=0;i<=2;i++) {
+    const yy = padT + (innerH/2)*i;
+    html += `<line class="grid-line" x1="${padL}" y1="${yy}" x2="${W-padR}" y2="${yy}"/>`;
+  }
+  html += `<line class="grid-line" x1="${padL}" y1="${padT+innerH}" x2="${W-padR}" y2="${padT+innerH}"/>`;
+  html += `<text class="axis-label" x="0" y="${padT+4}">${fmt(Math.round(yMax))}</text>`;
+  html += `<text class="axis-label" x="0" y="${padT+innerH+4}">${fmt(Math.round(yMin))}</text>`;
+
+  if (trend.length === 1) {
+    const cx = x(0), cy = y(values[0]);
+    html += `<circle class="end-dot views" cx="${cx}" cy="${cy}" r="5"/>`;
+    html += `<text class="end-label" x="${cx-14}" y="${cy-14}">${fmt(values[0])}</text>`;
+  } else {
+    let path = `M${x(0)},${y(values[0])}`;
+    for (let i=1;i<trend.length;i++) path += ` L${x(i)},${y(values[i])}`;
+    let area = path + ` L${x(trend.length-1)},${padT+innerH} L${x(0)},${padT+innerH} Z`;
+    html += `<path fill="url(#areaGradViews)" d="${area}"/>`;
+    html += `<path class="line-path views" d="${path}"/>`;
+    const lastX = x(trend.length-1), lastY = y(values[values.length-1]);
+    html += `<circle class="end-dot views" cx="${lastX}" cy="${lastY}" r="5"/>`;
+    html += `<text class="end-label" x="${lastX-30}" y="${lastY-14}">${fmt(values[values.length-1])}</text>`;
+  }
+
+  html += `<text class="axis-label" x="${padL}" y="${H-4}">${trend[0].date.slice(5)}</text>`;
+  html += `<text class="axis-label" text-anchor="end" x="${W-padR}" y="${H-4}">${trend[trend.length-1].date.slice(5)}</text>`;
+
+  g.innerHTML = html;
+  if (sub) sub.textContent = trend.length === 1
+    ? "Primer registro — mañana empieza a dibujar la curva"
+    : `Promedio de vistas de tus últimos videos, del ${trend[0].date} al ${trend[trend.length-1].date}`;
 }
 
 load();
