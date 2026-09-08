@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Activar notificaciones — Ariel Betta Dashboard</title>
+<style>
+body { background:#0d0d0d; color:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; max-width:560px; margin:0 auto; padding:40px 20px; line-height:1.6; }
+h1 { font-size:20px; }
+p, li { color:#c3c2b7; font-size:14px; }
+code, .code-box { font-family:"SF Mono",Consolas,monospace; }
+.code-box { display:block; background:#1a1a19; border:1px solid rgba(255,255,255,0.1); border-radius:10px; padding:14px; margin:10px 0; font-size:13px; word-break:break-all; color:#fff; white-space:pre-wrap; }
+button { padding:12px 20px; border-radius:10px; border:none; background:#3987e5; color:#fff; font-size:15px; font-weight:600; cursor:pointer; }
+button.copy { padding:8px 14px; font-size:13px; margin-top:8px; }
+.warn { margin-top:10px; padding:12px 14px; border-radius:10px; background:#2c2c2a; color:#d95926; font-size:13px; text-align:left; }
+.ok { color:#4caf7d; }
+a.back { color:#898781; display:block; margin-top:28px; font-size:13px; }
+</style>
+</head>
+<body>
+<h1>Activar notificaciones</h1>
+<p>Al activarlo, este navegador va a poder recibir un aviso cuando detectemos que uno de tus videos está despegando (creciendo mucho más rápido de lo normal), aunque no tengas el dashboard abierto.</p>
+
+<div id="app">
+<button id="activateBtn">Activar notificaciones</button>
+</div>
+
+<a class="back" href="./">← Volver al dashboard</a>
+
+<script>
+const VAPID_PUBLIC_KEY = "BDD7Q3L2HmFH6ivQMYBNbmHUzDStr0bIUM_MlOZML5cpUZHBlQfEHpquJdgpgsWzfa6gU5YFQR8nNU-QmNOPu04";
+
+function urlBase64ToUint8Array(base64String) {
+const padding = "=".repeat((4 - base64String.length % 4) % 4);
+const base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
+const rawData = atob(base64);
+const outputArray = new Uint8Array(rawData.length);
+for (let i = 0; i < rawData.length; ++i) outputArray[i] = rawData.charCodeAt(i);
+return outputArray;
+}
+
+const app = document.getElementById("app");
+
+if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
+app.innerHTML = '<div class="warn">Este navegador no soporta notificaciones push. Probá con Chrome actualizado, o desde el celu con Chrome/Android (en iPhone hay que agregar el sitio a la pantalla de inicio primero).</div>';
+} else {
+document.getElementById("activateBtn").addEventListener("click", async () => {
+app.innerHTML = "<p>Activando…</p>";
+try {
+const permission = await Notification.requestPermission();
+if (permission !== "granted") {
+app.innerHTML = '<div class="warn">No diste permiso para las notificaciones. Si te arrepentís, podés habilitarlo desde la configuración del sitio en tu navegador y volver a entrar acá.</div>';
+return;
+}
+const reg = await navigator.serviceWorker.register("sw.js");
+await navigator.serviceWorker.ready;
+let sub = await reg.pushManager.getSubscription();
+if (!sub) {
+sub = await reg.pushManager.subscribe({
+userVisibleOnly: true,
+applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
+});
+}
+const json = JSON.stringify(sub.toJSON(), null, 2);
+app.innerHTML = `
+<p class="ok">¡Listo! Ahora falta un último paso para conectar este navegador con el dashboard.</p>
+<p>Copiá este código:</p>
+<span class="code-box" id="subBox">${json}</span>
+<button class="copy" id="copyBtn">Copiar código</button>
+<p style="margin-top:24px">Ahora andá a la pestaña <strong>Actions</strong> del repositorio en GitHub → workflow <strong>"Conectar notificaciones"</strong> → botón <strong>Run workflow</strong> → pegá el código en el campo <code>subscription</code> → <strong>Run workflow</strong>.</p>
+`;
+document.getElementById("copyBtn").addEventListener("click", async () => {
+try {
+await navigator.clipboard.writeText(json);
+document.getElementById("copyBtn").textContent = "¡Copiado!";
+} catch (e) {
+const range = document.createRange();
+range.selectNode(document.getElementById("subBox"));
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(range);
+}
+});
+} catch (e) {
+app.innerHTML = `<div class="warn">No se pudo activar: ${e.message}. Probá de nuevo o contame el error.</div>`;
+}
+});
+}
+</script>
+</body>
+</html>
