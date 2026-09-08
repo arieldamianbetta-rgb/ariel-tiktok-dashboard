@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generar claves de notificaciones — Ariel Betta Dashboard</title>
+<style>
+body { background:#0d0d0d; color:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; max-width:560px; margin:0 auto; padding:40px 20px; line-height:1.6; }
+h1 { font-size:20px; }
+h2 { font-size:15px; margin-top:28px; }
+p, li { color:#c3c2b7; font-size:14px; }
+code, .code-box { font-family:"SF Mono",Consolas,monospace; }
+.code-box { display:block; background:#1a1a19; border:1px solid rgba(255,255,255,0.1); border-radius:10px; padding:14px; margin:10px 0; font-size:13px; word-break:break-all; color:#fff; }
+button { padding:12px 20px; border-radius:10px; border:none; background:#3987e5; color:#fff; font-size:15px; font-weight:600; cursor:pointer; }
+button.copy { padding:8px 14px; font-size:13px; margin-top:8px; }
+.warn { margin-top:10px; padding:12px 14px; border-radius:10px; background:#2c2c2a; color:#d95926; font-size:13px; text-align:left; }
+.ok { color:#4caf7d; }
+a.back { color:#898781; display:block; margin-top:28px; font-size:13px; }
+</style>
+</head>
+<body>
+<h1>Generar claves para las notificaciones</h1>
+<p>Este paso crea el par de claves que va a usar el dashboard para poder mandarte notificaciones push (avisos reales al celu o PC, aunque no tengas la web abierta). Se generan acá, en tu navegador — la clave privada nunca sale de esta página ni pasa por mí.</p>
+
+<div id="app">
+<button id="genBtn">Generar claves</button>
+</div>
+
+<a class="back" href="./">← Volver al dashboard</a>
+
+<script>
+function b64url(buf) {
+const bytes = new Uint8Array(buf);
+let str = "";
+for (const b of bytes) str += String.fromCharCode(b);
+return btoa(str).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
+document.getElementById("genBtn").addEventListener("click", async () => {
+const app = document.getElementById("app");
+app.innerHTML = "<p>Generando…</p>";
+try {
+const keyPair = await crypto.subtle.generateKey(
+{ name: "ECDSA", namedCurve: "P-256" },
+true,
+["sign", "verify"]
+);
+const rawPublic = await crypto.subtle.exportKey("raw", keyPair.publicKey);
+const jwkPrivate = await crypto.subtle.exportKey("jwk", keyPair.privateKey);
+const publicKey = b64url(rawPublic);
+const privateKey = jwkPrivate.d;
+
+app.innerHTML = `
+<h2>1. Clave pública <span class="ok">(esta me la pasás a mí, no es secreta)</span></h2>
+<span class="code-box" id="pubBox">${publicKey}</span>
+<button class="copy" data-target="pubBox">Copiar clave pública</button>
+
+<h2>2. Clave privada <span style="color:#d95926">(esta NO me la pases, va directo a GitHub)</span></h2>
+<span class="code-box" id="privBox">${privateKey}</span>
+<button class="copy" data-target="privBox">Copiar clave privada</button>
+
+<div class="warn">
+Con la clave privada copiada: andá al repo en GitHub → <strong>Settings → Secrets and variables → Actions → New repository secret</strong> → nombre <code>VAPID_PRIVATE_KEY</code> → pegá el valor → <strong>Add secret</strong>.<br><br>
+Después pasame acá la clave pública (el primer bloque) para seguir con el próximo paso.
+</div>
+`;
+document.querySelectorAll("button.copy").forEach(btn => {
+btn.addEventListener("click", async () => {
+const text = document.getElementById(btn.dataset.target).textContent;
+try {
+await navigator.clipboard.writeText(text);
+btn.textContent = "¡Copiado!";
+} catch (e) {
+const range = document.createRange();
+range.selectNode(document.getElementById(btn.dataset.target));
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(range);
+}
+});
+});
+} catch (e) {
+app.innerHTML = `<div class="warn">No se pudieron generar las claves: ${e.message}. Probá con otro navegador o contame el error.</div>`;
+}
+});
+</script>
+</body>
+</html>
