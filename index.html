@@ -432,6 +432,16 @@
 
   <!-- NOTAS -->
   <div class="view" id="view-notas">
+    <div class="card" id="daily-idea-card" style="display:none;">
+      <div class="section-title">💡 Idea del día</div>
+      <div class="section-sub" id="daily-idea-date"></div>
+      <div id="daily-idea-text" style="font-size:15px; font-weight:600; line-height:1.4; margin-bottom:8px;"></div>
+      <div id="daily-idea-why" style="font-size:13px; color:var(--muted); margin-bottom:14px;"></div>
+      <div class="notes-actions">
+        <button class="btn secondary" id="use-daily-idea-btn">Usar esta idea</button>
+      </div>
+    </div>
+
     <div class="card">
       <div class="section-title">Nueva idea de video</div>
       <div class="section-sub">Anotá el video que vas a hacer. Cuando quieras el guion o el hook, apretás "Pedir guion" y te armo el mensaje listo para pegarme acá en el chat.</div>
@@ -635,6 +645,25 @@ document.getElementById("save-idea-btn").addEventListener("click", () => {
 renderIdeas();
 
 /* ---------- usar una noticia como idea (conecta Noticias con Notas) ---------- */
+function renderDailyIdea(data) {
+  const card = document.getElementById("daily-idea-card");
+  if (!card) return;
+  const di = data.daily_idea;
+  if (!di || !di.idea) { card.style.display = "none"; return; }
+  card.style.display = "";
+  document.getElementById("daily-idea-date").textContent = di.date || "";
+  document.getElementById("daily-idea-text").textContent = di.idea;
+  document.getElementById("daily-idea-why").textContent = di.why || "";
+}
+document.getElementById("use-daily-idea-btn").addEventListener("click", () => {
+  const di = (window.__lastData || {}).daily_idea;
+  if (!di) return;
+  document.getElementById("idea-input").value = di.idea || "";
+  document.getElementById("idea-details-input").value = di.why || "";
+  showView("notas");
+  document.getElementById("idea-input").focus();
+});
+
 function useNewsAsIdea(it) {
   const ideaInput = document.getElementById("idea-input");
   const detailsInput = document.getElementById("idea-details-input");
@@ -1108,6 +1137,8 @@ async function load() {
   renderEngagement(data, hist);
   renderGoal(hist);
   renderNews(data.news);
+  window.__lastData = data;
+  renderDailyIdea(data);
 
   const all = [
     { label: data.me.label, handle: data.me.handle, followers: data.me.followers, ok: data.me.ok !== false, me: true },
