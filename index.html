@@ -1097,6 +1097,11 @@ async function load() {
     return;
   }
 
+  try {
+    const ideaRes = await fetch("daily-idea.json?_=" + Date.now());
+    if (ideaRes.ok) data.daily_idea = await ideaRes.json();
+  } catch (e) {}
+
   const updated = new Date(data.updated_at);
   const now = new Date();
   const hoursSince = (now - updated) / 36e5;
