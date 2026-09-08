@@ -94,6 +94,19 @@ async function main() {
   }
   data.history = history.slice(-60); // guardamos hasta 60 días
 
+  // historial de seguidores por cuenta de referencia (una entrada por día)
+  // para poder comparar el ritmo de crecimiento contra la competencia
+  data.competitors.forEach((c) => {
+    const ch = Array.isArray(c.history) ? c.history : [];
+    const lastC = ch[ch.length - 1];
+    if (lastC && lastC.date === today) {
+      lastC.followers = c.followers;
+    } else {
+      ch.push({ date: today, followers: c.followers });
+    }
+    c.history = ch.slice(-60);
+  });
+
   await writeFile(DATA_PATH, JSON.stringify(data, null, 2) + "\n");
   console.log("data.json actualizado.");
 }
