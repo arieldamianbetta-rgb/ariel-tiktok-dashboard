@@ -177,6 +177,7 @@
   .video-item .video-stats { font-size:12px; color:var(--text-secondary); margin-top:4px; }
   .video-item .video-date { font-size:11px; color:var(--muted); margin-top:2px; }
   .video-item .video-trending { font-size:11px; color:var(--good); margin-top:4px; font-weight:700; }
+  .video-item .video-percentile { font-size:11px; color:var(--muted); margin-top:2px; }
   .pattern-row { display:flex; flex-direction:column; gap:2px; padding:10px 0; border-top:1px solid var(--border); }
   .pattern-row:first-child { border-top:none; padding-top:0; }
   .pattern-label { font-size:12px; color:var(--muted); }
@@ -290,6 +291,11 @@
             <div class="label">Mejor semana</div>
             <div class="value" id="summary-bestweek">—</div>
             <div class="period" id="summary-bestweek-period"></div>
+          </div>
+          <div class="summary-item">
+            <div class="label">Racha de posteo</div>
+            <div class="value" id="summary-poststreak">—</div>
+            <div class="period" id="summary-poststreak-period"></div>
           </div>
         </div>
       </div>
@@ -1002,6 +1008,7 @@ async function load() {
   renderVideos(data.me.videos);
   renderHashtags(data.me.hashtag_stats);
   renderPostingPatterns(data.me.posting_patterns);
+  renderPostingStreak(data.me.posting_streak);
 
   const hist = data.history || [];
   if (hist.length >= 2) {
@@ -1056,6 +1063,20 @@ async function load() {
   if (anyStale) document.getElementById("stale-note").style.display = "block";
 }
 
+function renderPostingStreak(streak) {
+  const valueEl = document.getElementById("summary-poststreak");
+  const periodEl = document.getElementById("summary-poststreak-period");
+  if (!valueEl || !periodEl) return;
+  if (!streak || streak < 1) {
+    valueEl.textContent = "—";
+    periodEl.textContent = "todavía no hay racha activa";
+    return;
+  }
+  valueEl.textContent = `🔥 ${streak}`;
+  valueEl.classList.add("good");
+  periodEl.textContent = streak === 1 ? "día seguido posteando" : "días seguidos posteando";
+}
+
 function renderVideos(videos) {
   const card = document.getElementById("videos-card");
   const list = document.getElementById("videos-list");
@@ -1072,6 +1093,7 @@ function renderVideos(videos) {
     row.innerHTML = `
       <div class="video-title">${v.url ? `<a href="${v.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">${title}</a>` : title}</div>
       <div class="video-stats">${fmt(v.views)} vistas · ${fmt(v.likes)} me gusta · ${fmt(v.comments)} comentarios · ${fmt(v.shares)} compartidos</div>
+      ${(v.percentile !== null && v.percentile !== undefined) ? `<div class="video-percentile">Mejor que el ${v.percentile}% de tus últimos videos</div>` : ""}
       ${v.trending ? `<div class="video-trending">🚀 Despegando — está creciendo más rápido de lo normal</div>` : ""}
       ${v.created ? `<div class="video-date">${v.created}</div>` : ""}
     `;
