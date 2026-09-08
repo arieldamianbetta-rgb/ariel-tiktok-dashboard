@@ -14,6 +14,7 @@
 import { readFile, writeFile, access } from "node:fs/promises";
 import { constants as fsConstants } from "node:fs";
 import { encryptSecret, decryptSecret } from "./tiktok-crypto.mjs";
+import webpush from "web-push";
 
 const DATA_PATH = new URL("./data.json", import.meta.url);
 const ENC_PATH = new URL("./.tiktok-refresh.enc", import.meta.url);
@@ -21,6 +22,11 @@ const ENC_PATH = new URL("./.tiktok-refresh.enc", import.meta.url);
 const CLIENT_KEY = process.env.TIKTOK_CLIENT_KEY;
 const CLIENT_SECRET = process.env.TIKTOK_CLIENT_SECRET;
 const PASSPHRASE = process.env.TIKTOK_ENC_PASSPHRASE;
+
+const PUSH_SUB_PATH = new URL("./push-subscription.json", import.meta.url);
+const VAPID_PUBLIC_KEY = "BDD7Q3L2HmFH6ivQMYBNbmHUzDStr0bIUM_MlOZML5cpUZHBlQfEHpquJdgpgsWzfa6gU5YFQR8nNU-QmNOPu04";
+const VAPID_PRIVATE_KEY = process.env.VAPID_PRIVATE_KEY;
+const VAPID_SUBJECT = "https://arieldamianbetta-rgb.github.io/ariel-tiktok-dashboard/";
 
 const ARG_OFFSET_MS = 3 * 60 * 60 * 1000; // Argentina es UTC-3 todo el año
 const WEEKDAYS = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
@@ -215,6 +221,47 @@ function updateVideoHistoryAndTrending(data, rawVideos) {
   return trendingIds;
 }
 
+async function sendTrendingNotifications(data, rawVideos, trendingIds) {
+  if (trendingIds.size === 0) return;
+  if (!(await fileExists(PUSH_SUB_PATH))) return;
+  if (!VAPID_PRIVATE_KEY) {
+    console.warn("Falta el secret VAPID_PRIVATE_KEY — no se pueden mandar notificaciones push.");
+    return;
+  }
+
+  const notified = new Set(data.me.notified_trending_ids || []);
+  const newlyTrending = rawVideos.filter((v) => trendingIds.has(v.id) && !notified.has(v.id));
+  if (newlyTrending.length === 0) return;
+
+  let subscription;
+  try {
+    subscription = JSON.parse(await readFile(PUSH_SUB_PATH, "utf8"));
+  } catch (err) {
+    console.warn(`No se pudo leer push-subscription.json: ${err.message}`);
+    return;
+  }
+
+  webpush.setVapidDetails(VAPID_SUBJECT, VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY);
+
+  for (const v of newlyTrending) {
+    const title = v.title || v.video_description || "Un video tuyo";
+    const payload = JSON.stringify({
+      title: "🚀 Un video está despegando",
+      body: title.slice(0, 120),
+      url: v.share_url || VAPID_SUBJECT,
+    });
+    try {
+      await webpush.sendNotification(subscription, payload);
+      notified.add(v.id);
+      console.log(`Notificación mandada: "${title}"`);
+    } catch (err) {
+      console.warn(`No se pudo mandar la notificación de "${title}": ${err.message}`);
+    }
+  }
+
+  data.me.notified_trending_ids = Array.from(notified).slice(-200);
+}
+
 async function main() {
   if (!(await fileExists(ENC_PATH))) {
     console.log("TikTok API todavía no está conectada (no existe .tiktok-refresh.enc) — se omite este paso.");
@@ -259,6 +306,7 @@ async function main() {
   const data = JSON.parse(await readFile(DATA_PATH, "utf8"));
 
   const trendingIds = updateVideoHistoryAndTrending(data, rawVideos);
+  await sendTrendingNotifications(data, rawVideos, trendingIds);
 
   const mapped = rawVideos.map((v) => ({
     id: v.id,
