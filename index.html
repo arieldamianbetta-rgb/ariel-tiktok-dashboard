@@ -323,6 +323,12 @@
         </svg>
       </div>
 
+      <div class="card" id="weekly-summary-card" style="display:none;">
+        <div class="section-title">Tu semana</div>
+        <div class="section-sub">Cómo te fue en los últimos 7 días — este resumen también te llega por notificación los lunes</div>
+        <div id="weekly-summary-body"></div>
+      </div>
+
       <div class="card" id="videos-card" style="display:none;">
         <div class="section-title">Tus últimos videos</div>
         <div class="section-sub">Vistas, me gusta y comentarios reales de la API de TikTok</div>
@@ -1009,6 +1015,7 @@ async function load() {
   renderHashtags(data.me.hashtag_stats);
   renderPostingPatterns(data.me.posting_patterns);
   renderPostingStreak(data.me.posting_streak);
+  renderWeeklySummary(data.me.weekly_summary);
 
   const hist = data.history || [];
   if (hist.length >= 2) {
@@ -1075,6 +1082,38 @@ function renderPostingStreak(streak) {
   valueEl.textContent = `🔥 ${streak}`;
   valueEl.classList.add("good");
   periodEl.textContent = streak === 1 ? "día seguido posteando" : "días seguidos posteando";
+}
+
+function renderWeeklySummary(summary) {
+  const card = document.getElementById("weekly-summary-card");
+  const body = document.getElementById("weekly-summary-body");
+  if (!card || !body) return;
+  if (!summary) {
+    card.style.display = "none";
+    return;
+  }
+  card.style.display = "";
+  const rows = [];
+  rows.push(`<div class="video-stats">📹 ${summary.videos_posted} video(s) posteado(s) esta semana</div>`);
+  if (summary.followers_delta !== null && summary.followers_delta !== undefined) {
+    const sign = summary.followers_delta >= 0 ? "+" : "";
+    rows.push(`<div class="video-stats">👥 ${sign}${summary.followers_delta} seguidores</div>`);
+  }
+  if (summary.hearts_delta !== null && summary.hearts_delta !== undefined) {
+    const sign = summary.hearts_delta >= 0 ? "+" : "";
+    rows.push(`<div class="video-stats">❤️ ${sign}${fmt(summary.hearts_delta)} me gusta</div>`);
+  }
+  if (summary.top_video) {
+    const title = summary.top_video.title && summary.top_video.title.trim() ? summary.top_video.title.trim() : "(sin título)";
+    const link = summary.top_video.url
+      ? `<a href="${summary.top_video.url}" target="_blank" rel="noopener" style="color:inherit;">${title}</a>`
+      : title;
+    rows.push(`<div class="video-stats">🏆 Tu video top: ${link} — ${fmt(summary.top_video.views)} vistas</div>`);
+  }
+  if (summary.top_hashtag) {
+    rows.push(`<div class="video-stats">#️⃣ Hashtag que más funcionó: #${summary.top_hashtag.tag}</div>`);
+  }
+  body.innerHTML = rows.join("");
 }
 
 function renderVideos(videos) {
