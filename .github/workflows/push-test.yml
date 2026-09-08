@@ -1,0 +1,28 @@
+name: Probar notificación push
+
+# Manda una notificación de prueba al toque, sin esperar a que un video
+# esté despegando de verdad. Sirve para confirmar que la clave privada
+# y la suscripción guardada funcionan.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Mandar notificación de prueba
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+        run: node push-test.mjs
