@@ -105,6 +105,44 @@ function extractHashtags(title) {
   return [...new Set(matches.map((h) => h.slice(1).toLowerCase()))];
 }
 
+function computePostingStreak(rawVideos) {
+  const dates = new Set();
+  for (const v of rawVideos) {
+    if (!v.create_time) continue;
+    dates.add(new Date(v.create_time * 1000).toISOString().slice(0, 10));
+  }
+  if (dates.size === 0) return 0;
+  const sorted = Array.from(dates).sort().reverse(); // más reciente primero
+
+  // Si el post más reciente fue ayer (no hoy), la racha sigue viva hasta
+  // que termine el día de hoy — no la cortamos solo porque todavía no
+  // publicó nada hoy.
+  const today = new Date().toISOString().slice(0, 10);
+  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+  if (sorted[0] !== today && sorted[0] !== yesterday) return 0;
+
+  let streak = 1;
+  const cursor = new Date(sorted[0] + "T00:00:00Z");
+  for (let i = 1; i < sorted.length; i++) {
+    cursor.setUTCDate(cursor.getUTCDate() - 1);
+    if (sorted[i] === cursor.toISOString().slice(0, 10)) {
+      streak++;
+    } else {
+      break;
+    }
+  }
+  return streak;
+}
+
+function computeViewPercentile(views, allViews) {
+  if (!Array.isArray(allViews) || allViews.length < 2) return null;
+  let countBelow = 0;
+  for (const v of allViews) {
+    if (v < views) countBelow++;
+  }
+  return Math.round((countBelow / (allViews.length - 1)) * 100);
+}
+
 function computeHashtagStats(videos) {
   const agg = {};
   for (const v of videos) {
@@ -320,7 +358,13 @@ async function main() {
     created: v.create_time ? new Date(v.create_time * 1000).toISOString().slice(0, 10) : null,
   }));
 
-  data.me.videos = mapped.slice(0, 10).map((v) => ({ ...v, trending: trendingIds.has(v.id) }));
+  const allViews = rawVideos.map((v) => v.view_count || 0);
+  data.me.videos = mapped.slice(0, 10).map((v) => ({
+    ...v,
+    trending: trendingIds.has(v.id),
+    percentile: computeViewPercentile(v.views, allViews),
+  }));
+  data.me.posting_streak = computePostingStreak(rawVideos);
   data.me.hashtag_stats = computeHashtagStats(rawVideos);
   data.me.posting_patterns = computePostingPatterns(rawVideos);
 
