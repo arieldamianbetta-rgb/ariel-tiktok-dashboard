@@ -1,133 +1,143 @@
 {
-  "updated_at": "2026-09-08T13:55:25.628Z",
+  "updated_at": "2026-09-08T15:07:47.007Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
     "followers": 819,
-    "hearts": 38255,
-    "top_video_views": 45290,
+    "hearts": 38256,
+    "top_video_views": 45295,
     "top_video_label": "Feler relatando a su hijo #argentina #velez #boca #futbolargentino #copaargentina ",
     "ok": true,
     "videos": [
       {
         "id": "7681137838506741010",
         "title": "Feler relatando a su hijo #argentina #velez #boca #futbolargentino #copaargentina ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocjUE9QdiBlAYAA2QFAYvyEAiBpiaI4NlYjCu~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/osCEEKiBAHfAw8UA41HYCvTIjAikpIATGaBmOw.webp?dr=1368&refresh_token=be66a76d&x-expires=1788958800&x-signature=gGvw%2F3ccvEvawzALpVaZRRjRUy0%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocjUE9QdiBlAYAA2QFAYvyEAiBpiaI4NlYjCu~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/osCEEKiBAHfAw8UA41HYCvTIjAikpIATGaBmOw.webp?dr=1368&refresh_token=e1fb9e48&x-expires=1788966000&x-signature=OXj1GJPYFjuUo6LKBgXe3jI0w40%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7681137838506741010?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
-        "views": 45290,
-        "likes": 5005,
+        "views": 45295,
+        "likes": 5006,
         "comments": 28,
         "shares": 193,
         "created": "2026-09-03",
-        "trending": false
+        "trending": false,
+        "percentile": 100
       },
       {
         "id": "7674707263671635208",
         "title": "A donde se fueron los pibes de #Boca #argentina #futbol #ligaprofesional #mundial ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okyDFBoetC8Z9mYCICyhEfWWQ1gzqIA4BByVgJ~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=3cd2b3f8&x-expires=1788958800&x-signature=IYzu%2F6YmnTZDzTkvw6duBdL7hts%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okyDFBoetC8Z9mYCICyhEfWWQ1gzqIA4BByVgJ~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=c5b21c03&x-expires=1788966000&x-signature=s3jwR2F5lBNjrMHSeua0tZ3GpW0%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7674707263671635208?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
-        "views": 35181,
+        "views": 35182,
         "likes": 2961,
         "comments": 42,
         "shares": 86,
         "created": "2026-08-16",
-        "trending": false
+        "trending": false,
+        "percentile": 97
       },
       {
         "id": "7672570327620275474",
         "title": "Basado el CM de #huracan  #sanlorenzodealmagro #futbol #clasico #argentina🇦🇷 ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogIDUeCw1KFnICtso6HDr1FAENoi6fDISAfFjc~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=52e89696&x-expires=1788958800&x-signature=MjrwCW4VgIJLkXP2Yi%2BN3m6ksjY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogIDUeCw1KFnICtso6HDr1FAENoi6fDISAfFjc~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=abc64367&x-expires=1788966000&x-signature=Nq9F2WkxUrz24yS%2BXNa95VEZ1PQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7672570327620275474?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
         "views": 15019,
         "likes": 1151,
         "comments": 1,
         "shares": 67,
         "created": "2026-08-11",
-        "trending": false
+        "trending": false,
+        "percentile": 95
       },
       {
         "id": "7674029167062551815",
         "title": "El que no conoce la historia está dignado a repetirla 🦅 #boca #flores #pavon #tatuaje #argentina ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUeprcWjJwGfhfcIToLJBQvSGuUIQAFf0AFAwA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=a05108ab&x-expires=1788958800&x-signature=c6fL8L07vF2Uze28bR7f9payZL8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUeprcWjJwGfhfcIToLJBQvSGuUIQAFf0AFAwA~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=67e40ac4&x-expires=1788966000&x-signature=%2Bj78vs%2FKNu0opxQDSgnwitJGhcQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7674029167062551815?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
-        "views": 8801,
+        "views": 8805,
         "likes": 132,
         "comments": 1,
         "shares": 10,
         "created": "2026-08-14",
-        "trending": false
+        "trending": false,
+        "percentile": 92
       },
       {
         "id": "7679507471362198791",
         "title": "Que podías comprar hace 10 años con 140 millones  #fichajes  #futbol #2016 #fypシ #top ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owfVIC5Xk0kUOZeYAcBRIPSGgDFZBqAyk1DQTE~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/okCzEOiBAnfAUyFAG1AYCN9IZAi4wIATHIBNyw.webp?dr=1368&refresh_token=b42c5a4a&x-expires=1788958800&x-signature=jCufB4mMG4tTKpWxg52ha4KFavI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owfVIC5Xk0kUOZeYAcBRIPSGgDFZBqAyk1DQTE~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/okCzEOiBAnfAUyFAG1AYCN9IZAi4wIATHIBNyw.webp?dr=1368&refresh_token=010d6ab3&x-expires=1788966000&x-signature=rYffpKPxVD7hg5gT%2FoLQMs4OGbw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7679507471362198791?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
         "views": 7423,
         "likes": 367,
         "comments": 3,
         "shares": 2,
         "created": "2026-08-29",
-        "trending": false
+        "trending": false,
+        "percentile": 90
       },
       {
         "id": "7678767530042805512",
         "title": "Suspendido por farmear aura  #aura #farmearaura #fyp #arbitro #argentina ",
-        "cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/osQCgFq5HBdTBLDMQfQREQFgEf7O2kxMCsbAVa~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=0516d239&x-expires=1788958800&x-signature=QqVv7Jm3bGgrY%2F%2BfrjHdaCyXl6Y%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osQCgFq5HBdTBLDMQfQREQFgEf7O2kxMCsbAVa~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=9179462f&x-expires=1788966000&x-signature=cEHobMVBAiMfsEc6TTKWRBUqSfI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7678767530042805512?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
-        "views": 6946,
+        "views": 6947,
         "likes": 341,
         "comments": 1,
         "shares": 14,
         "created": "2026-08-27",
-        "trending": false
+        "trending": false,
+        "percentile": 87
       },
       {
         "id": "7676928969903574290",
         "title": "Darías de baja un fichaje por un perro ? #Fichaje #perros #banfield #argentina #mexico ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooRDB3VIJEHDtCB7A5okefEgFIAj6DEenKssOI~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=504efd3b&x-expires=1788958800&x-signature=X%2F1tvDgi6vOPf8BI0AXL%2FXstFa8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooRDB3VIJEHDtCB7A5okefEgFIAj6DEenKssOI~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=b2113db1&x-expires=1788966000&x-signature=3zzP2XTrv0NV9bobZkuAWKQcfYo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7676928969903574290?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
         "views": 5301,
         "likes": 198,
         "comments": 2,
         "shares": 2,
         "created": "2026-08-22",
-        "trending": false
+        "trending": false,
+        "percentile": 85
       },
       {
         "id": "7673275914880306450",
         "title": "Ni cerca de 150  #mercado #serieA #premierleague #futbol⚽️ #fichajes ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4YXPaMIA9Qixzz8E891njaliYC78yAyBIDBB~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=64abe76a&x-expires=1788958800&x-signature=F5qS4lsjU3zVofnwEvC9I4VGMO4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4YXPaMIA9Qixzz8E891njaliYC78yAyBIDBB~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=16ce2d31&x-expires=1788966000&x-signature=DXN4c38udC4dw2Q5amGbxNwJkEk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7673275914880306450?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
         "views": 4771,
         "likes": 235,
         "comments": 16,
         "shares": 2,
         "created": "2026-08-12",
-        "trending": false
+        "trending": false,
+        "percentile": 82
       },
       {
         "id": "7678056268057087240",
         "title": "Jugadores que jugaron juntos y no lo sabías #futbol #curiosidades #fut #jugadoresdefútbol #fyp ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQVBEDAF4QvsejHAMkIGQ8QeEW7JDfkCo4SVbN~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=5dcecd27&x-expires=1788958800&x-signature=HceVRb0Wj0D9ADT2TaNFpgh18mg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQVBEDAF4QvsejHAMkIGQ8QeEW7JDfkCo4SVbN~tplv-tiktokx-cropcenter-q:300:400:q70.webp?dr=14782&refresh_token=d895789d&x-expires=1788966000&x-signature=w5UnfP%2BXLhgW7VIhoSk6kI9jlOs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7678056268057087240?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
-        "views": 4189,
+        "views": 4190,
         "likes": 257,
         "comments": 4,
         "shares": 3,
         "created": "2026-08-25",
-        "trending": false
+        "trending": false,
+        "percentile": 79
       },
       {
         "id": "7680296629160791314",
         "title": "Parte 2 de jugadores que siguen jugando a la pelota  #futbolistas #fut #futbol #ligas #fyp ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQQYQFGeGGfVAoMqKW2U8vndAJfRfQhAww5GFg~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/osEEJM6MIMqEcEmCbweDfB8RhnAFAABgAQUqQw.webp?dr=1368&refresh_token=08537ab8&x-expires=1788958800&x-signature=lTbfnza67EJ3ghYiNRINeXJjgbo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQQYQFGeGGfVAoMqKW2U8vndAJfRfQhAww5GFg~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/osEEJM6MIMqEcEmCbweDfB8RhnAFAABgAQUqQw.webp?dr=1368&refresh_token=b69ae287&x-expires=1788966000&x-signature=1SD%2BRRELxSMYv%2BCjoIPMyYug9S8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7680296629160791314?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
         "views": 3888,
         "likes": 242,
         "comments": 4,
         "shares": 17,
         "created": "2026-08-31",
-        "trending": false
+        "trending": false,
+        "percentile": 77
       }
     ],
     "top_video_auto": true,
@@ -159,7 +169,7 @@
         },
         {
           "date": "2026-09-08",
-          "views": 35181
+          "views": 35182
         }
       ],
       "7672570327620275474": [
@@ -219,7 +229,7 @@
         },
         {
           "date": "2026-09-08",
-          "views": 8801
+          "views": 8805
         }
       ],
       "7679507471362198791": [
@@ -279,7 +289,7 @@
         },
         {
           "date": "2026-09-08",
-          "views": 6946
+          "views": 6947
         }
       ],
       "7676928969903574290": [
@@ -369,7 +379,7 @@
         },
         {
           "date": "2026-09-08",
-          "views": 4189
+          "views": 4190
         }
       ],
       "7680296629160791314": [
@@ -563,7 +573,7 @@
         },
         {
           "date": "2026-09-08",
-          "views": 1662
+          "views": 1664
         }
       ],
       "7676833241747197202": [
@@ -1277,7 +1287,7 @@
         },
         {
           "date": "2026-09-08",
-          "views": 45290
+          "views": 45295
         }
       ],
       "7681460019774213383": [
@@ -1335,7 +1345,7 @@
         },
         {
           "date": "2026-09-08",
-          "views": 2145
+          "views": 2147
         }
       ],
       "7682541996220615954": [
@@ -1345,7 +1355,7 @@
         },
         {
           "date": "2026-09-08",
-          "views": 771
+          "views": 772
         }
       ],
       "7682871742188064018": [
@@ -1363,13 +1373,13 @@
       {
         "tag": "ligaprofesional",
         "count": 2,
-        "avg_views": 18663,
+        "avg_views": 18665,
         "avg_likes": 1522
       },
       {
         "tag": "boca",
         "count": 8,
-        "avg_views": 11861,
+        "avg_views": 11862,
         "avg_likes": 1040
       },
       {
@@ -1401,7 +1411,7 @@
       "best_weekday": {
         "label": "Domingo",
         "count": 4,
-        "avg_views": 10146
+        "avg_views": 10147
       },
       "best_daypart": {
         "label": "Tarde (12-18h)",
@@ -1410,7 +1420,8 @@
       },
       "sample_size": 40
     },
-    "stats_source": "api"
+    "stats_source": "api",
+    "posting_streak": 29
   },
   "competitors": [
     {
@@ -1430,7 +1441,7 @@
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 5126,
+      "followers": 5127,
       "hearts": 266900,
       "ok": true
     },
@@ -1528,12 +1539,19 @@
     }
   ],
   "news": {
-    "updated_at": "2026-09-08T13:55:27.909Z",
+    "updated_at": "2026-09-08T15:07:50.522Z",
     "topics": [
       {
         "key": "futbol_ar",
         "label": "Fútbol argentino",
         "items": [
+          {
+            "title": "Cómo está la clasificación de los equipos argentinos a la Copa Libertadores y Sudamericana 2027",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeEV2M2s0ZHR0bFRabXE2VHBjYWY1TENRTmpkb09OUTFvZjZkYjBzb2FrTVJaTmJaaXBGMGR6MFpKWExsZm50UGVsZUZpcWp4MzdZb0VGOXZmb3ROcFBXZUh3ZjRxelhGTWJwN2w5RVYtdmp6aGhiWTFNcDhfX2RJM29uR0JtbVZZMFpUaXZmUVR1Z2VHTzEwN1JISk9icmc5dEFMMWJWS1ZPbGVvdWNKcE41Q1dRQkNXVkd0TDlSa9IBxAFBVV95cUxOWFYwWXE4R25mb1p3MkNnS3hGMVNBWVVzV1pObWxva1JmdDVPc3VCQVFtSlFodkdoaFJPdFVwRzE1ZU1zRk54Y1oyRXJTaDdWZ0tDYUl0a1RtNjhweVoyU040UkhmTmZMcWc0RTdOczFaTTlWV01kcVJVUWY5ZHltb3NacjBqVUw1cGZabFF2WFdWejhJTjlUU3oyNExSN3JHVXlrUW5KZ192dGc3NFY5S05KaWtWb1U4WXFMSFJFMWNpVFRB?oc=5",
+            "source": "eleconomista.com.ar",
+            "pubDate": "Tue, 08 Sep 2026 12:29:16 GMT",
+            "fetched_at": "2026-09-08T15:07:50.522Z"
+          },
           {
             "title": "Torneo Clausura 2026: así quedaron la tabla anual y los promedios",
             "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUVg3R29tcmxiS0FzWmZBcFVmWHRmcksyeThxcHloYnI3QzJlZjg2bUJpMXd3dk5hY21pZkw0ZEFuRkVJcC1LM1gyaGcxV1JuRUhKVE5pQm1pWDZGbVBydndKSkVQYmpNMERXN3lvUk9kV2o5dWQ5VEZwaFR0OFEwdWdlY09ZRG5Qd2dWWkI1LXN4bUpydGc3c0hwV0lueUVHTEx1am1ab2RfYzU1REJMNTFOcTB6cnlOckZyRGRPcDhUY241?oc=5",
@@ -1933,6 +1951,27 @@
         "key": "futbol_intl",
         "label": "Fútbol internacional",
         "items": [
+          {
+            "title": "La inesperada confesión de Mac Allister sobre su futuro en Liverpool: “Me pone muy triste”",
+            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUjBLUHFZUTJBMkdJLWhXeHdNVEo3QkwwVVMyUEJvX1BDeGg3N3d6RThkb3NxejBaSGdhQVZyZVY0cFBVMF9pNzJocVVtNHdXSEZ6b2tjdUlSYllvbWxSb29HcmJ6djI2LTM0MzkxSU9OUy1LUjA2N2xGdEJ0VW9aa1pNTHNJVW5oR0kwc2k3UHVqMElndHNLd1hrQ21JY1hKVzFTeXpEb2cyMkhQS2poLUNmcEk4M051SjdZSThncUloeTlwMDJIV1RHb3pZcmV2THdQRUl3bEo?oc=5",
+            "source": "TyC Sports",
+            "pubDate": "Tue, 08 Sep 2026 14:28:46 GMT",
+            "fetched_at": "2026-09-08T15:07:50.522Z"
+          },
+          {
+            "title": "La sorpresa de Alexis Mac Allister en conferencia de prensa tras enterarse que Liverpool no renovará su contrato: “Me pone muy triste”",
+            "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPSk9yckJreFR0ZFdzdWVHSW1lS0JMeVRoVHI1d21KOGVhdzltX2dtVHp3ZXZYbURRWklwbUd4RVZYWFVqOVNudEFOVjFnX1ZYUERPeWwxaW1RVUk3SWNjcHV3WDBPUDM2QkgzdTZ3RVdCeXRoSHRUaGZLdkZKTm0zbV9LOEdFTFhvdmdFZng4ejItUFBVLW93MUt4MmF6RElDT0RTYmlCUlc5czRIN0dTYjVFYUJtT2pST2JkSnk3VHNjQXVtc1p1ZFh6eGZMZUwxYkdiSWhHOG83Vm81SlRZVXJ6dmQzLVBaYmFqQzFzYmd1c1hhSzQyQm5lSGlINnJrUExKcGo1dnFVQXJTbmJWTjhlLWJuQ3Y0VnBMU0tUWHBoZ9IBogJBVV95cUxPSk9yckJreFR0ZFdzdWVHSW1lS0JMeVRoVHI1d21KOGVhdzltX2dtVHp3ZXZYbURRWklwbUd4RVZYWFVqOVNudEFOVjFnX1ZYUERPeWwxaW1RVUk3SWNjcHV3WDBPUDM2QkgzdTZ3RVdCeXRoSHRUaGZLdkZKTm0zbV9LOEdFTFhvdmdFZng4ejItUFBVLW93MUt4MmF6RElDT0RTYmlCUlc5czRIN0dTYjVFYUJtT2pST2JkSnk3VHNjQXVtc1p1ZFh6eGZMZUwxYkdiSWhHOG83Vm81SlRZVXJ6dmQzLVBaYmFqQzFzYmd1c1hhSzQyQm5lSGlINnJrUExKcGo1dnFVQXJTbmJWTjhlLWJuQ3Y0VnBMU0tUWHBoZw?oc=5",
+            "source": "Infobae",
+            "pubDate": "Tue, 08 Sep 2026 14:19:24 GMT",
+            "fetched_at": "2026-09-08T15:07:50.522Z"
+          },
+          {
+            "title": "Comienza la Champions League: formato, candidatos, presencia argentina y la agenda completa del debut",
+            "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVmhCeXVtdHd3dUZxODByS3FmYU5rRzhHdFdQV0JxZmZTOG9STDNvSXZsemk1cTd2bGozTWZUY2c3Nk5SNUpaSmVMZ2RqLUM2ZEppN05YeDdibWdRbzdyeGl6NGJLVnBMZ3d0ZGpIY01zZmtsdl92c2RMUVdFd2dXX2NlTUhZcE1Sdm03UlVkWVFzTnE3VnVxZk5vNG9wUXJpSkgteVk4QXlFNlBQYmdyN1JsS2FLNnlNaWJ5VDFWOFVYbENPOWxnc093QXZiWVlJalJUMGVkVFJSMkpiZWfSAd4BQVVfeXFMUFZoQnl1bXR3d3VGcTgwcktxZmFOa0c4R3RXUFdCcWZmUzhvUkwzb0l2bHppNXE3dmxqM01mVGNnNzZOUjVKWkplTGdkai1DNmRKaTdOWHg3Ym1nUW83cnhpejRiS1ZwTGd3dGRqSGNNc2ZrbHZfdnNkTFFXRXdnV19jZU1IWXBNUnZtN1JVZFlRc05xN1Z1cWZObzRvcFFyaUpILXlZOEF5RTZQUGJncjdSbEthSzZ5TWlieVQxVjhVWGxDTzlsZ3NPd0F2YllZSWpSVDBlZFRSUjJKYmVn?oc=5",
+            "source": "La Gaceta",
+            "pubDate": "Tue, 08 Sep 2026 13:28:27 GMT",
+            "fetched_at": "2026-09-08T15:07:50.522Z"
+          },
           {
             "title": "Comienza una nueva Champions League con fuerte presencia de futbolistas argentinos",
             "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOODBXZWdtd0RMdFVxTGRFMTRMVEVlSkxLRXZERHJ2OENlSC1uT1M2NTVoNXhwN0VScmx3ZjVWdlVKajBGNnpja1JXZWY2STNCYlBOQU01R09adDV6U3BqdE9mXzZGYTBMZHZETXJvNXlYMkx1cG1KdGQxdTd0VHZuenZ0aURnYTdvcnMweGVHY3J1QWFlLVkxbDJ2WkxlaVZTZ2RlOUJmWVRCZWtuWHVCcXdkM183elF6X3c?oc=5",
