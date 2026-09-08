@@ -463,6 +463,22 @@ async function main() {
   data.me.hashtag_stats = computeHashtagStats(rawVideos);
   data.me.posting_patterns = computePostingPatterns(rawVideos);
 
+  // tendencia de vistas: promedio de vistas de tus últimos videos, un registro por día
+  // (para ver si el contenido más reciente rinde mejor que el de semanas atrás)
+  const todayLocalViews = new Date(Date.now() - ARG_OFFSET_MS).toISOString().slice(0, 10);
+  const recentViews = data.me.videos.map((v) => v.views).filter((v) => typeof v === "number");
+  if (recentViews.length) {
+    const avgViews = Math.round(recentViews.reduce((a, b) => a + b, 0) / recentViews.length);
+    const vt = Array.isArray(data.me.view_trend) ? data.me.view_trend : [];
+    const lastV = vt[vt.length - 1];
+    if (lastV && lastV.date === todayLocalViews) {
+      lastV.avg_views = avgViews;
+    } else {
+      vt.push({ date: todayLocalViews, avg_views: avgViews });
+    }
+    data.me.view_trend = vt.slice(-60);
+  }
+
   const top = data.me.videos[0];
   data.me.top_video_views = top.views;
   data.me.top_video_label = top.title || data.me.top_video_label;
