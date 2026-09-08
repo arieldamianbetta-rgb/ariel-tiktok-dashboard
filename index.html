@@ -49,8 +49,8 @@
       position: sticky !important; top:0 !important; left:auto !important; transform:none !important;
       order:-1; height:100vh !important; flex-shrink:0; align-self:flex-start;
     }
-    .cards-flow { column-count: 2; column-gap: 20px; }
-    .cards-flow .card { break-inside: avoid; -webkit-column-break-inside: avoid; }
+    .cards-flow { display:grid; grid-template-columns: 1fr 1fr; gap: 0 20px; align-items: start; }
+    .cards-col { min-width: 0; }
     #view-noticias, #view-notas { max-width: 720px; }
   }
 
@@ -272,6 +272,7 @@
       </div>
 
       <div class="cards-flow">
+      <div class="cards-col">
       <div class="card">
         <div class="section-title">Resumen</div>
         <div class="section-sub">Crecimiento calculado con los datos guardados hasta ahora</div>
@@ -332,7 +333,9 @@
         <div class="section-sub">Cómo te fue en los últimos 7 días — este resumen también te llega por notificación los lunes</div>
         <div id="weekly-summary-body"></div>
       </div>
+      </div>
 
+      <div class="cards-col">
       <div class="card" id="videos-card" style="display:none;">
         <div class="section-title">Tus últimos videos</div>
         <div class="section-sub">Vistas, me gusta y comentarios reales de la API de TikTok</div>
@@ -349,6 +352,7 @@
         <div class="section-title">Mejor momento para postear</div>
         <div class="section-sub">Según el rendimiento real de tus últimos videos</div>
         <div id="patterns-content"></div>
+      </div>
       </div>
     </div>
     </div>
@@ -373,6 +377,7 @@
   <!-- COMPETENCIA -->
   <div class="view" id="view-competencia">
     <div class="cards-flow">
+    <div class="cards-col">
     <div class="card">
       <div class="section-title">Referencia de nicho</div>
       <div class="section-sub">Seguidores · escala logarítmica (barras directamente comparables por orden de magnitud, no por longitud lineal)</div>
@@ -385,11 +390,14 @@
       <div class="section-sub">Comparado con las cuentas de referencia — se va afinando a medida que pasan los días</div>
       <div id="growth-compare-list"></div>
     </div>
+    </div>
 
+    <div class="cards-col">
     <div class="card">
       <div class="section-title">Ver contenido</div>
       <div class="section-sub">Los videos no se pueden leer automáticamente (TikTok lo bloquea) — accesos directos para revisarlos vos, o cuando se lo pidas a Claude en el chat.</div>
       <div id="video-links"></div>
+    </div>
     </div>
     </div>
   </div>
