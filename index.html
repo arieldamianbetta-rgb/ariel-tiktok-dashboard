@@ -433,6 +433,43 @@
   <div class="nav-item" data-view="notas"><span class="ico">📝</span>Notas</div>
 </div>
 
+<div id="share-card" style="position:fixed; top:0; left:-99999px; width:480px; background:linear-gradient(160deg,#17170f 0%,#0d0d0d 100%); border:1px solid rgba(255,255,255,0.10); border-radius:28px; padding:32px; font-family:system-ui,-apple-system,sans-serif; color:#ffffff;">
+  <div style="display:flex; align-items:center; gap:12px; margin-bottom:26px;">
+    <img src="icon-192.png" style="width:46px;height:46px;border-radius:13px;" />
+    <div>
+      <div style="font-size:19px; font-weight:700; line-height:1.2;">Ariel Betta</div>
+      <div style="font-size:14px; color:#898781;">@ariel_betta45 en TikTok</div>
+    </div>
+  </div>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:20px;">
+    <div style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:16px;">
+      <div style="font-size:12px; color:#898781; margin-bottom:6px;">Seguidores</div>
+      <div id="share-followers" style="font-size:24px; font-weight:700;">—</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:16px;">
+      <div style="font-size:12px; color:#898781; margin-bottom:6px;">Me gusta totales</div>
+      <div id="share-hearts" style="font-size:24px; font-weight:700;">—</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:16px;">
+      <div style="font-size:12px; color:#898781; margin-bottom:6px;">Racha de posteo</div>
+      <div id="share-streak" style="font-size:24px; font-weight:700;">—</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:16px;">
+      <div style="font-size:12px; color:#898781; margin-bottom:6px;">Esta semana</div>
+      <div id="share-week" style="font-size:24px; font-weight:700; color:#0ca30c;">—</div>
+    </div>
+  </div>
+  <div style="background:rgba(57,135,229,0.08); border:1px solid rgba(57,135,229,0.25); border-radius:18px; padding:18px; margin-bottom:22px;">
+    <div style="font-size:12px; color:#898781; text-transform:uppercase; letter-spacing:.06em; margin-bottom:8px;">🏆 Video top de la semana</div>
+    <div id="share-topvideo" style="font-size:15px; font-weight:600; line-height:1.4;">—</div>
+    <div id="share-topvideo-views" style="font-size:13px; color:#c3c2b7; margin-top:6px;">—</div>
+  </div>
+  <div style="display:flex; justify-content:space-between; align-items:center; font-size:12px; color:#898781; border-top:1px solid rgba(255,255,255,0.08); padding-top:16px;">
+    <span id="share-date">—</span>
+    <span>📊 Mi dashboard de TikTok</span>
+  </div>
+</div>
+
 <script>
 const fmt = (n) => {
   if (n == null) return "—";
@@ -772,7 +809,7 @@ document.getElementById("share-btn").addEventListener("click", async () => {
   btn.disabled = true;
   try {
     const html2canvas = await loadHtml2Canvas();
-    const node = document.getElementById("capture-frame");
+    const node = document.getElementById("share-card");
     const canvas = await html2canvas(node, { backgroundColor: "#0d0d0d", scale: 2 });
     canvas.toBlob(async (blob) => {
       if (!blob) { btn.textContent = original; btn.disabled = false; return; }
@@ -1016,6 +1053,7 @@ async function load() {
   renderPostingPatterns(data.me.posting_patterns);
   renderPostingStreak(data.me.posting_streak);
   renderWeeklySummary(data.me.weekly_summary);
+  renderShareCard(data);
 
   const hist = data.history || [];
   if (hist.length >= 2) {
@@ -1114,6 +1152,27 @@ function renderWeeklySummary(summary) {
     rows.push(`<div class="video-stats">#️⃣ Hashtag que más funcionó: #${summary.top_hashtag.tag}</div>`);
   }
   body.innerHTML = rows.join("");
+}
+
+function renderShareCard(data) {
+  const me = data.me || {};
+  document.getElementById("share-followers").textContent = fmt(me.followers);
+  document.getElementById("share-hearts").textContent = fmt(me.hearts);
+  const streak = me.posting_streak || 0;
+  document.getElementById("share-streak").textContent = streak + (streak === 1 ? " día" : " días");
+  const ws = me.weekly_summary;
+  const weekEl = document.getElementById("share-week");
+  if (ws && typeof ws.followers_delta === "number") {
+    weekEl.textContent = (ws.followers_delta >= 0 ? "+" : "") + ws.followers_delta;
+  } else {
+    weekEl.textContent = "—";
+  }
+  const top = (ws && ws.top_video) || null;
+  const topTitle = top ? (top.title && top.title.trim() ? top.title.trim() : "(sin título)") : (me.top_video_label || "—");
+  const topViews = top ? top.views : me.top_video_views;
+  document.getElementById("share-topvideo").textContent = topTitle;
+  document.getElementById("share-topvideo-views").textContent = fmt(topViews) + " vistas";
+  document.getElementById("share-date").textContent = new Date().toLocaleDateString("es-AR", { day: "2-digit", month: "2-digit", year: "numeric" });
 }
 
 function renderVideos(videos) {
