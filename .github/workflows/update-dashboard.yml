@@ -23,6 +23,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Instalar dependencias
+        run: npm install
+
       - name: Refrescar estadísticas de TikTok
         run: node fetch-stats.mjs
 
