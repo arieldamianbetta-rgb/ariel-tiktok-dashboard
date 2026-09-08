@@ -300,6 +300,100 @@ async function sendTrendingNotifications(data, rawVideos, trendingIds) {
   data.me.notified_trending_ids = Array.from(notified).slice(-200);
 }
 
+function computeWeeklySummary(data, rawVideos) {
+  const nowMs = Date.now();
+  const weekAgoMs = nowMs - 7 * 86400000;
+  const weekVideos = rawVideos.filter((v) => v.create_time && v.create_time * 1000 >= weekAgoMs);
+
+  let topVideo = null;
+  for (const v of weekVideos) {
+    if (!topVideo || (v.view_count || 0) > (topVideo.view_count || 0)) topVideo = v;
+  }
+
+  const hashtagAgg = {};
+  for (const v of weekVideos) {
+    for (const tag of extractHashtags(v.title)) {
+      if (!hashtagAgg[tag]) hashtagAgg[tag] = { tag, count: 0, views: 0 };
+      hashtagAgg[tag].count += 1;
+      hashtagAgg[tag].views += v.view_count || 0;
+    }
+  }
+  const topHashtagEntry = Object.values(hashtagAgg).sort((a, b) => b.views - a.views)[0] || null;
+
+  const hist = data.history || [];
+  let followersDelta = null;
+  let heartsDelta = null;
+  if (hist.length >= 2) {
+    const last = hist[hist.length - 1];
+    const base =
+      [...hist].reverse().find((h) => new Date(last.date) - new Date(h.date) >= 6 * 86400000) || hist[0];
+    followersDelta = last.followers - base.followers;
+    heartsDelta = last.hearts - base.hearts;
+  }
+
+  return {
+    week_ending: new Date(nowMs - ARG_OFFSET_MS).toISOString().slice(0, 10),
+    videos_posted: weekVideos.length,
+    followers_delta: followersDelta,
+    hearts_delta: heartsDelta,
+    top_video: topVideo
+      ? {
+          title: topVideo.title || topVideo.video_description || "",
+          views: topVideo.view_count || 0,
+          url: topVideo.share_url || null,
+        }
+      : null,
+    top_hashtag: topHashtagEntry ? { tag: topHashtagEntry.tag, views: topHashtagEntry.views } : null,
+  };
+}
+
+async function sendWeeklySummaryIfDue(data, rawVideos) {
+  const nowLocal = new Date(Date.now() - ARG_OFFSET_MS);
+  const isMonday = nowLocal.getUTCDay() === 1;
+  const todayLocal = nowLocal.toISOString().slice(0, 10);
+
+  data.me.weekly_summary = computeWeeklySummary(data, rawVideos);
+
+  if (!isMonday) return;
+  if (data.me.last_weekly_summary_sent === todayLocal) return;
+  data.me.last_weekly_summary_sent = todayLocal;
+
+  if (!(await fileExists(PUSH_SUB_PATH)) || !VAPID_PRIVATE_KEY) return;
+
+  let subscription;
+  try {
+    subscription = JSON.parse(await readFile(PUSH_SUB_PATH, "utf8"));
+  } catch (err) {
+    console.warn(`No se pudo leer push-subscription.json para el resumen semanal: ${err.message}`);
+    return;
+  }
+
+  webpush.setVapidDetails(VAPID_SUBJECT, VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY);
+
+  const summary = data.me.weekly_summary;
+  const parts = [];
+  if (summary.videos_posted) parts.push(`${summary.videos_posted} video(s) posteado(s)`);
+  if (summary.followers_delta !== null) {
+    parts.push(`${summary.followers_delta >= 0 ? "+" : ""}${summary.followers_delta} seguidores`);
+  }
+  if (summary.top_video) {
+    parts.push(`top: "${summary.top_video.title.slice(0, 40)}" (${summary.top_video.views} vistas)`);
+  }
+
+  const payload = JSON.stringify({
+    title: "📊 Tu resumen semanal",
+    body: parts.length ? parts.join(" · ") : "Pasá por el dashboard para ver cómo te fue esta semana.",
+    url: VAPID_SUBJECT,
+  });
+
+  try {
+    await webpush.sendNotification(subscription, payload);
+    console.log("Resumen semanal enviado por push.");
+  } catch (err) {
+    console.warn(`No se pudo mandar el resumen semanal: ${err.message}`);
+  }
+}
+
 async function main() {
   if (!(await fileExists(ENC_PATH))) {
     console.log("TikTok API todavía no está conectada (no existe .tiktok-refresh.enc) — se omite este paso.");
@@ -345,6 +439,7 @@ async function main() {
 
   const trendingIds = updateVideoHistoryAndTrending(data, rawVideos);
   await sendTrendingNotifications(data, rawVideos, trendingIds);
+  await sendWeeklySummaryIfDue(data, rawVideos);
 
   const mapped = rawVideos.map((v) => ({
     id: v.id,
