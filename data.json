@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-10-09T18:18:36.926Z",
+  "updated_at": "2026-10-10T00:46:29.846Z",
   "me": {
     "handle": "ariel_betta45",
     "label": "Ariel Betta (vos)",
     "followers": 962,
-    "hearts": 60083,
-    "top_video_views": 196376,
+    "hearts": 60142,
+    "top_video_views": 196583,
     "top_video_label": "Normal 🤷🤷🏻‍♂️ #argentina #futbol⚽️ #normal #central #newells ",
     "ok": true,
     "videos": [
       {
         "id": "7689870287294287111",
         "title": "Normal 🤷🤷🏻‍♂️ #argentina #futbol⚽️ #normal #central #newells ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAj9eDAkAjSQVGKV4eoFEh3bQC2fmUMvDAD0Ik~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/oQqEEXgdBB6tIUB3UyiCgQIiRA90AJmfEACqAf.webp?dr=1368&refresh_token=7831591d&x-expires=1791655200&x-signature=n1n3n3Y1%2Fsn5C%2BN7zfPfmG6Lcio%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAj9eDAkAjSQVGKV4eoFEh3bQC2fmUMvDAD0Ik~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/oQqEEXgdBB6tIUB3UyiCgQIiRA90AJmfEACqAf.webp?dr=1368&refresh_token=f73f926d&x-expires=1791676800&x-signature=YLkPutMP91kt18k6ltouuyR6Y7w%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7689870287294287111?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
-        "views": 196376,
-        "likes": 14463,
+        "views": 196583,
+        "likes": 14473,
         "comments": 40,
         "shares": 597,
         "created": "2026-09-26",
@@ -23,35 +23,22 @@
         "percentile": 100
       },
       {
-        "id": "7681137838506741010",
-        "title": "Feler relatando a su hijo #argentina #velez #boca #futbolargentino #copaargentina ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocjUE9QdiBlAYAA2QFAYvyEAiBpiaI4NlYjCu~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/osCEEKiBAHfAw8UA41HYCvTIjAikpIATGaBmOw.webp?dr=1368&refresh_token=dd28009d&x-expires=1791655200&x-signature=kqHIaKdo4RUoT7VQXDkR9rDdatA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
-        "url": "https://www.tiktok.com/@ariel_betta45/video/7681137838506741010?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
-        "views": 58219,
-        "likes": 5357,
-        "comments": 28,
-        "shares": 195,
-        "created": "2026-09-03",
-        "trending": false,
-        "percentile": 97
-      },
-      {
         "id": "7687264433311075592",
         "title": "No fueron 60, fueron 27 #brasil #fred #capirinha #futbol #basado ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIuCsDZCIInAkq6fxOIDD9B16UbiiAm1AwrLpV~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/okWkAqABAj2EuAvijoAaiCMESmtCYTD6pBI9l.webp?dr=1368&refresh_token=73a21256&x-expires=1791655200&x-signature=HhkX2lshGeZozIyRhtRdkRhnHLA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIuCsDZCIInAkq6fxOIDD9B16UbiiAm1AwrLpV~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/okWkAqABAj2EuAvijoAaiCMESmtCYTD6pBI9l.webp?dr=1368&refresh_token=45eda6aa&x-expires=1791676800&x-signature=d9Pb%2FpGazlrSHnw%2FYSPqj7UlWV0%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7687264433311075592?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
-        "views": 51384,
+        "views": 51389,
         "likes": 4819,
         "comments": 6,
         "shares": 733,
         "created": "2026-09-19",
         "trending": false,
-        "percentile": 95
+        "percentile": 97
       },
       {
         "id": "7690718615032646930",
         "title": "Terrible robo en Bolivia  #bolivia #robo #futbol #argentina #penal ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0GoepCejVIYloDbCFG1VcLdW7RdAAaQVe1pQI~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/ooBKBCYl6EWkiVIErAT5raYiPArABA9v26A4o.webp?dr=1368&refresh_token=4e1bed61&x-expires=1791655200&x-signature=tzEe7foUQQVejM3P7M9R6h6Vppo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0GoepCejVIYloDbCFG1VcLdW7RdAAaQVe1pQI~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/ooBKBCYl6EWkiVIErAT5raYiPArABA9v26A4o.webp?dr=1368&refresh_token=760dec16&x-expires=1791676800&x-signature=U6Z3AZXvGxlOl3B6IhIaKnuzDKY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7690718615032646930?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
         "views": 6432,
         "likes": 210,
@@ -59,25 +46,25 @@
         "shares": 3,
         "created": "2026-09-28",
         "trending": false,
-        "percentile": 92
+        "percentile": 95
       },
       {
         "id": "7694467577342463239",
         "title": "Que grande el pibe #Flores #argentina #river #boca #datos ",
-        "cover": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0EAIqxEnBDK4gRbfXIAzFEB0PD7wyBhGf4lYc~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/ooDycEeIBz81DCPRgifXA3AAcik9AqBEz3VRAI.webp?dr=1368&refresh_token=6c2e9083&x-expires=1791655200&x-signature=h8wXBk4%2F2wqnHe90yxxxIoLghy8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0EAIqxEnBDK4gRbfXIAzFEB0PD7wyBhGf4lYc~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/ooDycEeIBz81DCPRgifXA3AAcik9AqBEz3VRAI.webp?dr=1368&refresh_token=b22b5b3a&x-expires=1791676800&x-signature=B1XFh%2B5EOWHGG1YLBU5gkZM%2BR0k%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7694467577342463239?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
-        "views": 4510,
-        "likes": 270,
+        "views": 4554,
+        "likes": 272,
         "comments": 5,
         "shares": 26,
         "created": "2026-10-09",
         "trending": false,
-        "percentile": 90
+        "percentile": 92
       },
       {
         "id": "7683211397005675794",
         "title": "No se enfrentan hace más de 800 días  #argentina #river #futbol #ligaprofesional #fut ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4IRfcqADB0tnd2gBBIi0oiiMZDBngfziQEUFB~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/oY6gwEwIiKBAUOXiCjBZC1QAyAkAICAAEWBBfp.webp?dr=1368&refresh_token=4dc69e51&x-expires=1791655200&x-signature=kbWHANWPBZRT13mGrXNSTljPCIM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4IRfcqADB0tnd2gBBIi0oiiMZDBngfziQEUFB~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/oY6gwEwIiKBAUOXiCjBZC1QAyAkAICAAEWBBfp.webp?dr=1368&refresh_token=47e42ca9&x-expires=1791676800&x-signature=m8fWdYzz6z12aIe0j3Na6Fv2yOE%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7683211397005675794?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
         "views": 3746,
         "likes": 118,
@@ -85,12 +72,12 @@
         "shares": 1,
         "created": "2026-09-08",
         "trending": false,
-        "percentile": 87
+        "percentile": 90
       },
       {
         "id": "7682111396439493906",
         "title": "Unas ganas de Sampaoli   #talleres #futbol #argentina #ligaprofesional #sampaoli ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oorDb4VgxuYGeC1XAlosKeIMLIAjZKO3fAh7wg~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/oEIABAhPXAAiyNAEaqxxpBMcVliEr6AYzCkxx.webp?dr=1368&refresh_token=3a4629ee&x-expires=1791655200&x-signature=uwso9GovKBEDR0arqrU8PGZ86uY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oorDb4VgxuYGeC1XAlosKeIMLIAjZKO3fAh7wg~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/oEIABAhPXAAiyNAEaqxxpBMcVliEr6AYzCkxx.webp?dr=1368&refresh_token=6745b0b4&x-expires=1791676800&x-signature=NINckraiutwN9um8YaCGNGnnBeQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7682111396439493906?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
         "views": 2169,
         "likes": 82,
@@ -98,12 +85,12 @@
         "shares": 13,
         "created": "2026-09-05",
         "trending": false,
-        "percentile": 85
+        "percentile": 87
       },
       {
         "id": "7687050278385831186",
         "title": "Messi pudo jugar en el Inter? #messi #inter #traspaso #barcelona #top ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osl1nkG8lAH0CIABwIiuV4qBNflWv4viACAStI~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/oM8VEbNAIFwLnFxANAfIWMeAjc1HGDAqIeWQpo.webp?dr=1368&refresh_token=ddcb6316&x-expires=1791655200&x-signature=XH9ZouCJsrC10HdJJRgeZk%2F5eqs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osl1nkG8lAH0CIABwIiuV4qBNflWv4viACAStI~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/oM8VEbNAIFwLnFxANAfIWMeAjc1HGDAqIeWQpo.webp?dr=1368&refresh_token=2a576101&x-expires=1791676800&x-signature=GUOoH4GqdgYuRJNAtyvYaIQ%2B2qk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7687050278385831186?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
         "views": 2121,
         "likes": 88,
@@ -111,12 +98,12 @@
         "shares": 0,
         "created": "2026-09-19",
         "trending": false,
-        "percentile": 82
+        "percentile": 85
       },
       {
         "id": "7681803230526967058",
         "title": "Se pico con Plata  #brasil #futbol #flamengo #brasileirao #ecuador ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okF9P1tqmA22BkcDEhrzaRQBcogfIbhQEkfgID~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/ocABEDqUAQRaE1bEFEACEEIDggGcoAJCdWfoPf.webp?dr=1368&refresh_token=d900e8c0&x-expires=1791655200&x-signature=Hvg0z84f0hKRBNR9ciZslhLkt5Q%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okF9P1tqmA22BkcDEhrzaRQBcogfIbhQEkfgID~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/ocABEDqUAQRaE1bEFEACEEIDggGcoAJCdWfoPf.webp?dr=1368&refresh_token=4f3e69cf&x-expires=1791676800&x-signature=97c8yi6mk6fpI0sqotLrAJDhwVQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7681803230526967058?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
         "views": 1689,
         "likes": 59,
@@ -124,18 +111,31 @@
         "shares": 0,
         "created": "2026-09-04",
         "trending": false,
-        "percentile": 79
+        "percentile": 82
       },
       {
         "id": "7692531953756736776",
         "title": "Jugaron en #Boca y ahora están dando vueltas por el #Mundo #futbol #argentina #jugadores ",
-        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oE5zGB5iK9IUYTR1AmCIIXKiOfLv2lCuABHAwu~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/okEABqrEMCVACgRZmGIADFEB0XDshwAaeftWRc.webp?dr=1368&refresh_token=6ebdb464&x-expires=1791655200&x-signature=zSNEpKG2pGt5oZhtdMCbck8GdTU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oE5zGB5iK9IUYTR1AmCIIXKiOfLv2lCuABHAwu~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/okEABqrEMCVACgRZmGIADFEB0XDshwAaeftWRc.webp?dr=1368&refresh_token=4da55981&x-expires=1791676800&x-signature=86LDe%2FFAG%2BfKinW6K9shvbrab1Y%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
         "url": "https://www.tiktok.com/@ariel_betta45/video/7692531953756736776?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
-        "views": 1671,
+        "views": 1673,
         "likes": 57,
         "comments": 1,
         "shares": 0,
         "created": "2026-10-03",
+        "trending": false,
+        "percentile": 79
+      },
+      {
+        "id": "7684716527005830408",
+        "title": "En que liga rara jugarían ? #ligas #escocia #futbol #fut #scotish ",
+        "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okBlcqueIAUU7IioQvImCQ4A5w0msw9KCRAvi1~tplv-tiktokx-dmt-logoccm:300:400:tos-alisg-i-0068/ogPjEUDXfBAPmzA9AZi4BRqACEVgmC0pIXf0li.webp?dr=1368&refresh_token=32400585&x-expires=1791676800&x-signature=W9Jg%2F5Oq6K5JzqxLYusXZcpbDgA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=my2&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+        "url": "https://www.tiktok.com/@ariel_betta45/video/7684716527005830408?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb",
+        "views": 1606,
+        "likes": 90,
+        "comments": 9,
+        "shares": 3,
+        "created": "2026-09-12",
         "trending": false,
         "percentile": 77
       }
@@ -1452,64 +1452,6 @@
           "views": 1264
         }
       ],
-      "7674363182105840903": [
-        {
-          "date": "2026-09-02",
-          "views": 1249
-        },
-        {
-          "date": "2026-09-03",
-          "views": 1249
-        },
-        {
-          "date": "2026-09-04",
-          "views": 1249
-        },
-        {
-          "date": "2026-09-05",
-          "views": 1250
-        },
-        {
-          "date": "2026-09-06",
-          "views": 1250
-        },
-        {
-          "date": "2026-09-07",
-          "views": 1251
-        },
-        {
-          "date": "2026-09-08",
-          "views": 1251
-        },
-        {
-          "date": "2026-09-09",
-          "views": 1251
-        },
-        {
-          "date": "2026-09-10",
-          "views": 1251
-        },
-        {
-          "date": "2026-09-11",
-          "views": 1252
-        },
-        {
-          "date": "2026-09-12",
-          "views": 1252
-        },
-        {
-          "date": "2026-09-13",
-          "views": 1252
-        },
-        {
-          "date": "2026-09-14",
-          "views": 1252
-        },
-        {
-          "date": "2026-09-15",
-          "views": 1252
-        }
-      ],
       "7675120038264851730": [
         {
           "date": "2026-09-02",
@@ -1864,64 +1806,6 @@
         {
           "date": "2026-09-16",
           "views": 1132
-        }
-      ],
-      "7674051507989253394": [
-        {
-          "date": "2026-09-02",
-          "views": 1101
-        },
-        {
-          "date": "2026-09-03",
-          "views": 1101
-        },
-        {
-          "date": "2026-09-04",
-          "views": 1101
-        },
-        {
-          "date": "2026-09-05",
-          "views": 1101
-        },
-        {
-          "date": "2026-09-06",
-          "views": 1102
-        },
-        {
-          "date": "2026-09-07",
-          "views": 1102
-        },
-        {
-          "date": "2026-09-08",
-          "views": 1102
-        },
-        {
-          "date": "2026-09-09",
-          "views": 1102
-        },
-        {
-          "date": "2026-09-10",
-          "views": 1102
-        },
-        {
-          "date": "2026-09-11",
-          "views": 1102
-        },
-        {
-          "date": "2026-09-12",
-          "views": 1102
-        },
-        {
-          "date": "2026-09-13",
-          "views": 1102
-        },
-        {
-          "date": "2026-09-14",
-          "views": 1103
-        },
-        {
-          "date": "2026-09-15",
-          "views": 1103
         }
       ],
       "7677706721573211400": [
@@ -2806,10 +2690,6 @@
       ],
       "7681460019774213383": [
         {
-          "date": "2026-09-10",
-          "views": 737
-        },
-        {
           "date": "2026-09-11",
           "views": 737
         },
@@ -2924,13 +2804,13 @@
         {
           "date": "2026-10-09",
           "views": 749
+        },
+        {
+          "date": "2026-10-10",
+          "views": 749
         }
       ],
       "7681803230526967058": [
-        {
-          "date": "2026-09-10",
-          "views": 1680
-        },
         {
           "date": "2026-09-11",
           "views": 1681
@@ -3046,13 +2926,13 @@
         {
           "date": "2026-10-09",
           "views": 1689
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1689
         }
       ],
       "7682111396439493906": [
-        {
-          "date": "2026-09-10",
-          "views": 2155
-        },
         {
           "date": "2026-09-11",
           "views": 2156
@@ -3168,13 +3048,13 @@
         {
           "date": "2026-10-09",
           "views": 2169
+        },
+        {
+          "date": "2026-10-10",
+          "views": 2169
         }
       ],
       "7682541996220615954": [
-        {
-          "date": "2026-09-10",
-          "views": 783
-        },
         {
           "date": "2026-09-11",
           "views": 783
@@ -3290,13 +3170,13 @@
         {
           "date": "2026-10-09",
           "views": 797
+        },
+        {
+          "date": "2026-10-10",
+          "views": 797
         }
       ],
       "7682871742188064018": [
-        {
-          "date": "2026-09-10",
-          "views": 1077
-        },
         {
           "date": "2026-09-11",
           "views": 1087
@@ -3412,13 +3292,13 @@
         {
           "date": "2026-10-09",
           "views": 1137
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1137
         }
       ],
       "7683211397005675794": [
-        {
-          "date": "2026-09-10",
-          "views": 3304
-        },
         {
           "date": "2026-09-11",
           "views": 3385
@@ -3534,13 +3414,13 @@
         {
           "date": "2026-10-09",
           "views": 3746
+        },
+        {
+          "date": "2026-10-10",
+          "views": 3746
         }
       ],
       "7683318498562493704": [
-        {
-          "date": "2026-09-10",
-          "views": 1170
-        },
         {
           "date": "2026-09-11",
           "views": 1182
@@ -3656,13 +3536,13 @@
         {
           "date": "2026-10-09",
           "views": 1222
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1223
         }
       ],
       "7683577460016925959": [
-        {
-          "date": "2026-09-10",
-          "views": 974
-        },
         {
           "date": "2026-09-11",
           "views": 1001
@@ -3778,6 +3658,10 @@
         {
           "date": "2026-10-09",
           "views": 1048
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1049
         }
       ],
       "7684083587301395720": [
@@ -3896,6 +3780,10 @@
         {
           "date": "2026-10-09",
           "views": 856
+        },
+        {
+          "date": "2026-10-10",
+          "views": 856
         }
       ],
       "7684414153460567303": [
@@ -4009,6 +3897,10 @@
         },
         {
           "date": "2026-10-09",
+          "views": 1068
+        },
+        {
+          "date": "2026-10-10",
           "views": 1068
         }
       ],
@@ -4124,6 +4016,10 @@
         {
           "date": "2026-10-09",
           "views": 1606
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1606
         }
       ],
       "7685090731261775111": [
@@ -4234,6 +4130,10 @@
         {
           "date": "2026-10-09",
           "views": 1123
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1123
         }
       ],
       "7685583631561018642": [
@@ -4336,6 +4236,10 @@
         {
           "date": "2026-10-09",
           "views": 912
+        },
+        {
+          "date": "2026-10-10",
+          "views": 913
         }
       ],
       "7685919957695171848": [
@@ -4433,6 +4337,10 @@
         },
         {
           "date": "2026-10-09",
+          "views": 1465
+        },
+        {
+          "date": "2026-10-10",
           "views": 1465
         }
       ],
@@ -4532,6 +4440,10 @@
         {
           "date": "2026-10-09",
           "views": 1112
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1112
         }
       ],
       "7686308138277997832": [
@@ -4625,6 +4537,10 @@
         },
         {
           "date": "2026-10-09",
+          "views": 1134
+        },
+        {
+          "date": "2026-10-10",
           "views": 1134
         }
       ],
@@ -4720,6 +4636,10 @@
         {
           "date": "2026-10-09",
           "views": 1361
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1361
         }
       ],
       "7687050278385831186": [
@@ -4805,6 +4725,10 @@
         },
         {
           "date": "2026-10-09",
+          "views": 2121
+        },
+        {
+          "date": "2026-10-10",
           "views": 2121
         }
       ],
@@ -4892,6 +4816,10 @@
         {
           "date": "2026-10-09",
           "views": 51384
+        },
+        {
+          "date": "2026-10-10",
+          "views": 51389
         }
       ],
       "7687640626405444871": [
@@ -4974,6 +4902,10 @@
         {
           "date": "2026-10-09",
           "views": 1460
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1461
         }
       ],
       "7688040748624694535": [
@@ -5052,6 +4984,10 @@
         {
           "date": "2026-10-09",
           "views": 759
+        },
+        {
+          "date": "2026-10-10",
+          "views": 759
         }
       ],
       "7688470160448965895": [
@@ -5126,6 +5062,10 @@
         {
           "date": "2026-10-09",
           "views": 737
+        },
+        {
+          "date": "2026-10-10",
+          "views": 737
         }
       ],
       "7688885674484780295": [
@@ -5191,6 +5131,10 @@
         },
         {
           "date": "2026-10-09",
+          "views": 1003
+        },
+        {
+          "date": "2026-10-10",
           "views": 1003
         }
       ],
@@ -5258,6 +5202,10 @@
         {
           "date": "2026-10-09",
           "views": 1404
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1404
         }
       ],
       "7689645939551833362": [
@@ -5315,6 +5263,10 @@
         },
         {
           "date": "2026-10-09",
+          "views": 1509
+        },
+        {
+          "date": "2026-10-10",
           "views": 1509
         }
       ],
@@ -5374,6 +5326,10 @@
         {
           "date": "2026-10-09",
           "views": 196376
+        },
+        {
+          "date": "2026-10-10",
+          "views": 196583
         }
       ],
       "7690263748547726599": [
@@ -5428,6 +5384,10 @@
         {
           "date": "2026-10-09",
           "views": 894
+        },
+        {
+          "date": "2026-10-10",
+          "views": 894
         }
       ],
       "7690398214092000519": [
@@ -5478,6 +5438,10 @@
         {
           "date": "2026-10-09",
           "views": 1136
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1136
         }
       ],
       "7690718615032646930": [
@@ -5524,6 +5488,10 @@
         {
           "date": "2026-10-09",
           "views": 6432
+        },
+        {
+          "date": "2026-10-10",
+          "views": 6432
         }
       ],
       "7691068136866467090": [
@@ -5566,6 +5534,10 @@
         {
           "date": "2026-10-09",
           "views": 1003
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1003
         }
       ],
       "7691463432436075777": [
@@ -5604,6 +5576,10 @@
         {
           "date": "2026-10-09",
           "views": 711
+        },
+        {
+          "date": "2026-10-10",
+          "views": 711
         }
       ],
       "7691880992407063816": [
@@ -5638,6 +5614,10 @@
         {
           "date": "2026-10-09",
           "views": 1149
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1150
         }
       ],
       "7692176259136097554": [
@@ -5667,6 +5647,10 @@
         },
         {
           "date": "2026-10-09",
+          "views": 715
+        },
+        {
+          "date": "2026-10-10",
           "views": 715
         }
       ],
@@ -5698,6 +5682,10 @@
         {
           "date": "2026-10-09",
           "views": 1671
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1673
         }
       ],
       "7692971426780826932": [
@@ -5719,6 +5707,10 @@
         },
         {
           "date": "2026-10-09",
+          "views": 1036
+        },
+        {
+          "date": "2026-10-10",
           "views": 1036
         }
       ],
@@ -5742,6 +5734,10 @@
         {
           "date": "2026-10-09",
           "views": 656
+        },
+        {
+          "date": "2026-10-10",
+          "views": 657
         }
       ],
       "7693660948082560274": [
@@ -5756,6 +5752,10 @@
         {
           "date": "2026-10-09",
           "views": 779
+        },
+        {
+          "date": "2026-10-10",
+          "views": 779
         }
       ],
       "7694041405009874184": [
@@ -5766,63 +5766,77 @@
         {
           "date": "2026-10-09",
           "views": 760
+        },
+        {
+          "date": "2026-10-10",
+          "views": 764
         }
       ],
       "7694467577342463239": [
         {
           "date": "2026-10-09",
           "views": 4510
+        },
+        {
+          "date": "2026-10-10",
+          "views": 4554
+        }
+      ],
+      "7694804637538438407": [
+        {
+          "date": "2026-10-10",
+          "views": 591
         }
       ]
     },
     "hashtag_stats": [
       {
-        "tag": "copaargentina",
-        "count": 2,
-        "avg_views": 29678,
-        "avg_likes": 2716
-      },
-      {
         "tag": "argentina",
-        "count": 19,
-        "avg_views": 14955,
-        "avg_likes": 1110
+        "count": 18,
+        "avg_views": 12566,
+        "avg_likes": 875
       },
       {
         "tag": "futbol",
-        "count": 24,
-        "avg_views": 11743,
-        "avg_likes": 860
+        "count": 25,
+        "avg_views": 11306,
+        "avg_likes": 828
       },
       {
         "tag": "brasil",
         "count": 5,
-        "avg_views": 11197,
+        "avg_views": 11198,
         "avg_likes": 1003
-      },
-      {
-        "tag": "boca",
-        "count": 9,
-        "avg_views": 7894,
-        "avg_likes": 672
       },
       {
         "tag": "river",
         "count": 3,
-        "avg_views": 3206,
+        "avg_views": 3220,
         "avg_likes": 147
+      },
+      {
+        "tag": "robo",
+        "count": 3,
+        "avg_views": 2981,
+        "avg_likes": 102
+      },
+      {
+        "tag": "flores",
+        "count": 2,
+        "avg_views": 2795,
+        "avg_likes": 161
       }
     ],
     "posting_patterns": {
       "best_weekday": {
         "label": "Sábado",
         "count": 5,
-        "avg_views": 50641
+        "avg_views": 50684
       },
       "best_daypart": {
         "label": "Tarde (12-18h)",
         "count": 16,
-        "avg_views": 16680
+        "avg_views": 16694
       },
       "sample_size": 40
     },
@@ -5835,12 +5849,12 @@
       "hearts_delta": 700,
       "top_video": {
         "title": "Que grande el pibe #Flores #argentina #river #boca #datos ",
-        "views": 4510,
+        "views": 4554,
         "url": "https://www.tiktok.com/@ariel_betta45/video/7694467577342463239?utm_campaign=tt4d_open_api&utm_source=sbawz2v3srd8ldwfhb"
       },
       "top_hashtag": {
         "tag": "argentina",
-        "views": 10127
+        "views": 9463
       }
     },
     "view_trend": [
@@ -5970,7 +5984,7 @@
       },
       {
         "date": "2026-10-09",
-        "avg_views": 32832
+        "avg_views": 27196
       }
     ],
     "last_weekly_summary_sent": "2026-10-05"
@@ -5979,8 +5993,8 @@
     {
       "handle": "deportealanoticia",
       "label": "DeporteAlaNoticia",
-      "followers": 127100,
-      "hearts": 663300,
+      "followers": 127000,
+      "hearts": 663400,
       "ok": true,
       "history": [
         {
@@ -6109,7 +6123,7 @@
         },
         {
           "date": "2026-10-09",
-          "followers": 127100
+          "followers": 127000
         }
       ]
     },
@@ -6253,8 +6267,8 @@
     {
       "handle": "factosfutboleros_",
       "label": "factosfutboleros_",
-      "followers": 6180,
-      "hearts": 319000,
+      "followers": 6194,
+      "hearts": 319800,
       "ok": true,
       "history": [
         {
@@ -6383,7 +6397,7 @@
         },
         {
           "date": "2026-10-09",
-          "followers": 6180
+          "followers": 6194
         }
       ]
     },
@@ -6391,7 +6405,7 @@
       "handle": "charlie_carrillo_",
       "label": "Charlie Carrillo",
       "followers": 963500,
-      "hearts": 557200000,
+      "hearts": 557300000,
       "ok": true,
       "history": [
         {
@@ -6766,12 +6780,47 @@
     }
   ],
   "news": {
-    "updated_at": "2026-10-09T18:18:38.939Z",
+    "updated_at": "2026-10-10T00:46:32.436Z",
     "topics": [
       {
         "key": "futbol_ar",
         "label": "Fútbol argentino",
         "items": [
+          {
+            "title": "Instituto y Boca Juniors empataron 2-2 por el Torneo Clausura 2026",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTHF0cml5NUJzUm1VWHdmVnBKSU5qaEhmOVR2S19ya3pJUGFFczAzMUZfdjNQbzVoVld0TTByOTd4cVNDNm14UlQyd3F0TEFiWG1fX3djSXAyVV9YcGs1RmlnYnBxZ29IbmJScENTTkRyWlEtRk1KRFRQeDRmUTdIbmhTUHQ2WjlKR2xjazdLczd3Q1FDOGR3dmVKMVFUNlpSTy1jVHFwOExEa2RFOGtSbmNWRF9NRlhIQ2VsMW5mRVVtQjJOTEtV?oc=5",
+            "source": "La Nación",
+            "pubDate": "Sat, 10 Oct 2026 00:28:00 GMT",
+            "fetched_at": "2026-10-10T00:46:32.436Z"
+          },
+          {
+            "title": "Cristiano Ronaldo igualó una marca histórica de Hugo Gatti",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa19OSnk5cmhmc2RhRVVwMUppck5ndkdoWGcyTDVwaEtpXy04bjBrU19kT3hOWHRlYjJrdUV4bEVma0x2dEpBaXlqS1d1Sjh1SnhuZmVpTjFrT0lvczhaLWU5RmZhMExKRVRjcjZBOUxTSUw0VjNzbEdFYUUtQzJldWVGd3g2aXZ1NXhPWTcxdGd4WWRka0hjZGNrTFdOcVNESUpHMm9iRkxNUUVnTU5tUmM4dXdhZEJNT0lFZg?oc=5",
+            "source": "El Gráfico",
+            "pubDate": "Fri, 09 Oct 2026 20:59:20 GMT",
+            "fetched_at": "2026-10-10T00:46:32.436Z"
+          },
+          {
+            "title": "La AFA confirmó que el fútbol del ascenso dejará de ser gratis y para ver los partidos de San Martín se deberá pagar $15.000 por mes",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOQUZVX3BLVjlsb0JQTDJfS25FcV9BQndPZTFNUDhJV3dQWmRVYlJEQWlGVmpUYXhUWUJIVjhkMnFMMUVzX0JiZmNYSmIzcVpMcDRoYXRsWC0yQl9udng3enExd0w2aVpvaGVyM2RkeU55V29rZFNHbUVLdnBtQmdfLWVMV2FhVjh1bjNsbFU2WVRvRkR5LWoxX3JXQ1FGQXRDcDhiV19pVWJQYXFqeWdzNU82RmtNWFc1c01JQXZ3M3RhOUhkdVJRZTlsMFhrUkQ5eExBT084SVFTMFFxZUVxc0RWY3NMU1NTdDNKSVV0VWZNcUpMbzRrdk0wWUpRT29oUFpHWXZLR0JtX0h5Z21RaC1EZGNGNjJjLUMtRi1n0gGeAkFVX3lxTE5BRlVfcEtWOWxvQlBMMl9LbkVxX0FCd09lMU1QOElXd1BaZFViUkRBaUZWalRheFRZQkhWOGQycUwxRXNfQmJmY1hKYjNxWkxwNGhhdGxYLTJCX252eDd6cTF3TDZpWm9oZXIzZGR5TnlXb2tkU0dtRUt2cG1CZ18tZUxXYWFWOHVuM2xsVTZZVG9GRHktajFfcldDUUZBdENwOGJXX2lVYlBhcWp5Z3M1TzZGa01YVzVzTUlBdnczdGE5SGR1UlFlOWwwWGtSRDl4TEFPTzhJUVMwUXFlRXFzRFZjc0xTU1N0M0pJVXRVZk1xSkxvNGt2TTBZSlFPb2hQWkdZdktHQm1fSHlnbVFoLURkY0Y2MmMtQy1GLWc?oc=5",
+            "source": "0264Noticias",
+            "pubDate": "Fri, 09 Oct 2026 20:42:53 GMT",
+            "fetched_at": "2026-10-10T00:46:32.436Z"
+          },
+          {
+            "title": "Sarmiento derrotó a Aldosivi en Mar del Plata y lo complicó con la permanencia en la Primera División del fútbol argentino",
+            "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZ1p5eEpzR2VSQmFoY0s4NS1oUjJOdkFsTzNoM3VKcC10NGZLeEN1blVUck1QdllPbUdTMDViYTJTcUlDR0xXa21wSzAzeW9IWFUzVnRUV3BqdDNmQXBwdlNfTFU1di04eGhkZDROeVg5SDhXZlBOdVFaUXdpU1k3LUNGYmpyTGthQWtaaFBQNFZSRjQzRmV2RlJtTkRKN2xFM2FtY1Ztb29GYTFudzBLTDdPRjZPc216dW1OMmhlUnY3QWwySkxVNnNPdkQ2TlIyVEhFNjBIQmc0RHpueFVlRkJJRQ?oc=5",
+            "source": "SOL 91.5",
+            "pubDate": "Fri, 09 Oct 2026 20:23:26 GMT",
+            "fetched_at": "2026-10-10T00:46:32.436Z"
+          },
+          {
+            "title": "Tabla Anual 2026, en vivo: así están las clasificaciones a la Libertadores y Sudamericana",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWkFkOUw0N0V0MjhDNTB2WXZmSVJVYkJBRmxpaTBXOUhONmo0aGNjVjRxeFVkTGxjWmZmV3ZBQ3NJUVFldjVhOEQ2b05CY1ZQNUV6VHFIWmFUYmMydXpSWnJERG0xYUNSWmh1cV9MMnlqQ1I0TGd0d21TeFVJM0FfY1ZIanlJYVgwaXZfV2txTHZQM2JQdjRRell3?oc=5",
+            "source": "Yahoo",
+            "pubDate": "Fri, 09 Oct 2026 18:28:59 GMT",
+            "fetched_at": "2026-10-10T00:46:32.436Z"
+          },
           {
             "title": "Instituto-Boca, el destacado del inicio de una nueva fecha del fútbol argentino",
             "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSklISklxdS13Tk5HamphX2doenRqWkY5WDlBd1ZuQlBfdkNPSEIxMmRhXzFyOF9EenZRQnQtR1U3LThlWjQ4b2pnWlI0empfZUNubHN6TVhWeE9QQ2lBbkxCbUVXcUxSblZ2UllMLWpLMk92aWxvQ3Jnb0g4OExwcnY0RWwzMTZnT0U2SHVHQ3RTTzJUUHpWbl9YYWdBTVNtdkdld3pLMGV0Uml6bkpSa2JFbjRzWm9Cc0FjNnJhaWdSdlUyZFFScXNfeUdEeUdFNk1HemF2VjdOd3M?oc=5",
@@ -6892,13 +6941,6 @@
             "fetched_at": "2026-10-07T18:52:17.830Z"
           },
           {
-            "title": "La preocupación de Talleres para 2027: un promedio que da miedo",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZE9qQkRPSkNKM1h2a3ZXVWI1VU04RmNjam1iMzNFWEFER2REVDdaYkxmVWVBYXhSelhXQjhTRU1wWkVPSzZHaTVkZE04b01qeXMxNC1QQXdBZTNGQmdnVmludGZoRFk1NXdPOTRxZDRGMVNRbW1GYUU1Y0hDc0czR3p6WWhyMDZwNVByMldnYlhvc2Z6enAxd3h4TlhadVFRTUM1ZDNRaVhSdmJqTHRidEtmY0bSAbQBQVVfeXFMUGRPakJET0pDSjNYdmt2V1ViNVVNOEZjY2ptYjMzRVhBREdkRFQ3WmJMZlVlQWF4UnpYV0I4U0VNcFpFT0s2R2k1ZGRNOG9NanlzMTQtUEF3QWUzRkJnZ1ZpbnRmaERZNTV3Tzk0cWQ0RjFTUW1tRmFFNWNIQ3NHM0d6ellocjA2cDVQcjJXZ2JYb3NmenpwMXd4eE5YWnVRUU1DNWQzUWlYUnZiakx0YnRLZmNG?oc=5",
-            "source": "Cadena 3 Argentina",
-            "pubDate": "Tue, 06 Oct 2026 20:13:06 GMT",
-            "fetched_at": "2026-10-07T00:39:34.993Z"
-          },
-          {
             "title": "Liga de Argentina: así está la tabla de posiciones",
             "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ0hLWGY1TTAtTkNYdUZaaFZvZmdHRHdQcm5GZzQyUFZ6VlBLMXdvZTBYY2RqTjJtdklBUGhmZUhUOTBxRWM4cElfVW43Z0p3clNNbUtTWV82eThZTld3RWkxVEpRUHRQZVZvWHFPOG9XQWNRWFZnMlhMLTJJZnRpcW5WaElsaXFVMlFPV2RwU01jamwxY2FwSVZhTmhER2JlTTd0d1pra1FZR0plMFdQX19INU1fTWF5b2RwOWx5OHk1Z1VQZVA3S2xB?oc=5",
             "source": "ESPN Colombia",
@@ -6947,6 +6989,20 @@
         "key": "basquet",
         "label": "Básquet",
         "items": [
+          {
+            "title": "San José lanzó su temporada en la Liga Femenina al estilo NBA: fixture, rivales y plantel completo",
+            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPemxjWW90b0dUaC1QSVVLZVlycG0tUU8zd1RLeGFpU2ktSUtWWU5DY0g0VUVXdGlHVlFUZlB3bWRUMlljVE1WV0tXRW9YN0UtTjg2TFNRYUk3dkVYWUtKLWdpVkM2Vi1iRk1kYkRBRTJjQ0pIRUJfbmZkWTRHZUJ6bVRlaVVGRUhsRkhZNHVuM3BONGVBSEFDUk5Cb0x2UkNNZ3RRQW9nMUlFQTRGTGJQX1pJdERUWFFLejZsOFRrMzlHMzBnTjlNb3VjQUdvYjZTc2JRRHZR?oc=5",
+            "source": "Los Andes",
+            "pubDate": "Fri, 09 Oct 2026 22:24:57 GMT",
+            "fetched_at": "2026-10-10T00:46:32.436Z"
+          },
+          {
+            "title": "La comunidad mapuche salió beneficiada por un fallo contra Manu Ginóbili por un terreno en Villa La Angostura",
+            "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOT09BNWRxa3czZDJFWkI5WG44R3RvOVFWbXdTNWRrWi1xZmM0QzR6bTgyUm5zT2ZtVnQ2X2QzcXhaS3lpYlBIM2t6SkVnZGNUT19qVF90a3AxOFdMUVlZMEVfakQ1UHFOYmZ4endYYUFwVENsaE5Rd0xub3RaNzVjZnd1NmQ4MnMwbXVJbTdhWmxhMUpLbEt0NnJLRXBFR00yUUlXY0kyVk5PeExHX29CdDRsb3ZNb1BJbEZkSjk3Q0JKV2p0RnVvbmRJNlVZV29PQ2dHclJ0aDBaa0ZTWTlFaVBBMA?oc=5",
+            "source": "Página|12",
+            "pubDate": "Fri, 09 Oct 2026 18:24:08 GMT",
+            "fetched_at": "2026-10-10T00:46:32.436Z"
+          },
           {
             "title": "Agenda deportiva del fin de semana en DIRECTV: fútbol, básquet, motor, tenis y más",
             "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMThnXzVsTVFHc2FudnV0UVBSM1d0SnVsYmozWG1kNzMybEMxanRkUmdKZzJaZ2E3enFsOGVjbzI5WE9tRFA1ZUZxdy15dVFsZUxYWlk2MElhdnNoVDdocTZWLWhaVEZ3Uk9fQlRxMHVhNXFQM1dtcTlJNlFzTTdZSFYzNzRVUERSQkVTYS1qbmdOeFk1VDAwb3pOb0Y0dUFWemVkYWh2YkFpUURBMWlKN1p6RzA4LUxuWE45ZTFadDZkenlM?oc=5",
@@ -7023,13 +7079,6 @@
             "source": "La Capital",
             "pubDate": "Wed, 07 Oct 2026 13:39:00 GMT",
             "fetched_at": "2026-10-08T00:57:49.415Z"
-          },
-          {
-            "title": "Hinchas argentinos en Estados Unidos: logística para la temporada regular de básquet en Nueva York",
-            "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZEppTkRvVm8wcmt6UlVHSk0zWXF0WmVaTU9TUzRnZzU2RmI2MDUwVVRJUHZQTmdpNWUzTENheVh6NUJDcndMQXB2WlYtQmdaRkpaYzlRZEZNSWRrV1Y0aTNZSk0yd0xMUER1V0I0RGNfUTJ2eElLR0plZF9kY1JYU2pOTnN1cDdsR3VDejZMOVoxRlEyMU9Cc004MjBKS3dRbUxLcnZtU3Bhd3BsZ0JfcFluRWt1cWJwTnFqNE5wVFRtVnU0Q0o5c29MM2pLSG5HUjlXeC1sOA?oc=5",
-            "source": "Corrientes Hoy",
-            "pubDate": "Tue, 06 Oct 2026 21:14:28 GMT",
-            "fetched_at": "2026-10-07T00:39:34.993Z"
           },
           {
             "title": "ADC se asoció con Fastbreak AI para la confección de sus fixtures",
@@ -7226,13 +7275,6 @@
             "source": "Flashscore.com.ar",
             "pubDate": "Wed, 07 Oct 2026 04:16:00 GMT",
             "fetched_at": "2026-10-07T18:52:17.830Z"
-          },
-          {
-            "title": "Copa del Mundo: México, resultados y rumbo al Mundial 2030",
-            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Vb0dDRGlPZnliYXZUMWh0bG9nNmR2SFNtNDhDOHYtYV9iQlhSV1U3MUd3eG13YTZNSWhmMFVzRS1ZVzJ0Tnc4RGpOUzAwRjJ2clFrNVlTVXVuYXh1ZUhJeUNLYlFqZzhlSG5nbllXUldteDJVdWc?oc=5",
-            "source": "365Scores",
-            "pubDate": "Tue, 06 Oct 2026 18:06:46 GMT",
-            "fetched_at": "2026-10-07T00:39:34.993Z"
           },
           {
             "title": "El fichaje de Rodri puede catapultar al Barcelona de vuelta a la cima del fútbol europeo: GOAL valora los mayores movimientos del mercado de fichajes del verano de 2026 | Goal.com Espana",
